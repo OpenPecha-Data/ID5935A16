@@ -1,0 +1,621 @@
+id: ID5935A16
+source: https://www2.hf.uio.no/polyglotta/index.php?page=library&bid=2
+source_file: null
+initial_creation_type: input
+imported: '2022-05-27T15:20:18.523260'
+last_modified: '2022-05-27T15:20:18.523299'
+parser: null
+source_metadata:
+  title: Laṅkāvatārasūtra
+  language: zh
+  base:
+    fC94C:
+      title: CI_Verse 1-3
+      base_file: fC94C.txt
+      order: 1
+    fC455:
+      title: CI_Verse 4-44
+      base_file: fC455.txt
+      order: 2
+    fE47A:
+      title: CI_Initial questions
+      base_file: fE47A.txt
+      order: 3
+    f60AD:
+      title: 'CII_§I: Mahāmati Praises the Buddha with Verses, verse 1-8'
+      base_file: f60AD.txt
+      order: 4
+    fD400:
+      title: 'CII_§II: Mahāmati''s “One Hundred and Eight Questions”, verse 9-25'
+      base_file: fD400.txt
+      order: 5
+    f7CC6:
+      title: CII_verse 26-50
+      base_file: f7CC6.txt
+      order: 6
+    f4C5D:
+      title: CII_verse 51-75
+      base_file: f4C5D.txt
+      order: 7
+    f29A8:
+      title: CII_verse 76-97
+      base_file: f29A8.txt
+      order: 8
+    f5447:
+      title: 'CII_§III: “The One Hundred and Eight Negations”, verse 98'
+      base_file: f5447.txt
+      order: 9
+    f01DA:
+      title: CII_Uttarapadaśatam
+      base_file: f01DA.txt
+      order: 10
+    fFBA2:
+      title: 'CII_§IV: Concerning the Vijñānas'
+      base_file: fFBA2.txt
+      order: 11
+    fADA5:
+      title: 'CII_§V: Seven Kinds of Self-nature (svabhāva).'
+      base_file: fADA5.txt
+      order: 12
+    fA063:
+      title: 'CII_§VI: Seven Kinds of First Principle (paramārtha), and the Philosophers’
+        Wrong Views regarding the Mind Rejected'
+      base_file: fA063.txt
+      order: 13
+    f9326:
+      title: 'CII_§VII: Erroneous Views held by Some Brahmans and Śramanas Concerning
+        Causation, Continuation, etc.; The Buddhist Views Concerning Such Subjects
+        as Alayavijñāna, Nirvana, Mind-only, etc.; Attainments of the Bodhisattva'
+      base_file: f9326.txt
+      order: 14
+    f3A4D:
+      title: CII_§VIII: The Bodhisattva's Discipling himself in Self-realisation
+      base_file: f3A4D.txt
+      order: 15
+    fE7F9:
+      title: CII_§IX: The Evolution and Function of the Vijñānas; The Spiritual Discipline
+        of the Bodhisattva; Verses on the Ālaya-ocean and Vijñāna-waves
+      base_file: fE7F9.txt
+      order: 16
+    fC0D5:
+      title: CII_Verse 99-124
+      base_file: fC0D5.txt
+      order: 17
+    fB3B4:
+      title: CII_§X: The Bodhisattva is to Understand the Signification of Mind-only
+      base_file: fB3B4.txt
+      order: 18
+    fE3E0:
+      title: CII_§XI(a): The Three Aspects of Noble Wisdom (āryajñāna).
+      base_file: fE3E0.txt
+      order: 19
+    fDC4B:
+      title: CII_§XI(b): The Attainment of the Tathāgatakāya
+      base_file: fDC4B.txt
+      order: 20
+    f8895:
+      title: CII_§XII: Logic on the Hare's Horns
+      base_file: f8895.txt
+      order: 21
+    f3886:
+      title: CII_§XIII: Verses on the Ālayavijñāna and Mind-only, verse 123-127
+      base_file: f3886.txt
+      order: 22
+    f2100:
+      title: CII_§XIV: Purification of the Outflows, Instantaneous and Gradual
+      base_file: f2100.txt
+      order: 23
+    fB87A:
+      title: CII_§XV: Niṣyanda-Buddha, Dharmatā-Buddha, and Nirmāṇa-Buddha
+      base_file: fB87A.txt
+      order: 24
+    f1017:
+      title: CII_§XVI: The Śrāvaka's Realisation and Attachment to the Notion of Self-nature
+      base_file: f1017.txt
+      order: 25
+    f6D79:
+      title: CII_§XVII: The Eternal-Unthinkable
+      base_file: f6D79.txt
+      order: 26
+    f0146:
+      title: CII_§XVIII: Nirvāṇa and Ālayavijñāna
+      base_file: f0146.txt
+      order: 27
+    f1ECB:
+      title: 'CII_§XIX: All Things are Unborn'
+      base_file: f1ECB.txt
+      order: 28
+    f4447:
+      title: 'CII_§XX: The Five Classes of Spiritual Insight'
+      base_file: f4447.txt
+      order: 29
+    f1041:
+      title: 'CII_§XXI: Verses on the Triple Vehicle, verse 128-131'
+      base_file: f1041.txt
+      order: 30
+    fC304:
+      title: 'CII_§XXII: Two Classes of the Icchantika'
+      base_file: fC304.txt
+      order: 31
+    f7242:
+      title: 'CII_§XXIII: The Three Forms of Svabhāva'
+      base_file: f7242.txt
+      order: 32
+    f677B:
+      title: CII_Verse 132
+      base_file: f677B.txt
+      order: 33
+    f7A2B:
+      title: 'CII_§XXIV: The Twofold Egolessness (nairātmyadvayalakṣaṇa)'
+      base_file: f7A2B.txt
+      order: 34
+    f7B00:
+      title: 'CII_§XXV: Assertion and Refutation (samāropāpavāda)'
+      base_file: f7B00.txt
+      order: 35
+    f0A56:
+      title: CII_Verse 133
+      base_file: f0A56.txt
+      order: 36
+    f8F08:
+      title: 'CII_§XXVI: The Bodhisattva Assumes Various Personalities'
+      base_file: f8F08.txt
+      order: 37
+    f0A90:
+      title: 'CII_§XXVII: On Emptiness (śūnyatā), No-birth, and Non-duality'
+      base_file: f0A90.txt
+      order: 38
+    f1A43:
+      title: 'CII_§XXVIII: The Tathāgata-Garbha and the Ego-soul'
+      base_file: f1A43.txt
+      order: 39
+    fCF50:
+      title: 'CII_§XXIX: A Verse on the Philosophers'' Discriminations, verse 137'
+      base_file: fCF50.txt
+      order: 40
+    f1342:
+      title: 'CII_§XXX: The Four Things Needed for the Constitution of Bodhisattvahood'
+      base_file: f1342.txt
+      order: 41
+    f4D20:
+      title: 'CII_§XXXI: On Causation (Six Kinds), and the Rise of Existence'
+      base_file: f4D20.txt
+      order: 42
+    f28DA:
+      title: 'CII_§XXXII: Four Forms of Word-discrimination'
+      base_file: f28DA.txt
+      order: 43
+    f6C0E:
+      title: 'CII_§XXXIII: On Word and Discrimination and the Highest Reality'
+      base_file: f6C0E.txt
+      order: 44
+    fAB68:
+      title: 'CII_§XXXIV: Verses on Reality and its Representations, verse 145-148'
+      base_file: fAB68.txt
+      order: 45
+    f1AA4:
+      title: 'CII_§XXXV: Mind-only, Multitudinousness, and Analogies, with an Interpolation
+        on the Dualistic Notion of Existence'
+      base_file: f1AA4.txt
+      order: 46
+    fB0A3:
+      title: CII_Verse 149-160
+      base_file: fB0A3.txt
+      order: 47
+    fCBEB:
+      title: 'CII_§XXXVI: The Teaching (dharmadeśanā) of the Tathagatas'
+      base_file: fCBEB.txt
+      order: 48
+    f8848:
+      title: 'CII_§XXXVII: Four Kinds of Dhyāna'
+      base_file: f8848.txt
+      order: 49
+    f0856:
+      title: CII_Verse 161-64
+      base_file: f0856.txt
+      order: 50
+    fEEAE:
+      title: 'CII_§XXXVIII: On Nirvāṇa])Four Kinds of Dhyāna'
+      base_file: fEEAE.txt
+      order: 51
+    f8982:
+      title: 'CII_§XXXIX: Two Characteristics of Self-nature'
+      base_file: f8982.txt
+      order: 52
+    f244C:
+      title: 'CII_§XL: Two Kinds of the Buddha''s Sustaining Power (adhiṣṭhāna).'
+      base_file: f244C.txt
+      order: 53
+    f46AA:
+      title: CIII_§LVII
+      base_file: f46AA.txt
+      order: 54
+    f0A3B:
+      title: CHAPTER FOUR. ON INTUITIVE UNDERSTANDING
+      base_file: f0A3B.txt
+      order: 55
+    f6880:
+      title: CHAPTER FIVE. ON THE DEDUCTION OF THE PERMANENCY OF TATHAGATAHOOD
+      base_file: f6880.txt
+      order: 56
+    f9CE0:
+      title: CHAPTER SIX. ON MOMENTARINESS
+      base_file: f9CE0.txt
+      order: 57
+    f4644:
+      title: CHAPTER SEVEN. ON TRANSFORMATION
+      base_file: f4644.txt
+      order: 58
+    f01D5:
+      title: CIV_Verse 1-10
+      base_file: f01D5.txt
+      order: 59
+    fA044:
+      title: CIV_Verse 11-20
+      base_file: fA044.txt
+      order: 60
+    f0F00:
+      title: CIV_Verse 21-24
+      base_file: f0F00.txt
+      order: 61
+    f43FD:
+      title: CHAPTER NINE. THE DHĀRANĪS
+      base_file: f43FD.txt
+      order: 62
+    fAF7A:
+      title: CV_Verse 1-10
+      base_file: fAF7A.txt
+      order: 63
+    f42B2:
+      title: CV_Verse 11-20
+      base_file: f42B2.txt
+      order: 64
+    f327C:
+      title: CV_Verse 21-30
+      base_file: f327C.txt
+      order: 65
+    f2884:
+      title: CV_Verse 31-40
+      base_file: f2884.txt
+      order: 66
+    fC027:
+      title: CV_Verse 41-50
+      base_file: fC027.txt
+      order: 67
+    fFC3F:
+      title: CV_Verse 51-60
+      base_file: fFC3F.txt
+      order: 68
+    f67EA:
+      title: CV_Verse 61-70
+      base_file: f67EA.txt
+      order: 69
+    fFF6D:
+      title: CV_Verse 71-80
+      base_file: fFF6D.txt
+      order: 70
+    fA775:
+      title: CV_Verse 81-90
+      base_file: fA775.txt
+      order: 71
+    f5706:
+      title: CV_Verse 91-100
+      base_file: f5706.txt
+      order: 72
+    f6C85:
+      title: CV_Verse 101-110
+      base_file: f6C85.txt
+      order: 73
+    fD749:
+      title: CV_Verse 111-120
+      base_file: fD749.txt
+      order: 74
+    f57F4:
+      title: CV_Verse 121-130
+      base_file: f57F4.txt
+      order: 75
+    f53A3:
+      title: CV_Verse 131-140
+      base_file: f53A3.txt
+      order: 76
+    fBD62:
+      title: CV_Verse 141-150
+      base_file: fBD62.txt
+      order: 77
+    f34A0:
+      title: CV_Verse 151-160
+      base_file: f34A0.txt
+      order: 78
+    f844A:
+      title: CV_Verse 161-170
+      base_file: f844A.txt
+      order: 79
+    fE8EA:
+      title: CV_Verse 171-180
+      base_file: fE8EA.txt
+      order: 80
+    f0EF6:
+      title: CV_Verse 181-190
+      base_file: f0EF6.txt
+      order: 81
+    f3144:
+      title: CV_Verse 191-200
+      base_file: f3144.txt
+      order: 82
+    f74AF:
+      title: CV_Verse 201-210
+      base_file: f74AF.txt
+      order: 83
+    f2449:
+      title: CV_Verse 211-220
+      base_file: f2449.txt
+      order: 84
+    f4E38:
+      title: CV_Verse 221-230
+      base_file: f4E38.txt
+      order: 85
+    fF20A:
+      title: CV_Verse 231-240
+      base_file: fF20A.txt
+      order: 86
+    f8907:
+      title: CV_Verse 241-250
+      base_file: f8907.txt
+      order: 87
+    f72D7:
+      title: CV_Verse 261-270
+      base_file: f72D7.txt
+      order: 88
+    f67BE:
+      title: CV_Verse 271-280
+      base_file: f67BE.txt
+      order: 89
+    fEC36:
+      title: CV_Verse 281-290
+      base_file: fEC36.txt
+      order: 90
+    f5546:
+      title: CV_Verse 291-300
+      base_file: f5546.txt
+      order: 91
+    fE53D:
+      title: CV_Verse 301-310
+      base_file: fE53D.txt
+      order: 92
+    f138F:
+      title: CV_Verse 311-320
+      base_file: f138F.txt
+      order: 93
+    f9F84:
+      title: CV_Verse 321-330
+      base_file: f9F84.txt
+      order: 94
+    f4021:
+      title: CV_Verse 331-340
+      base_file: f4021.txt
+      order: 95
+    f280B:
+      title: CV_Verse 341-350
+      base_file: f280B.txt
+      order: 96
+    f50AC:
+      title: CV_Verse 351-360
+      base_file: f50AC.txt
+      order: 97
+    f4311:
+      title: CV_Verse 361-370
+      base_file: f4311.txt
+      order: 98
+    f000D:
+      title: CV_Verse 371-380
+      base_file: f000D.txt
+      order: 99
+    fB1C5:
+      title: CV_Verse 381-390
+      base_file: fB1C5.txt
+      order: 100
+    f6239:
+      title: CV_Verse 391-400
+      base_file: f6239.txt
+      order: 101
+    f617F:
+      title: CV_Verse 401-410
+      base_file: f617F.txt
+      order: 102
+    f3324:
+      title: CV_Verse 411-420
+      base_file: f3324.txt
+      order: 103
+    f5B9D:
+      title: CV_Verse 421-430
+      base_file: f5B9D.txt
+      order: 104
+    f622F:
+      title: CV_Verse 431-440
+      base_file: f622F.txt
+      order: 105
+    f40E0:
+      title: CV_Verse 441-450
+      base_file: f40E0.txt
+      order: 106
+    fAD4E:
+      title: CV_Verse 451-460
+      base_file: fAD4E.txt
+      order: 107
+    f7FB0:
+      title: CV_Verse 461-470
+      base_file: f7FB0.txt
+      order: 108
+    fB950:
+      title: CV_Verse 471-480
+      base_file: fB950.txt
+      order: 109
+    f3BF9:
+      title: CV_Verse 481-490
+      base_file: f3BF9.txt
+      order: 110
+    fC580:
+      title: CV_Verse 491-500
+      base_file: fC580.txt
+      order: 111
+    f733E:
+      title: CV_Verse 501-510
+      base_file: f733E.txt
+      order: 112
+    f3B5F:
+      title: CV_Verse 511-520
+      base_file: f3B5F.txt
+      order: 113
+    f46E4:
+      title: CV_Verse 521-530
+      base_file: f46E4.txt
+      order: 114
+    f4491:
+      title: CV_Verse 531-540
+      base_file: f4491.txt
+      order: 115
+    f1BCB:
+      title: CV_Verse 541-550
+      base_file: f1BCB.txt
+      order: 116
+    fE929:
+      title: CV_Verse 551-560
+      base_file: fE929.txt
+      order: 117
+    f1595:
+      title: CV_Verse 561-570
+      base_file: f1595.txt
+      order: 118
+    fBA2F:
+      title: CV_Verse 571-580
+      base_file: fBA2F.txt
+      order: 119
+    f1F17:
+      title: CV_Verse 581-590
+      base_file: f1F17.txt
+      order: 120
+    fF420:
+      title: CV_Verse 591-600
+      base_file: fF420.txt
+      order: 121
+    fBDE1:
+      title: CV_Verse 601-610
+      base_file: fBDE1.txt
+      order: 122
+    f2E63:
+      title: CV_Verse 611-620
+      base_file: f2E63.txt
+      order: 123
+    fB1EE:
+      title: CV_Verse 621-630
+      base_file: fB1EE.txt
+      order: 124
+    f41C0:
+      title: CV_Verse 631-640
+      base_file: f41C0.txt
+      order: 125
+    f60C6:
+      title: CV_Verse 641-650
+      base_file: f60C6.txt
+      order: 126
+    f57E3:
+      title: CV_Verse 651-660
+      base_file: f57E3.txt
+      order: 127
+    f3A01:
+      title: CV_Verse 661-670
+      base_file: f3A01.txt
+      order: 128
+    f503B:
+      title: CV_Verse 671-680
+      base_file: f503B.txt
+      order: 129
+    fDB6E:
+      title: CV_Verse 681-690
+      base_file: fDB6E.txt
+      order: 130
+    f1611:
+      title: CV_Verse 691-700
+      base_file: f1611.txt
+      order: 131
+    f7330:
+      title: CV_Verse 701-710
+      base_file: f7330.txt
+      order: 132
+    f8D9D:
+      title: CV_Verse 711-720
+      base_file: f8D9D.txt
+      order: 133
+    f137C:
+      title: CV_Verse 721-730
+      base_file: f137C.txt
+      order: 134
+    fB400:
+      title: CV_Verse 731-740
+      base_file: fB400.txt
+      order: 135
+    fD338:
+      title: CV_Verse 741-750
+      base_file: fD338.txt
+      order: 136
+    f3977:
+      title: CV_Verse 751-760
+      base_file: f3977.txt
+      order: 137
+    f0F75:
+      title: CV_Verse 761-770
+      base_file: f0F75.txt
+      order: 138
+    fD778:
+      title: CV_Verse 771-780
+      base_file: fD778.txt
+      order: 139
+    f6BE4:
+      title: CV_Verse 781-790
+      base_file: f6BE4.txt
+      order: 140
+    f7A81:
+      title: CV_Verse 791-800
+      base_file: f7A81.txt
+      order: 141
+    f1137:
+      title: CV_Verse 801-810
+      base_file: f1137.txt
+      order: 142
+    f5A45:
+      title: CV_Verse 831-840
+      base_file: f5A45.txt
+      order: 143
+    fFFBE:
+      title: CV_Verse 841-850
+      base_file: fFFBE.txt
+      order: 144
+    f0FB4:
+      title: CV_Verse 851-860
+      base_file: f0FB4.txt
+      order: 145
+    f5CAB:
+      title: CV_Verse 861-870
+      base_file: f5CAB.txt
+      order: 146
+    fF1CA:
+      title: CV_Verse 871-880
+      base_file: fF1CA.txt
+      order: 147
+    fCEBB:
+      title: CV_Verse 881-890
+      base_file: fCEBB.txt
+      order: 148
+  chapter_to_tile:
+    CI: CHAPTER ONE. RĀVANA, LORD OF LANKĀ, ASKS FOR INSTRUCTION
+    CII: CHAPTER TWO. COLLECTION OF ALL THE DHARMAS
+    CIII: CHAPTER THREE. ON IMPERMANENCY
+    CIV: CHAPTER EIGHT. ON MEAT-EATING
+    CV: SAGĀTHAKAM
+statistics: {}
+quality: {}
+copyright:
+  status: Unknown
+  notice: ''
+  info_url: null
+license: null

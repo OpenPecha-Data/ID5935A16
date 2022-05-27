@@ -1,0 +1,1232 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Frameset//EN">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>Bibliotheca Polyglotta</title>
+<link rel='stylesheet' type='text/css' href='css/bp.css'>
+<link rel='stylesheet' type='text/css' href='css/diac_doc.css'>
+
+<link rel='stylesheet' type='text/css' href='css/imageGallery.css'>
+<link rel='stylesheet' type='text/css' href='css/ss.css'>
+	      <link rel='stylesheet' type='text/css' href='css/tree_menu.css'>
+<script type="text/javascript" src="js/jquery-1.3.2.js"></script>
+<!--  <script type="text/javascript" src="js/jqModal.js"></script>-->
+<script type="text/javascript" src="js/common.js"></script>
+<script type="text/javascript" src="js/tree_menu.js"></script>
+<!-- <script src="js/analytics_tracking.js" type="text/javascript"></script> -->
+
+
+<!-- <script type="text/javascript" src="js/popupDivhandling.js"></script> -->
+<!--  <script type="text/javascript" src="jquery-latest.js"></script>
+<script type="text/javascript" src="js/jquery-imagegallery.js"></script>-->
+</head>
+<script>
+(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+})(window,document,'script','//vrtx.uio.no/js/analytics/v2/analytics.js','ga');
+
+ga('create', 'UA-86407471-1', 'auto');
+ga(function(tracker) {
+
+	// Modifies sendHitTask to hit ipproxy instead of http://www.google-analytics.com directly
+	tracker.set('sendHitTask', function(model) {
+		payload = model.get('hitPayload');
+		var xhr = new XMLHttpRequest();
+		xhr.open('GET', '//w3prod-ipproxy.uio.no/collect' +'?' + payload, true);
+		xhr.send();
+	});
+		ga('send', 'pageview');
+});
+</script>
+<body><div class='banner'></div><!-- banner --><div class='uiologo'>
+<a href='http://www.hf.uio.no/'><img src='https://www2.hf.uio.no/polyglotta/hfe.png' border='0'></a></div><!-- uiologo --><div class='clear'></div>
+<div class='smule_tittel'>
+<div class='brodsmuleboks'>You are here: <a href='/polyglotta/index.php' accesskey='1'> BP HOME</a> >  <a href='/polyglotta/index.php?page=library&amp;bid=2' accesskey='1'>TLB</a> > <a href='/polyglotta/index.php
+	?page=volume&amp;vid=441' accesskey='1'>Laṅkāvatārasūtra</a> > fulltext</div><div class='clear'></div>
+<div class='headline'>Laṅkāvatārasūtra<div class='clear'></div></div><!-- headline -->
+</div><!-- smule_tittel -->
+<!--<div>-->
+
+<h2 class="trigger" id="tr_lang"><a  href="#">Choose languages</a></h2>
+<h2 class="trigger" id="tr_img"><a  href="#">Choose images, etc.</a></h2>
+
+
+<div id="toggle_container_lan">
+
+<form  id="tr"  name="Sprakvalg2" action="inc/set_cookie_lan.php" method="POST">
+
+<div style="float:left; width:auto; text-align:left; margin-left:20px;">
+<h5>Choose languages</h5>
+<ul>
+<input value="Choose all" type="button" onClick="markAll('tr')"><input value="Uncheck all" type="button" onClick="markNone('tr')">
+
+	<li class="tip" title="Checkbox :: Enable text"><label class="f1_checkbox"><input type="checkbox" name="spraak_valg_ct_441[3043]" value="3043" id="lancheckbox" checked >Sanskrit: San, Vaidya p.</label></li><li class="tip" title="Checkbox :: Enable text"><label class="f1_checkbox"><input type="checkbox" name="spraak_valg_ct_441[3157]" value="3157" id="lancheckbox" checked >Chinese: T.670, Guṇabhadra 求那跋陀羅, 443 A.D., p.</label></li><li class="tip" title="Checkbox :: Enable text"><label class="f1_checkbox"><input type="checkbox" name="spraak_valg_ct_441[3046]" value="3046" id="lancheckbox" checked >Chinese: T.671, Bodhiruci 菩提留支, 513 A.D., p.</label></li><li class="tip" title="Checkbox :: Enable text"><label class="f1_checkbox"><input type="checkbox" name="spraak_valg_ct_441[3047]" value="3047" id="lancheckbox" checked >Chinese: T.672, Śikshānanda 實叉難陀, 704 A.D., p.</label></li><li class="tip" title="Checkbox :: Enable text"><label class="f1_checkbox"><input type="checkbox" name="spraak_valg_ct_441[3049]" value="3049" id="lancheckbox" checked >Tibetansk: 8th c. A.D.? Kj mdo sde ca</label></li><li class="tip" title="Checkbox :: Enable text"><label class="f1_checkbox"><input type="checkbox" name="spraak_valg_ct_441[3048]" value="3048" id="lancheckbox" checked >Tibetansk: 1100 A.D.? Kj mdo sde ca</label></li><li class="tip" title="Checkbox :: Enable text"><label class="f1_checkbox"><input type="checkbox" name="spraak_valg_ct_441[3044]" value="3044" id="lancheckbox" checked >English: Eng, Suzuki 1932</label></li><div style="clear:both"></div>
+<input type='submit' name='set_cookie' value='Save view'>
+<div style="clear:both"></div>
+
+</ul>
+<input type="hidden" name="vid" value="441">
+<input type="hidden" name="page" value="fulltext">
+</form>
+</div>
+</div>
+
+<div id="toggle_container_img">
+<form  id="tr"  name="Sprakvalg2" action="inc/set_cookie_img.php" method="POST">
+
+<div style="float:left; width:auto; text-align: left;">
+<h5>Choose display</h5>
+<ul>
+		
+	<li> 
+		<input type='checkbox' name='bilder' checked="checked" > Enable images
+	</li>
+	<li> 
+	<input type='checkbox' onclick="onOffCheckbox();" name='fotnoter' checked="checked"> Enable footnotes
+	<div id="pff" style="display:block" >
+	<ul>
+	<li><input type='radio' name='fotnote_valg'  value='show_a' checked> Show all footnotes</li>
+	<li><input type='radio' name='fotnote_valg'  value='show_h'  > Minimize footnotes</li>
+	</ul>
+	</li>
+	
+	</div>
+	<div style="float:left; width:20em; text-align: left; margin-left:120px ">
+	<div style="clear:both"></div>
+	<input type='submit' name='set_cookie' value='Save view'>
+	<div style="clear:both"></div>
+	</div>
+	
+</ul>
+<input type="hidden" name="vid" value="441">
+<input type="hidden" name="page" value="fulltext">
+</form>
+</div>
+	
+
+
+
+</div>
+</div>
+
+<div class='sok'><form name='Sok' id='FormBlock' action='/polyglotta/index.php' method='get'>
+<input type='hidden' name='page' value='search'>
+<input type='hidden' name='bid' value='2'>
+<input type='hidden' name='vid' value='441'>
+<div class='sokeboks'>
+<input name='sokefelt' id='sokeboks' type='text' size='30' value=''>
+<input type='submit' name='Sok' value='Search' id='nsubmit'>
+<div class='clear'></div><a class="diacbutton" id="diacbutton" href="#">Diacritica</a><a id="diac2button" class="diac2button"  href="#">Diacritica-help</a><a class="s2button" href="https://wiki.uio.no/hf/dmlf/index.php/Kategori:Polyglotta:Documentation:SearchHelp">Search-help</a><div class='diacritical' id='diacritical_sign'><div style="text-align: left; ">
+<table class = 'diacritica' width="200" border="1" cellpadding="1" cellspacing="1" id="diacritical">
+    <tbody>
+        <tr>
+            <td style="text-align: center; ">ā</td>
+            <td style="text-align: center; ">ī</td>
+            <td style="text-align: center; ">ū</td>
+            <td style="text-align: center; ">ṛ</td>
+            <td style="text-align: center; ">ṝ</td>
+            <td style="text-align: center; ">ḷ</td>
+        </tr>
+        <tr>
+            <td style="text-align: center; ">ḹ</td>
+            <td style="text-align: center; ">&rsquo;</td>
+            <td style="text-align: center; ">ṃ</td>
+            <td style="text-align: center; ">ḥ</td>
+            <td style="text-align: center; ">ṅ</td>
+            <td style="text-align: center; ">&ntilde;</td>
+        </tr>
+        <tr>
+            <td style="text-align: center; ">ṭ</td>
+            <td style="text-align: center; ">ḍ</td>
+            <td style="text-align: center; ">ṇ</td>
+            <td style="text-align: center; ">ṣ</td>
+            <td style="text-align: center; ">ś</td>
+            <td style="text-align: center; ">ź</td>
+        </tr>
+        <tr>
+            <td style="text-align: center; ">&scaron;</td>
+            <td style="text-align: center; ">č</td>
+            <td style="text-align: center; ">ǰ</td>
+            <td style="text-align: center; ">&gamma;</td>
+            <td style="text-align: center; ">&nbsp;</td>
+            <td style="text-align: center; ">&nbsp;</td>
+        </tr>
+    </tbody>
+</table>
+</div></div><!-- diacritical --><div id="ex3a" class="jqmDialog"><div>
+	<span style="font-size:12px;">Note on the transliteration:</span></div>
+<div>
+	<span style="font-size:12px;">The transliteration system of the BP/TLB is based on the Unicode/UTF-8 system. However, there may be difficulties with some of the letters &ndash; particularly on PC/Windows-based systems, but not so much on the Mac. We have chosen the most accepted older and traditional systems of transliteration against, e.g, Wylie for Tibetan, since with Unicode it is possible, in Sanskrit and Tibetan, etc., to represent one sound with one letter in almost all the cases (excepting Sanskrit and Tibetan aspirated letters, and Tibetan tsa, tsha, dza). We thus do not use the Wylie system which widely employs two letters for one sound (ng, ny, sh, zh etc.).</span></div>
+<div>
+	&nbsp;</div>
+<div>
+	<span style="font-size:12px;">Important:</span></div>
+<div>
+	<span style="font-size:12px;">We ask you in particular to note the use of the &rsquo; apostrophe and not the &#39; representing the avagrāha in Sanskrit, and most important the &rsquo;a-chuṅ in Tibetan. On the Mac the &rsquo; is Alt-M.</span></div>
+<div>
+	&nbsp;</div>
+<div>
+	<span style="font-size:12px;">If you cannot find the letters on your key-board, you may click on the link &quot;Diacritica&quot; to access it for your search.</span></div>
+</div><!-- diacritical_doc --><div class='clear'></div><select name='searchmode'><option selected value='phrase'>Search for exact phrase</option>
+<option  value='phraseregex'>Search for exact phrase (regex)</option>
+<option  value='word'>Search for every word in one record</option>
+<option  value='free'>Search for every word fragment in one record</option>
+</select>
+<select name='context'>
+<option ($_GET[context]=="a" ? "selected" : "") value="a"> Search in all libraries</option><option selected value="bTLB">Search in TLB</option><option selected value="v441">Search in Laṅkāvatārasūtra</option></select><div class='clear'></div><a class='sbutton' href='/polyglotta/index.php?page=asearch&amp;bid=2&amp;vid=441'>Choose specific texts..</a><div class='clear'></div></div></form></div><!-- sok --><div class='clear'></div><!-- clear --><div id='dcr' class='divControlRead'><div class='venstrefulltekstfelt'><div class='bverknavn'><a href='/polyglotta/index.php?page=volume&amp;vid=441'>Laṅkāvatārasūtra</a></div><table class="tlvl2">
+					<tr>
+						<td bgcolor="#ffffff"> &nbsp; &nbsp;
+						<img src="./application/class/images/expanded.gif" alt="Click to Expand/Collapse Option" title="Click to Expand/Collapse Option" id="expand_7627.Verses41-58" border=0 hspace=2>
+						<a href="/polyglotta/index.php?page=fulltext&amp;view=fulltext&amp;vid=441" class="ajax_tree0">Complete text</a>
+						</td>
+					</tr>
+				  </table><input type="hidden" name="tree_top_options" id="tree_top_options" value="44577.CHAPTERONE.RĀVANA,LORDOFLANKĀ,ASKSFORINSTRUCTION|44581.CHAPTERTWO.COLLECTIONOFALLTHEDHARMAS|44632.CHAPTERTHREE.ONIMPERMANENCY|44634.CHAPTERFOUR.ONINTUITIVEUNDERSTANDING|44635.CHAPTERFIVE.ONTHEDEDUCTIONOFTHEPERMANENCYOFTATHAGATAHOOD|44636.CHAPTERSIX.ONMOMENTARINESS|44637.CHAPTERSEVEN.ONTRANSFORMATION|44638.CHAPTEREIGHT.ONMEAT-EATING|44642.CHAPTERNINE.THEDHĀRANĪS|44643.SAGĀTHAKAM|">
+<table class="tlvl2"><tr><td bgcolor="#ffffff">
+<a href="javascript:;" onclick="Expand('44577.CHAPTERONE.RĀVANA,LORDOFLANKĀ,ASKSFORINSTRUCTION','0','1')"><img src="./application/class/images/collapsed.gif" alt="Click to Expand/Collapse Option" title="Click to Expand/Collapse Option" id="img_44577.CHAPTERONE.RĀVANA,LORDOFLANKĀ,ASKSFORINSTRUCTION" border=0 hspace=2><a id="href_44577.CHAPTERONE.RĀVANA,LORDOFLANKĀ,ASKSFORINSTRUCTION" href="/polyglotta/index.php?page=fulltext&view=fulltext&vid=441&mid=738723&level=1&cid=409422" class="ajax_tree0">CHAPTER ONE. RĀVANA, LORD OF LANKĀ, ASKS FOR INSTRUCTION
+</td></tr></table>
+<div style="display:none;"  id="div_44577.CHAPTERONE.RĀVANA,LORDOFLANKĀ,ASKSFORINSTRUCTION">
+<table class="tlvl2"><tr><td bgcolor="#ffffff">
+ &nbsp;  &nbsp; <img src="./application/class/images/expanded.gif" alt="Click to Expand/Collapse Option" title="Click to Expand/Collapse Option" id="expand_44578.Verse1-3" border=0 hspace=2><a id="href_44578.Verse1-3" href="/polyglotta/index.php?page=fulltext&view=fulltext&vid=441&mid=738728&level=2&cid=409427" class="ajax_tree1">Verse 1-3
+</td></tr></table>
+<table class="tlvl2"><tr><td bgcolor="#ffffff">
+ &nbsp;  &nbsp; <img src="./application/class/images/expanded.gif" alt="Click to Expand/Collapse Option" title="Click to Expand/Collapse Option" id="expand_44579.Verse4-44" border=0 hspace=2><a id="href_44579.Verse4-44" href="/polyglotta/index.php?page=fulltext&view=fulltext&vid=441&mid=738732&level=2&cid=409431" class="ajax_tree1">Verse 4-44
+</td></tr></table>
+<table class="tlvl2"><tr><td bgcolor="#ffffff">
+ &nbsp;  &nbsp; <img src="./application/class/images/expanded.gif" alt="Click to Expand/Collapse Option" title="Click to Expand/Collapse Option" id="expand_44580.Initialquestions" border=0 hspace=2><a id="href_44580.Initialquestions" href="/polyglotta/index.php?page=fulltext&view=fulltext&vid=441&mid=738773&level=2&cid=409472" class="ajax_tree1">Initial questions
+</td></tr></table>
+</div>
+<table class="tlvl2"><tr><td bgcolor="#ffffff">
+<a href="javascript:;" onclick="Expand('44581.CHAPTERTWO.COLLECTIONOFALLTHEDHARMAS','0','1')"><img src="./application/class/images/collapsed.gif" alt="Click to Expand/Collapse Option" title="Click to Expand/Collapse Option" id="img_44581.CHAPTERTWO.COLLECTIONOFALLTHEDHARMAS" border=0 hspace=2><a id="href_44581.CHAPTERTWO.COLLECTIONOFALLTHEDHARMAS" href="/polyglotta/index.php?page=fulltext&view=fulltext&vid=441&mid=738825&level=1&cid=409486" class="ajax_tree0">CHAPTER TWO. COLLECTION OF ALL THE DHARMAS
+</td></tr></table>
+<div style="display:none;"  id="div_44581.CHAPTERTWO.COLLECTIONOFALLTHEDHARMAS">
+<table class="tlvl2"><tr><td bgcolor="#ffffff">
+ &nbsp;  &nbsp; <img src="./application/class/images/expanded.gif" alt="Click to Expand/Collapse Option" title="Click to Expand/Collapse Option" id="expand_44582.§I:MahāmatiPraisestheBuddhawithVerses,verse1-8" border=0 hspace=2><a id="href_44582.§I:MahāmatiPraisestheBuddhawithVerses,verse1-8" href="/polyglotta/index.php?page=fulltext&view=fulltext&vid=441&mid=738826&level=2&cid=409487" class="ajax_tree1">§I: Mahāmati Praises the Buddha with Verses, verse 1-8
+</td></tr></table>
+<table class="tlvl2"><tr><td bgcolor="#ffffff">
+ &nbsp;  &nbsp; <img src="./application/class/images/expanded.gif" alt="Click to Expand/Collapse Option" title="Click to Expand/Collapse Option" id="expand_44583.§II:Mahāmati's“OneHundredandEightQuestions”,verse9-25" border=0 hspace=2><a id="href_44583.§II:Mahāmati's“OneHundredandEightQuestions”,verse9-25" href="/polyglotta/index.php?page=fulltext&view=fulltext&vid=441&mid=738835&level=2&cid=409496" class="ajax_tree1">§II: Mahāmati's “One Hundred and Eight Questions”, verse 9-25
+</td></tr></table>
+<table class="tlvl2"><tr><td bgcolor="#ffffff">
+ &nbsp;  &nbsp; <img src="./application/class/images/expanded.gif" alt="Click to Expand/Collapse Option" title="Click to Expand/Collapse Option" id="expand_44584.verse26-50" border=0 hspace=2><a id="href_44584.verse26-50" href="/polyglotta/index.php?page=fulltext&view=fulltext&vid=441&mid=738854&level=2&cid=409515" class="ajax_tree1">verse 26-50
+</td></tr></table>
+<table class="tlvl2"><tr><td bgcolor="#ffffff">
+ &nbsp;  &nbsp; <img src="./application/class/images/expanded.gif" alt="Click to Expand/Collapse Option" title="Click to Expand/Collapse Option" id="expand_44585.verse51-75" border=0 hspace=2><a id="href_44585.verse51-75" href="/polyglotta/index.php?page=fulltext&view=fulltext&vid=441&mid=738879&level=2&cid=409540" class="ajax_tree1">verse 51-75
+</td></tr></table>
+<table class="tlvl2"><tr><td bgcolor="#ffffff">
+ &nbsp;  &nbsp; <img src="./application/class/images/expanded.gif" alt="Click to Expand/Collapse Option" title="Click to Expand/Collapse Option" id="expand_44586.verse76-97" border=0 hspace=2><a id="href_44586.verse76-97" href="/polyglotta/index.php?page=fulltext&view=fulltext&vid=441&mid=738904&level=2&cid=409565" class="ajax_tree1">verse 76-97
+</td></tr></table>
+<table class="tlvl2"><tr><td bgcolor="#ffffff">
+ &nbsp;  &nbsp; <img src="./application/class/images/expanded.gif" alt="Click to Expand/Collapse Option" title="Click to Expand/Collapse Option" id="expand_44587.§III:“TheOneHundredandEightNegations”,verse98" border=0 hspace=2><a id="href_44587.§III:“TheOneHundredandEightNegations”,verse98" href="/polyglotta/index.php?page=fulltext&view=fulltext&vid=441&mid=738926&level=2&cid=409587" class="ajax_tree1">§III: “The One Hundred and Eight Negations”, verse 98
+</td></tr></table>
+<table class="tlvl2"><tr><td bgcolor="#ffffff">
+ &nbsp;  &nbsp; <img src="./application/class/images/expanded.gif" alt="Click to Expand/Collapse Option" title="Click to Expand/Collapse Option" id="expand_44588.Uttarapadaśatam" border=0 hspace=2><a id="href_44588.Uttarapadaśatam" href="/polyglotta/index.php?page=fulltext&view=fulltext&vid=441&mid=738927&level=2&cid=409588" class="ajax_tree1">Uttarapadaśatam
+</td></tr></table>
+<table class="tlvl2"><tr><td bgcolor="#ffffff">
+ &nbsp;  &nbsp; <img src="./application/class/images/expanded.gif" alt="Click to Expand/Collapse Option" title="Click to Expand/Collapse Option" id="expand_44589.§IV:ConcerningtheVijñānas" border=0 hspace=2><a id="href_44589.§IV:ConcerningtheVijñānas" href="/polyglotta/index.php?page=fulltext&view=fulltext&vid=441&mid=738929&level=2&cid=409589" class="ajax_tree1">§IV: Concerning the Vijñānas
+</td></tr></table>
+<table class="tlvl2"><tr><td bgcolor="#ffffff">
+ &nbsp;  &nbsp; <img src="./application/class/images/expanded.gif" alt="Click to Expand/Collapse Option" title="Click to Expand/Collapse Option" id="expand_44590.§V:SevenKindsofSelf-nature(svabhāva)." border=0 hspace=2><a id="href_44590.§V:SevenKindsofSelf-nature(svabhāva)." href="/polyglotta/index.php?page=fulltext&view=fulltext&vid=441&mid=738959&level=2&cid=409592" class="ajax_tree1">§V: Seven Kinds of Self-nature (svabhāva).
+</td></tr></table>
+<table class="tlvl2"><tr><td bgcolor="#ffffff">
+ &nbsp;  &nbsp; <img src="./application/class/images/expanded.gif" alt="Click to Expand/Collapse Option" title="Click to Expand/Collapse Option" id="expand_44591.§VI:SevenKindsofFirstPrinciple(paramārtha),andthePhilosophers’WrongViewsregardingtheMindRejected" border=0 hspace=2><a id="href_44591.§VI:SevenKindsofFirstPrinciple(paramārtha),andthePhilosophers’WrongViewsregardingtheMindRejected" href="/polyglotta/index.php?page=fulltext&view=fulltext&vid=441&mid=738960&level=2&cid=409593" class="ajax_tree1">§VI: Seven Kinds of First Principle (paramārtha), and the Philosophers’ Wrong Views regarding the Mind Rejected
+</td></tr></table>
+<table class="tlvl2"><tr><td bgcolor="#ffffff">
+ &nbsp;  &nbsp; <img src="./application/class/images/expanded.gif" alt="Click to Expand/Collapse Option" title="Click to Expand/Collapse Option" id="expand_44592.§VII:ErroneousViewsheldbySomeBrahmansandŚramanasConcerningCausation,Continuation,etc.;TheBuddhistViewsConcerningSuchSubjectsasAlayavijñāna,Nirvana,Mind-only,etc.;AttainmentsoftheBodhisattva" border=0 hspace=2><a id="href_44592.§VII:ErroneousViewsheldbySomeBrahmansandŚramanasConcerningCausation,Continuation,etc.;TheBuddhistViewsConcerningSuchSubjectsasAlayavijñāna,Nirvana,Mind-only,etc.;AttainmentsoftheBodhisattva" href="/polyglotta/index.php?page=fulltext&view=fulltext&vid=441&mid=738967&level=2&cid=409595" class="ajax_tree1">§VII: Erroneous Views held by Some Brahmans and Śramanas Concerning Causation, Continuation, etc.; The Buddhist Views Concerning Such Subjects as Alayavijñāna, Nirvana, Mind-only, etc.; Attainments of the Bodhisattva
+</td></tr></table>
+<table class="tlvl2"><tr><td bgcolor="#ffffff">
+ &nbsp;  &nbsp; <img src="./application/class/images/expanded.gif" alt="Click to Expand/Collapse Option" title="Click to Expand/Collapse Option" id="expand_44593.§VIII: TheBodhisattva'sDisciplinghimselfinSelf-realisation" border=0 hspace=2><a id="href_44593.§VIII: TheBodhisattva'sDisciplinghimselfinSelf-realisation" href="/polyglotta/index.php?page=fulltext&view=fulltext&vid=441&mid=738984&level=2&cid=409598" class="ajax_tree1">§VIII: The Bodhisattva's Discipling himself in Self-realisation
+</td></tr></table>
+<table class="tlvl2"><tr><td bgcolor="#ffffff">
+ &nbsp;  &nbsp; <img src="./application/class/images/expanded.gif" alt="Click to Expand/Collapse Option" title="Click to Expand/Collapse Option" id="expand_44594.§IX: TheEvolutionandFunctionoftheVijñānas;TheSpiritualDisciplineoftheBodhisattva;VersesontheĀlaya-oceanandVijñāna-waves" border=0 hspace=2><a id="href_44594.§IX: TheEvolutionandFunctionoftheVijñānas;TheSpiritualDisciplineoftheBodhisattva;VersesontheĀlaya-oceanandVijñāna-waves" href="/polyglotta/index.php?page=fulltext&view=fulltext&vid=441&mid=738986&level=2&cid=409599" class="ajax_tree1">§IX: The Evolution and Function of the Vijñānas; The Spiritual Discipline of the Bodhisattva; Verses on the Ālaya-ocean and Vijñāna-waves
+</td></tr></table>
+<table class="tlvl2"><tr><td bgcolor="#ffffff">
+ &nbsp;  &nbsp; <img src="./application/class/images/expanded.gif" alt="Click to Expand/Collapse Option" title="Click to Expand/Collapse Option" id="expand_44595.Verse99-124" border=0 hspace=2><a id="href_44595.Verse99-124" href="/polyglotta/index.php?page=fulltext&view=fulltext&vid=441&mid=739005&level=2&cid=409603" class="ajax_tree1">Verse 99-124
+</td></tr></table>
+<table class="tlvl2"><tr><td bgcolor="#ffffff">
+ &nbsp;  &nbsp; <img src="./application/class/images/expanded.gif" alt="Click to Expand/Collapse Option" title="Click to Expand/Collapse Option" id="expand_44596.§X: TheBodhisattvaistoUnderstandtheSignificationofMind-only" border=0 hspace=2><a id="href_44596.§X: TheBodhisattvaistoUnderstandtheSignificationofMind-only" href="/polyglotta/index.php?page=fulltext&view=fulltext&vid=441&mid=739031&level=2&cid=409629" class="ajax_tree1">§X: The Bodhisattva is to Understand the Signification of Mind-only
+</td></tr></table>
+<table class="tlvl2"><tr><td bgcolor="#ffffff">
+ &nbsp;  &nbsp; <img src="./application/class/images/expanded.gif" alt="Click to Expand/Collapse Option" title="Click to Expand/Collapse Option" id="expand_44597.§XI(a): TheThreeAspectsofNobleWisdom(āryajñāna)." border=0 hspace=2><a id="href_44597.§XI(a): TheThreeAspectsofNobleWisdom(āryajñāna)." href="/polyglotta/index.php?page=fulltext&view=fulltext&vid=441&mid=739034&level=2&cid=409630" class="ajax_tree1">§XI(a): The Three Aspects of Noble Wisdom (āryajñāna).
+</td></tr></table>
+<table class="tlvl2"><tr><td bgcolor="#ffffff">
+ &nbsp;  &nbsp; <img src="./application/class/images/expanded.gif" alt="Click to Expand/Collapse Option" title="Click to Expand/Collapse Option" id="expand_44598.§XI(b): TheAttainmentoftheTathāgatakāya" border=0 hspace=2><a id="href_44598.§XI(b): TheAttainmentoftheTathāgatakāya" href="/polyglotta/index.php?page=fulltext&view=fulltext&vid=441&mid=739042&level=2&cid=409632" class="ajax_tree1">§XI(b): The Attainment of the Tathāgatakāya
+</td></tr></table>
+<table class="tlvl2"><tr><td bgcolor="#ffffff">
+ &nbsp;  &nbsp; <img src="./application/class/images/expanded.gif" alt="Click to Expand/Collapse Option" title="Click to Expand/Collapse Option" id="expand_44599.§XII: LogicontheHare'sHorns" border=0 hspace=2><a id="href_44599.§XII: LogicontheHare'sHorns" href="/polyglotta/index.php?page=fulltext&view=fulltext&vid=441&mid=739045&level=2&cid=409633" class="ajax_tree1">§XII: Logic on the Hare's Horns
+</td></tr></table>
+<table class="tlvl2"><tr><td bgcolor="#ffffff">
+ &nbsp;  &nbsp; <img src="./application/class/images/expanded.gif" alt="Click to Expand/Collapse Option" title="Click to Expand/Collapse Option" id="expand_44600.§XIII: VersesontheĀlayavijñānaandMind-only,verse123-127" border=0 hspace=2><a id="href_44600.§XIII: VersesontheĀlayavijñānaandMind-only,verse123-127" href="/polyglotta/index.php?page=fulltext&view=fulltext&vid=441&mid=739070&level=2&cid=409638" class="ajax_tree1">§XIII: Verses on the Ālayavijñāna and Mind-only, verse 123-127
+</td></tr></table>
+<table class="tlvl2"><tr><td bgcolor="#ffffff">
+ &nbsp;  &nbsp; <img src="./application/class/images/expanded.gif" alt="Click to Expand/Collapse Option" title="Click to Expand/Collapse Option" id="expand_44601.§XIV: PurificationoftheOutflows,InstantaneousandGradual" border=0 hspace=2><a id="href_44601.§XIV: PurificationoftheOutflows,InstantaneousandGradual" href="/polyglotta/index.php?page=fulltext&view=fulltext&vid=441&mid=739075&level=2&cid=409643" class="ajax_tree1">§XIV: Purification of the Outflows, Instantaneous and Gradual
+</td></tr></table>
+<table class="tlvl2"><tr><td bgcolor="#ffffff">
+ &nbsp;  &nbsp; <img src="./application/class/images/expanded.gif" alt="Click to Expand/Collapse Option" title="Click to Expand/Collapse Option" id="expand_44602.§XV: Niṣyanda-Buddha,Dharmatā-Buddha,andNirmāṇa-Buddha" border=0 hspace=2><a id="href_44602.§XV: Niṣyanda-Buddha,Dharmatā-Buddha,andNirmāṇa-Buddha" href="/polyglotta/index.php?page=fulltext&view=fulltext&vid=441&mid=739085&level=2&cid=409644" class="ajax_tree1">§XV: Niṣyanda-Buddha, Dharmatā-Buddha, and Nirmāṇa-Buddha
+</td></tr></table>
+<table class="tlvl2"><tr><td bgcolor="#ffffff">
+ &nbsp;  &nbsp; <img src="./application/class/images/expanded.gif" alt="Click to Expand/Collapse Option" title="Click to Expand/Collapse Option" id="expand_44603.§XVI: TheŚrāvaka'sRealisationandAttachmenttotheNotionofSelf-nature" border=0 hspace=2><a id="href_44603.§XVI: TheŚrāvaka'sRealisationandAttachmenttotheNotionofSelf-nature" href="/polyglotta/index.php?page=fulltext&view=fulltext&vid=441&mid=739098&level=2&cid=409645" class="ajax_tree1">§XVI: The Śrāvaka's Realisation and Attachment to the Notion of Self-nature
+</td></tr></table>
+<table class="tlvl2"><tr><td bgcolor="#ffffff">
+ &nbsp;  &nbsp; <img src="./application/class/images/expanded.gif" alt="Click to Expand/Collapse Option" title="Click to Expand/Collapse Option" id="expand_44604.§XVII: TheEternal-Unthinkable" border=0 hspace=2><a id="href_44604.§XVII: TheEternal-Unthinkable" href="/polyglotta/index.php?page=fulltext&view=fulltext&vid=441&mid=739109&level=2&cid=409646" class="ajax_tree1">§XVII: The Eternal-Unthinkable
+</td></tr></table>
+<table class="tlvl2"><tr><td bgcolor="#ffffff">
+ &nbsp;  &nbsp; <img src="./application/class/images/expanded.gif" alt="Click to Expand/Collapse Option" title="Click to Expand/Collapse Option" id="expand_44605.§XVIII: NirvāṇaandĀlayavijñāna" border=0 hspace=2><a id="href_44605.§XVIII: NirvāṇaandĀlayavijñāna" href="/polyglotta/index.php?page=fulltext&view=fulltext&vid=441&mid=739130&level=2&cid=409649" class="ajax_tree1">§XVIII: Nirvāṇa and Ālayavijñāna
+</td></tr></table>
+<table class="tlvl2"><tr><td bgcolor="#ffffff">
+ &nbsp;  &nbsp; <img src="./application/class/images/expanded.gif" alt="Click to Expand/Collapse Option" title="Click to Expand/Collapse Option" id="expand_44606.§XIX:AllThingsareUnborn" border=0 hspace=2><a id="href_44606.§XIX:AllThingsareUnborn" href="/polyglotta/index.php?page=fulltext&view=fulltext&vid=441&mid=739135&level=2&cid=409650" class="ajax_tree1">§XIX: All Things are Unborn
+</td></tr></table>
+<table class="tlvl2"><tr><td bgcolor="#ffffff">
+ &nbsp;  &nbsp; <img src="./application/class/images/expanded.gif" alt="Click to Expand/Collapse Option" title="Click to Expand/Collapse Option" id="expand_44607.§XX:TheFiveClassesofSpiritualInsight" border=0 hspace=2><a id="href_44607.§XX:TheFiveClassesofSpiritualInsight" href="/polyglotta/index.php?page=fulltext&view=fulltext&vid=441&mid=739142&level=2&cid=409651" class="ajax_tree1">§XX: The Five Classes of Spiritual Insight
+</td></tr></table>
+<table class="tlvl2"><tr><td bgcolor="#ffffff">
+ &nbsp;  &nbsp; <img src="./application/class/images/expanded.gif" alt="Click to Expand/Collapse Option" title="Click to Expand/Collapse Option" id="expand_44608.§XXI:VersesontheTripleVehicle,verse128-131" border=0 hspace=2><a id="href_44608.§XXI:VersesontheTripleVehicle,verse128-131" href="/polyglotta/index.php?page=fulltext&view=fulltext&vid=441&mid=739164&level=2&cid=409656" class="ajax_tree1">§XXI: Verses on the Triple Vehicle, verse 128-131
+</td></tr></table>
+<table class="tlvl2"><tr><td bgcolor="#ffffff">
+ &nbsp;  &nbsp; <img src="./application/class/images/expanded.gif" alt="Click to Expand/Collapse Option" title="Click to Expand/Collapse Option" id="expand_44609.§XXII:TwoClassesoftheIcchantika" border=0 hspace=2><a id="href_44609.§XXII:TwoClassesoftheIcchantika" href="/polyglotta/index.php?page=fulltext&view=fulltext&vid=441&mid=739168&level=2&cid=409660" class="ajax_tree1">§XXII: Two Classes of the Icchantika
+</td></tr></table>
+<table class="tlvl2"><tr><td bgcolor="#ffffff">
+ &nbsp;  &nbsp; <img src="./application/class/images/expanded.gif" alt="Click to Expand/Collapse Option" title="Click to Expand/Collapse Option" id="expand_44610.§XXIII:TheThreeFormsofSvabhāva" border=0 hspace=2><a id="href_44610.§XXIII:TheThreeFormsofSvabhāva" href="/polyglotta/index.php?page=fulltext&view=fulltext&vid=441&mid=739178&level=2&cid=409662" class="ajax_tree1">§XXIII: The Three Forms of Svabhāva
+</td></tr></table>
+<table class="tlvl2"><tr><td bgcolor="#ffffff">
+ &nbsp;  &nbsp; <img src="./application/class/images/expanded.gif" alt="Click to Expand/Collapse Option" title="Click to Expand/Collapse Option" id="expand_44611.Verse132" border=0 hspace=2><a id="href_44611.Verse132" href="/polyglotta/index.php?page=fulltext&view=fulltext&vid=441&mid=739189&level=2&cid=409663" class="ajax_tree1">Verse 132
+</td></tr></table>
+<table class="tlvl2"><tr><td bgcolor="#ffffff">
+ &nbsp;  &nbsp; <img src="./application/class/images/expanded.gif" alt="Click to Expand/Collapse Option" title="Click to Expand/Collapse Option" id="expand_44612.§XXIV:TheTwofoldEgolessness(nairātmyadvayalakṣaṇa)" border=0 hspace=2><a id="href_44612.§XXIV:TheTwofoldEgolessness(nairātmyadvayalakṣaṇa)" href="/polyglotta/index.php?page=fulltext&view=fulltext&vid=441&mid=739191&level=2&cid=409665" class="ajax_tree1">§XXIV: The Twofold Egolessness (nairātmyadvayalakṣaṇa)
+</td></tr></table>
+<table class="tlvl2"><tr><td bgcolor="#ffffff">
+ &nbsp;  &nbsp; <img src="./application/class/images/expanded.gif" alt="Click to Expand/Collapse Option" title="Click to Expand/Collapse Option" id="expand_44613.§XXV:AssertionandRefutation(samāropāpavāda)" border=0 hspace=2><a id="href_44613.§XXV:AssertionandRefutation(samāropāpavāda)" href="/polyglotta/index.php?page=fulltext&view=fulltext&vid=441&mid=739205&level=2&cid=409667" class="ajax_tree1">§XXV: Assertion and Refutation (samāropāpavāda)
+</td></tr></table>
+<table class="tlvl2"><tr><td bgcolor="#ffffff">
+ &nbsp;  &nbsp; <img src="./application/class/images/expanded.gif" alt="Click to Expand/Collapse Option" title="Click to Expand/Collapse Option" id="expand_44614.Verse133" border=0 hspace=2><a id="href_44614.Verse133" href="/polyglotta/index.php?page=fulltext&view=fulltext&vid=441&mid=739209&level=2&cid=409669" class="ajax_tree1">Verse 133
+</td></tr></table>
+<table class="tlvl2"><tr><td bgcolor="#ffffff">
+ &nbsp;  &nbsp; <img src="./application/class/images/expanded.gif" alt="Click to Expand/Collapse Option" title="Click to Expand/Collapse Option" id="expand_44615.§XXVI:TheBodhisattvaAssumesVariousPersonalities" border=0 hspace=2><a id="href_44615.§XXVI:TheBodhisattvaAssumesVariousPersonalities" href="/polyglotta/index.php?page=fulltext&view=fulltext&vid=441&mid=739232&level=2&cid=409677" class="ajax_tree1">§XXVI: The Bodhisattva Assumes Various Personalities
+</td></tr></table>
+<table class="tlvl2"><tr><td bgcolor="#ffffff">
+ &nbsp;  &nbsp; <img src="./application/class/images/expanded.gif" alt="Click to Expand/Collapse Option" title="Click to Expand/Collapse Option" id="expand_44616.§XXVII:OnEmptiness(śūnyatā),No-birth,andNon-duality" border=0 hspace=2><a id="href_44616.§XXVII:OnEmptiness(śūnyatā),No-birth,andNon-duality" href="/polyglotta/index.php?page=fulltext&view=fulltext&vid=441&mid=739237&level=2&cid=409679" class="ajax_tree1">§XXVII: On Emptiness (śūnyatā), No-birth, and Non-duality
+</td></tr></table>
+<table class="tlvl2"><tr><td bgcolor="#ffffff">
+ &nbsp;  &nbsp; <img src="./application/class/images/expanded.gif" alt="Click to Expand/Collapse Option" title="Click to Expand/Collapse Option" id="expand_44617.§XXVIII:TheTathāgata-GarbhaandtheEgo-soul" border=0 hspace=2><a id="href_44617.§XXVIII:TheTathāgata-GarbhaandtheEgo-soul" href="/polyglotta/index.php?page=fulltext&view=fulltext&vid=441&mid=739284&level=2&cid=409694" class="ajax_tree1">§XXVIII: The Tathāgata-Garbha and the Ego-soul
+</td></tr></table>
+<table class="tlvl2"><tr><td bgcolor="#ffffff">
+ &nbsp;  &nbsp; <img src="./application/class/images/expanded.gif" alt="Click to Expand/Collapse Option" title="Click to Expand/Collapse Option" id="expand_44618.§XXIX:AVerseonthePhilosophers'Discriminations,verse137" border=0 hspace=2><a id="href_44618.§XXIX:AVerseonthePhilosophers'Discriminations,verse137" href="/polyglotta/index.php?page=fulltext&view=fulltext&vid=441&mid=739298&level=2&cid=409696" class="ajax_tree1">§XXIX: A Verse on the Philosophers' Discriminations, verse 137
+</td></tr></table>
+<table class="tlvl2"><tr><td bgcolor="#ffffff">
+ &nbsp;  &nbsp; <img src="./application/class/images/expanded.gif" alt="Click to Expand/Collapse Option" title="Click to Expand/Collapse Option" id="expand_44619.§XXX:TheFourThingsNeededfortheConstitutionofBodhisattvahood" border=0 hspace=2><a id="href_44619.§XXX:TheFourThingsNeededfortheConstitutionofBodhisattvahood" href="/polyglotta/index.php?page=fulltext&view=fulltext&vid=441&mid=739299&level=2&cid=409697" class="ajax_tree1">§XXX: The Four Things Needed for the Constitution of Bodhisattvahood
+</td></tr></table>
+<table class="tlvl2"><tr><td bgcolor="#ffffff">
+ &nbsp;  &nbsp; <img src="./application/class/images/expanded.gif" alt="Click to Expand/Collapse Option" title="Click to Expand/Collapse Option" id="expand_44620.§XXXI:OnCausation(SixKinds),andtheRiseofExistence" border=0 hspace=2><a id="href_44620.§XXXI:OnCausation(SixKinds),andtheRiseofExistence" href="/polyglotta/index.php?page=fulltext&view=fulltext&vid=441&mid=739320&level=2&cid=409702" class="ajax_tree1">§XXXI: On Causation (Six Kinds), and the Rise of Existence
+</td></tr></table>
+<table class="tlvl2"><tr><td bgcolor="#ffffff">
+ &nbsp;  &nbsp; <img src="./application/class/images/expanded.gif" alt="Click to Expand/Collapse Option" title="Click to Expand/Collapse Option" id="expand_44621.§XXXII:FourFormsofWord-discrimination" border=0 hspace=2><a id="href_44621.§XXXII:FourFormsofWord-discrimination" href="/polyglotta/index.php?page=fulltext&view=fulltext&vid=441&mid=739349&level=2&cid=409712" class="ajax_tree1">§XXXII: Four Forms of Word-discrimination
+</td></tr></table>
+<table class="tlvl2"><tr><td bgcolor="#ffffff">
+ &nbsp;  &nbsp; <img src="./application/class/images/expanded.gif" alt="Click to Expand/Collapse Option" title="Click to Expand/Collapse Option" id="expand_44622.§XXXIII:OnWordandDiscriminationandtheHighestReality" border=0 hspace=2><a id="href_44622.§XXXIII:OnWordandDiscriminationandtheHighestReality" href="/polyglotta/index.php?page=fulltext&view=fulltext&vid=441&mid=739360&level=2&cid=409714" class="ajax_tree1">§XXXIII: On Word and Discrimination and the Highest Reality
+</td></tr></table>
+<table class="tlvl2"><tr><td bgcolor="#ffffff">
+ &nbsp;  &nbsp; <img src="./application/class/images/expanded.gif" alt="Click to Expand/Collapse Option" title="Click to Expand/Collapse Option" id="expand_44623.§XXXIV:VersesonRealityanditsRepresentations,verse145-148" border=0 hspace=2><a id="href_44623.§XXXIV:VersesonRealityanditsRepresentations,verse145-148" href="/polyglotta/index.php?page=fulltext&view=fulltext&vid=441&mid=739380&level=2&cid=409717" class="ajax_tree1">§XXXIV: Verses on Reality and its Representations, verse 145-148
+</td></tr></table>
+<table class="tlvl2"><tr><td bgcolor="#ffffff">
+ &nbsp;  &nbsp; <img src="./application/class/images/expanded.gif" alt="Click to Expand/Collapse Option" title="Click to Expand/Collapse Option" id="expand_44624.§XXXV:Mind-only,Multitudinousness,andAnalogies,withanInterpolationontheDualisticNotionofExistence" border=0 hspace=2><a id="href_44624.§XXXV:Mind-only,Multitudinousness,andAnalogies,withanInterpolationontheDualisticNotionofExistence" href="/polyglotta/index.php?page=fulltext&view=fulltext&vid=441&mid=739384&level=2&cid=409721" class="ajax_tree1">§XXXV: Mind-only, Multitudinousness, and Analogies, with an Interpolation on the Dualistic Notion of Existence
+</td></tr></table>
+<table class="tlvl2"><tr><td bgcolor="#ffffff">
+ &nbsp;  &nbsp; <img src="./application/class/images/expanded.gif" alt="Click to Expand/Collapse Option" title="Click to Expand/Collapse Option" id="expand_44625.Verse149-160" border=0 hspace=2><a id="href_44625.Verse149-160" href="/polyglotta/index.php?page=fulltext&view=fulltext&vid=441&mid=739442&level=2&cid=409725" class="ajax_tree1">Verse 149-160
+</td></tr></table>
+<table class="tlvl2"><tr><td bgcolor="#ffffff">
+ &nbsp;  &nbsp; <img src="./application/class/images/expanded.gif" alt="Click to Expand/Collapse Option" title="Click to Expand/Collapse Option" id="expand_44626.§XXXVI:TheTeaching(dharmadeśanā)oftheTathagatas" border=0 hspace=2><a id="href_44626.§XXXVI:TheTeaching(dharmadeśanā)oftheTathagatas" href="/polyglotta/index.php?page=fulltext&view=fulltext&vid=441&mid=739454&level=2&cid=409737" class="ajax_tree1">§XXXVI: The Teaching (dharmadeśanā) of the Tathagatas
+</td></tr></table>
+<table class="tlvl2"><tr><td bgcolor="#ffffff">
+ &nbsp;  &nbsp; <img src="./application/class/images/expanded.gif" alt="Click to Expand/Collapse Option" title="Click to Expand/Collapse Option" id="expand_44627.§XXXVII:FourKindsofDhyāna" border=0 hspace=2><a id="href_44627.§XXXVII:FourKindsofDhyāna" href="/polyglotta/index.php?page=fulltext&view=fulltext&vid=441&mid=739459&level=2&cid=409739" class="ajax_tree1">§XXXVII: Four Kinds of Dhyāna
+</td></tr></table>
+<table class="tlvl2"><tr><td bgcolor="#ffffff">
+ &nbsp;  &nbsp; <img src="./application/class/images/expanded.gif" alt="Click to Expand/Collapse Option" title="Click to Expand/Collapse Option" id="expand_44628.Verse161-64" border=0 hspace=2><a id="href_44628.Verse161-64" href="/polyglotta/index.php?page=fulltext&view=fulltext&vid=441&mid=739465&level=2&cid=409740" class="ajax_tree1">Verse 161-64
+</td></tr></table>
+<table class="tlvl2"><tr><td bgcolor="#ffffff">
+ &nbsp;  &nbsp; <img src="./application/class/images/expanded.gif" alt="Click to Expand/Collapse Option" title="Click to Expand/Collapse Option" id="expand_44629.§XXXVIII:OnNirvāṇa])FourKindsofDhyāna" border=0 hspace=2><a id="href_44629.§XXXVIII:OnNirvāṇa])FourKindsofDhyāna" href="/polyglotta/index.php?page=fulltext&view=fulltext&vid=441&mid=739469&level=2&cid=409744" class="ajax_tree1">§XXXVIII: On Nirvāṇa])Four Kinds of Dhyāna
+</td></tr></table>
+<table class="tlvl2"><tr><td bgcolor="#ffffff">
+ &nbsp;  &nbsp; <img src="./application/class/images/expanded.gif" alt="Click to Expand/Collapse Option" title="Click to Expand/Collapse Option" id="expand_44630.§XXXIX:TwoCharacteristicsofSelf-nature" border=0 hspace=2><a id="href_44630.§XXXIX:TwoCharacteristicsofSelf-nature" href="/polyglotta/index.php?page=fulltext&view=fulltext&vid=441&mid=739485&level=2&cid=409748" class="ajax_tree1">§XXXIX: Two Characteristics of Self-nature
+</td></tr></table>
+<table class="tlvl2"><tr><td bgcolor="#ffffff">
+ &nbsp;  &nbsp; <img src="./application/class/images/expanded.gif" alt="Click to Expand/Collapse Option" title="Click to Expand/Collapse Option" id="expand_44631.§XL:TwoKindsoftheBuddha'sSustainingPower(adhiṣṭhāna)." border=0 hspace=2><a id="href_44631.§XL:TwoKindsoftheBuddha'sSustainingPower(adhiṣṭhāna)." href="/polyglotta/index.php?page=fulltext&view=fulltext&vid=441&mid=739489&level=2&cid=409749" class="ajax_tree1">§XL: Two Kinds of the Buddha's Sustaining Power (adhiṣṭhāna).
+</td></tr></table>
+</div>
+<table class="tlvl2"><tr><td bgcolor="#ffffff">
+<a href="javascript:;" onclick="Expand('44632.CHAPTERTHREE.ONIMPERMANENCY','0','1')"><img src="./application/class/images/collapsed.gif" alt="Click to Expand/Collapse Option" title="Click to Expand/Collapse Option" id="img_44632.CHAPTERTHREE.ONIMPERMANENCY" border=0 hspace=2><a id="href_44632.CHAPTERTHREE.ONIMPERMANENCY" href="/polyglotta/index.php?page=fulltext&view=fulltext&vid=441&mid=739835&level=1&cid=409842" class="ajax_tree0">CHAPTER THREE. ON IMPERMANENCY
+</td></tr></table>
+<div style="display:none;"  id="div_44632.CHAPTERTHREE.ONIMPERMANENCY">
+<table class="tlvl2"><tr><td bgcolor="#ffffff">
+ &nbsp;  &nbsp; <img src="./application/class/images/expanded.gif" alt="Click to Expand/Collapse Option" title="Click to Expand/Collapse Option" id="expand_44633.§LVII" border=0 hspace=2><a id="href_44633.§LVII" href="/polyglotta/index.php?page=fulltext&view=fulltext&vid=441&mid=739836&level=2&cid=409843" class="ajax_tree1">§LVII
+</td></tr></table>
+</div>
+<table class="tlvl2"><tr><td bgcolor="#ffffff">
+<img src="./application/class/images/expanded.gif" alt="Click to Expand/Collapse Option" title="Click to Expand/Collapse Option" id="expand_44634.CHAPTERFOUR.ONINTUITIVEUNDERSTANDING" border=0 hspace=2><a id="href_44634.CHAPTERFOUR.ONINTUITIVEUNDERSTANDING" href="/polyglotta/index.php?page=fulltext&view=fulltext&vid=441&mid=740582&level=1&cid=410044" class="ajax_tree0">CHAPTER FOUR. ON INTUITIVE UNDERSTANDING
+</td></tr></table>
+<table class="tlvl2"><tr><td bgcolor="#ffffff">
+<img src="./application/class/images/expanded.gif" alt="Click to Expand/Collapse Option" title="Click to Expand/Collapse Option" id="expand_44635.CHAPTERFIVE.ONTHEDEDUCTIONOFTHEPERMANENCYOFTATHAGATAHOOD" border=0 hspace=2><a id="href_44635.CHAPTERFIVE.ONTHEDEDUCTIONOFTHEPERMANENCYOFTATHAGATAHOOD" href="/polyglotta/index.php?page=fulltext&view=fulltext&vid=441&mid=740631&level=1&cid=410061" class="ajax_tree0">CHAPTER FIVE. ON THE DEDUCTION OF THE PERMANENCY OF TATHAGATAHOOD
+</td></tr></table>
+<table class="tlvl2"><tr><td bgcolor="#ffffff">
+<img src="./application/class/images/expanded.gif" alt="Click to Expand/Collapse Option" title="Click to Expand/Collapse Option" id="expand_44636.CHAPTERSIX.ONMOMENTARINESS" border=0 hspace=2><a id="href_44636.CHAPTERSIX.ONMOMENTARINESS" href="/polyglotta/index.php?page=fulltext&view=fulltext&vid=441&mid=740670&level=1&cid=410071" class="ajax_tree0">CHAPTER SIX. ON MOMENTARINESS
+</td></tr></table>
+<table class="tlvl2"><tr><td bgcolor="#ffffff">
+<img src="./application/class/images/expanded.gif" alt="Click to Expand/Collapse Option" title="Click to Expand/Collapse Option" id="expand_44637.CHAPTERSEVEN.ONTRANSFORMATION" border=0 hspace=2><a id="href_44637.CHAPTERSEVEN.ONTRANSFORMATION" href="/polyglotta/index.php?page=fulltext&view=fulltext&vid=441&mid=740851&level=1&cid=410112" class="ajax_tree0">CHAPTER SEVEN. ON TRANSFORMATION
+</td></tr></table>
+<table class="tlvl2"><tr><td bgcolor="#ffffff">
+<a href="javascript:;" onclick="Expand('44638.CHAPTEREIGHT.ONMEAT-EATING','0','1')"><img src="./application/class/images/collapsed.gif" alt="Click to Expand/Collapse Option" title="Click to Expand/Collapse Option" id="img_44638.CHAPTEREIGHT.ONMEAT-EATING" border=0 hspace=2><a id="href_44638.CHAPTEREIGHT.ONMEAT-EATING" href="/polyglotta/index.php?page=fulltext&view=fulltext&vid=441&mid=740897&level=1&cid=410122" class="ajax_tree0">CHAPTER EIGHT. ON MEAT-EATING
+</td></tr></table>
+<div style="display:none;"  id="div_44638.CHAPTEREIGHT.ONMEAT-EATING">
+<table class="tlvl2"><tr><td bgcolor="#ffffff">
+ &nbsp;  &nbsp; <img src="./application/class/images/expanded.gif" alt="Click to Expand/Collapse Option" title="Click to Expand/Collapse Option" id="expand_44639.Verse1-10" border=0 hspace=2><a id="href_44639.Verse1-10" href="/polyglotta/index.php?page=fulltext&view=fulltext&vid=441&mid=740983&level=2&cid=410138" class="ajax_tree1">Verse 1-10
+</td></tr></table>
+<table class="tlvl2"><tr><td bgcolor="#ffffff">
+ &nbsp;  &nbsp; <img src="./application/class/images/expanded.gif" alt="Click to Expand/Collapse Option" title="Click to Expand/Collapse Option" id="expand_44640.Verse11-20" border=0 hspace=2><a id="href_44640.Verse11-20" href="/polyglotta/index.php?page=fulltext&view=fulltext&vid=441&mid=740993&level=2&cid=410148" class="ajax_tree1">Verse 11-20
+</td></tr></table>
+<table class="tlvl2"><tr><td bgcolor="#ffffff">
+ &nbsp;  &nbsp; <img src="./application/class/images/expanded.gif" alt="Click to Expand/Collapse Option" title="Click to Expand/Collapse Option" id="expand_44641.Verse21-24" border=0 hspace=2><a id="href_44641.Verse21-24" href="/polyglotta/index.php?page=fulltext&view=fulltext&vid=441&mid=741003&level=2&cid=410158" class="ajax_tree1">Verse 21-24
+</td></tr></table>
+</div>
+<table class="tlvl2"><tr><td bgcolor="#ffffff">
+<img src="./application/class/images/expanded.gif" alt="Click to Expand/Collapse Option" title="Click to Expand/Collapse Option" id="expand_44642.CHAPTERNINE.THEDHĀRANĪS" border=0 hspace=2><a id="href_44642.CHAPTERNINE.THEDHĀRANĪS" href="/polyglotta/index.php?page=fulltext&view=fulltext&vid=441&mid=741008&level=1&cid=410163" class="ajax_tree0">CHAPTER NINE. THE DHĀRANĪS
+</td></tr></table>
+<table class="tlvl2"><tr><td bgcolor="#ffffff">
+<a href="javascript:;" onclick="Expand('44643.SAGĀTHAKAM','0','1')"><img src="./application/class/images/collapsed.gif" alt="Click to Expand/Collapse Option" title="Click to Expand/Collapse Option" id="img_44643.SAGĀTHAKAM" border=0 hspace=2><a id="href_44643.SAGĀTHAKAM" href="/polyglotta/index.php?page=fulltext&view=fulltext&vid=441&mid=741020&level=1&cid=410170" class="ajax_tree0">SAGĀTHAKAM
+</td></tr></table>
+<div style="display:none;"  id="div_44643.SAGĀTHAKAM">
+<table class="tlvl2"><tr><td bgcolor="#ffffff">
+ &nbsp;  &nbsp; <img src="./application/class/images/expanded.gif" alt="Click to Expand/Collapse Option" title="Click to Expand/Collapse Option" id="expand_44644.Verse1-10" border=0 hspace=2><a id="href_44644.Verse1-10" href="/polyglotta/index.php?page=fulltext&view=fulltext&vid=441&mid=741022&level=2&cid=410172" class="ajax_tree1">Verse 1-10
+</td></tr></table>
+<table class="tlvl2"><tr><td bgcolor="#ffffff">
+ &nbsp;  &nbsp; <img src="./application/class/images/expanded.gif" alt="Click to Expand/Collapse Option" title="Click to Expand/Collapse Option" id="expand_44645.Verse11-20" border=0 hspace=2><a id="href_44645.Verse11-20" href="/polyglotta/index.php?page=fulltext&view=fulltext&vid=441&mid=741032&level=2&cid=410182" class="ajax_tree1">Verse 11-20
+</td></tr></table>
+<table class="tlvl2"><tr><td bgcolor="#ffffff">
+ &nbsp;  &nbsp; <img src="./application/class/images/expanded.gif" alt="Click to Expand/Collapse Option" title="Click to Expand/Collapse Option" id="expand_44646.Verse21-30" border=0 hspace=2><a id="href_44646.Verse21-30" href="/polyglotta/index.php?page=fulltext&view=fulltext&vid=441&mid=741042&level=2&cid=410192" class="ajax_tree1">Verse 21-30
+</td></tr></table>
+<table class="tlvl2"><tr><td bgcolor="#ffffff">
+ &nbsp;  &nbsp; <img src="./application/class/images/expanded.gif" alt="Click to Expand/Collapse Option" title="Click to Expand/Collapse Option" id="expand_44647.Verse31-40" border=0 hspace=2><a id="href_44647.Verse31-40" href="/polyglotta/index.php?page=fulltext&view=fulltext&vid=441&mid=741052&level=2&cid=410202" class="ajax_tree1">Verse 31-40
+</td></tr></table>
+<table class="tlvl2"><tr><td bgcolor="#ffffff">
+ &nbsp;  &nbsp; <img src="./application/class/images/expanded.gif" alt="Click to Expand/Collapse Option" title="Click to Expand/Collapse Option" id="expand_44648.Verse41-50" border=0 hspace=2><a id="href_44648.Verse41-50" href="/polyglotta/index.php?page=fulltext&view=fulltext&vid=441&mid=741062&level=2&cid=410212" class="ajax_tree1">Verse 41-50
+</td></tr></table>
+<table class="tlvl2"><tr><td bgcolor="#ffffff">
+ &nbsp;  &nbsp; <img src="./application/class/images/expanded.gif" alt="Click to Expand/Collapse Option" title="Click to Expand/Collapse Option" id="expand_44649.Verse51-60" border=0 hspace=2><a id="href_44649.Verse51-60" href="/polyglotta/index.php?page=fulltext&view=fulltext&vid=441&mid=741072&level=2&cid=410222" class="ajax_tree1">Verse 51-60
+</td></tr></table>
+<table class="tlvl2"><tr><td bgcolor="#ffffff">
+ &nbsp;  &nbsp; <img src="./application/class/images/expanded.gif" alt="Click to Expand/Collapse Option" title="Click to Expand/Collapse Option" id="expand_44650.Verse61-70" border=0 hspace=2><a id="href_44650.Verse61-70" href="/polyglotta/index.php?page=fulltext&view=fulltext&vid=441&mid=741082&level=2&cid=410232" class="ajax_tree1">Verse 61-70
+</td></tr></table>
+<table class="tlvl2"><tr><td bgcolor="#ffffff">
+ &nbsp;  &nbsp; <img src="./application/class/images/expanded.gif" alt="Click to Expand/Collapse Option" title="Click to Expand/Collapse Option" id="expand_44651.Verse71-80" border=0 hspace=2><a id="href_44651.Verse71-80" href="/polyglotta/index.php?page=fulltext&view=fulltext&vid=441&mid=741092&level=2&cid=410242" class="ajax_tree1">Verse 71-80
+</td></tr></table>
+<table class="tlvl2"><tr><td bgcolor="#ffffff">
+ &nbsp;  &nbsp; <img src="./application/class/images/expanded.gif" alt="Click to Expand/Collapse Option" title="Click to Expand/Collapse Option" id="expand_44652.Verse81-90" border=0 hspace=2><a id="href_44652.Verse81-90" href="/polyglotta/index.php?page=fulltext&view=fulltext&vid=441&mid=741102&level=2&cid=410252" class="ajax_tree1">Verse 81-90
+</td></tr></table>
+<table class="tlvl2"><tr><td bgcolor="#ffffff">
+ &nbsp;  &nbsp; <img src="./application/class/images/expanded.gif" alt="Click to Expand/Collapse Option" title="Click to Expand/Collapse Option" id="expand_44653.Verse91-100" border=0 hspace=2><a id="href_44653.Verse91-100" href="/polyglotta/index.php?page=fulltext&view=fulltext&vid=441&mid=741112&level=2&cid=410262" class="ajax_tree1">Verse 91-100
+</td></tr></table>
+<table class="tlvl2"><tr><td bgcolor="#ffffff">
+ &nbsp;  &nbsp; <img src="./application/class/images/expanded.gif" alt="Click to Expand/Collapse Option" title="Click to Expand/Collapse Option" id="expand_44654.Verse101-110" border=0 hspace=2><a id="href_44654.Verse101-110" href="/polyglotta/index.php?page=fulltext&view=fulltext&vid=441&mid=741122&level=2&cid=410272" class="ajax_tree1">Verse 101-110
+</td></tr></table>
+<table class="tlvl2"><tr><td bgcolor="#ffffff">
+ &nbsp;  &nbsp; <img src="./application/class/images/expanded.gif" alt="Click to Expand/Collapse Option" title="Click to Expand/Collapse Option" id="expand_44655.Verse111-120" border=0 hspace=2><a id="href_44655.Verse111-120" href="/polyglotta/index.php?page=fulltext&view=fulltext&vid=441&mid=741132&level=2&cid=410282" class="ajax_tree1">Verse 111-120
+</td></tr></table>
+<table class="tlvl2"><tr><td bgcolor="#ffffff">
+ &nbsp;  &nbsp; <img src="./application/class/images/expanded.gif" alt="Click to Expand/Collapse Option" title="Click to Expand/Collapse Option" id="expand_44656.Verse121-130" border=0 hspace=2><a id="href_44656.Verse121-130" href="/polyglotta/index.php?page=fulltext&view=fulltext&vid=441&mid=741142&level=2&cid=410292" class="ajax_tree1">Verse 121-130
+</td></tr></table>
+<table class="tlvl2"><tr><td bgcolor="#ffffff">
+ &nbsp;  &nbsp; <img src="./application/class/images/expanded.gif" alt="Click to Expand/Collapse Option" title="Click to Expand/Collapse Option" id="expand_44657.Verse131-140" border=0 hspace=2><a id="href_44657.Verse131-140" href="/polyglotta/index.php?page=fulltext&view=fulltext&vid=441&mid=741152&level=2&cid=410302" class="ajax_tree1">Verse 131-140
+</td></tr></table>
+<table class="tlvl2"><tr><td bgcolor="#ffffff">
+ &nbsp;  &nbsp; <img src="./application/class/images/expanded.gif" alt="Click to Expand/Collapse Option" title="Click to Expand/Collapse Option" id="expand_44658.Verse141-150" border=0 hspace=2><a id="href_44658.Verse141-150" href="/polyglotta/index.php?page=fulltext&view=fulltext&vid=441&mid=741162&level=2&cid=410312" class="ajax_tree1">Verse 141-150
+</td></tr></table>
+<table class="tlvl2"><tr><td bgcolor="#ffffff">
+ &nbsp;  &nbsp; <img src="./application/class/images/expanded.gif" alt="Click to Expand/Collapse Option" title="Click to Expand/Collapse Option" id="expand_44659.Verse151-160" border=0 hspace=2><a id="href_44659.Verse151-160" href="/polyglotta/index.php?page=fulltext&view=fulltext&vid=441&mid=741172&level=2&cid=410322" class="ajax_tree1">Verse 151-160
+</td></tr></table>
+<table class="tlvl2"><tr><td bgcolor="#ffffff">
+ &nbsp;  &nbsp; <img src="./application/class/images/expanded.gif" alt="Click to Expand/Collapse Option" title="Click to Expand/Collapse Option" id="expand_44660.Verse161-170" border=0 hspace=2><a id="href_44660.Verse161-170" href="/polyglotta/index.php?page=fulltext&view=fulltext&vid=441&mid=741182&level=2&cid=410332" class="ajax_tree1">Verse 161-170
+</td></tr></table>
+<table class="tlvl2"><tr><td bgcolor="#ffffff">
+ &nbsp;  &nbsp; <img src="./application/class/images/expanded.gif" alt="Click to Expand/Collapse Option" title="Click to Expand/Collapse Option" id="expand_44661.Verse171-180" border=0 hspace=2><a id="href_44661.Verse171-180" href="/polyglotta/index.php?page=fulltext&view=fulltext&vid=441&mid=741192&level=2&cid=410342" class="ajax_tree1">Verse 171-180
+</td></tr></table>
+<table class="tlvl2"><tr><td bgcolor="#ffffff">
+ &nbsp;  &nbsp; <img src="./application/class/images/expanded.gif" alt="Click to Expand/Collapse Option" title="Click to Expand/Collapse Option" id="expand_44662.Verse181-190" border=0 hspace=2><a id="href_44662.Verse181-190" href="/polyglotta/index.php?page=fulltext&view=fulltext&vid=441&mid=741202&level=2&cid=410352" class="ajax_tree1">Verse 181-190
+</td></tr></table>
+<table class="tlvl2"><tr><td bgcolor="#ffffff">
+ &nbsp;  &nbsp; <img src="./application/class/images/expanded.gif" alt="Click to Expand/Collapse Option" title="Click to Expand/Collapse Option" id="expand_44663.Verse191-200" border=0 hspace=2><a id="href_44663.Verse191-200" href="/polyglotta/index.php?page=fulltext&view=fulltext&vid=441&mid=741212&level=2&cid=410362" class="ajax_tree1">Verse 191-200
+</td></tr></table>
+<table class="tlvl2"><tr><td bgcolor="#ffffff">
+ &nbsp;  &nbsp; <img src="./application/class/images/expanded.gif" alt="Click to Expand/Collapse Option" title="Click to Expand/Collapse Option" id="expand_44664.Verse201-210" border=0 hspace=2><a id="href_44664.Verse201-210" href="/polyglotta/index.php?page=fulltext&view=fulltext&vid=441&mid=741222&level=2&cid=410372" class="ajax_tree1">Verse 201-210
+</td></tr></table>
+<table class="tlvl2"><tr><td bgcolor="#ffffff">
+ &nbsp;  &nbsp; <img src="./application/class/images/expanded.gif" alt="Click to Expand/Collapse Option" title="Click to Expand/Collapse Option" id="expand_44665.Verse211-220" border=0 hspace=2><a id="href_44665.Verse211-220" href="/polyglotta/index.php?page=fulltext&view=fulltext&vid=441&mid=741232&level=2&cid=410382" class="ajax_tree1">Verse 211-220
+</td></tr></table>
+<table class="tlvl2"><tr><td bgcolor="#ffffff">
+ &nbsp;  &nbsp; <img src="./application/class/images/expanded.gif" alt="Click to Expand/Collapse Option" title="Click to Expand/Collapse Option" id="expand_44666.Verse221-230" border=0 hspace=2><a id="href_44666.Verse221-230" href="/polyglotta/index.php?page=fulltext&view=fulltext&vid=441&mid=741242&level=2&cid=410392" class="ajax_tree1">Verse 221-230
+</td></tr></table>
+<table class="tlvl2"><tr><td bgcolor="#ffffff">
+ &nbsp;  &nbsp; <img src="./application/class/images/expanded.gif" alt="Click to Expand/Collapse Option" title="Click to Expand/Collapse Option" id="expand_44667.Verse231-240" border=0 hspace=2><a id="href_44667.Verse231-240" href="/polyglotta/index.php?page=fulltext&view=fulltext&vid=441&mid=741252&level=2&cid=410402" class="ajax_tree1">Verse 231-240
+</td></tr></table>
+<table class="tlvl2"><tr><td bgcolor="#ffffff">
+ &nbsp;  &nbsp; <img src="./application/class/images/expanded.gif" alt="Click to Expand/Collapse Option" title="Click to Expand/Collapse Option" id="expand_44668.Verse241-250" border=0 hspace=2><a id="href_44668.Verse241-250" href="/polyglotta/index.php?page=fulltext&view=fulltext&vid=441&mid=741262&level=2&cid=410412" class="ajax_tree1">Verse 241-250
+</td></tr></table>
+<table class="tlvl2"><tr><td bgcolor="#ffffff">
+ &nbsp;  &nbsp; <img src="./application/class/images/expanded.gif" alt="Click to Expand/Collapse Option" title="Click to Expand/Collapse Option" id="expand_44669.Verse261-270" border=0 hspace=2><a id="href_44669.Verse261-270" href="/polyglotta/index.php?page=fulltext&view=fulltext&vid=441&mid=741282&level=2&cid=410432" class="ajax_tree1">Verse 261-270
+</td></tr></table>
+<table class="tlvl2"><tr><td bgcolor="#ffffff">
+ &nbsp;  &nbsp; <img src="./application/class/images/expanded.gif" alt="Click to Expand/Collapse Option" title="Click to Expand/Collapse Option" id="expand_44670.Verse271-280" border=0 hspace=2><a id="href_44670.Verse271-280" href="/polyglotta/index.php?page=fulltext&view=fulltext&vid=441&mid=741292&level=2&cid=410442" class="ajax_tree1">Verse 271-280
+</td></tr></table>
+<table class="tlvl2"><tr><td bgcolor="#ffffff">
+ &nbsp;  &nbsp; <img src="./application/class/images/expanded.gif" alt="Click to Expand/Collapse Option" title="Click to Expand/Collapse Option" id="expand_44671.Verse281-290" border=0 hspace=2><a id="href_44671.Verse281-290" href="/polyglotta/index.php?page=fulltext&view=fulltext&vid=441&mid=741302&level=2&cid=410452" class="ajax_tree1">Verse 281-290
+</td></tr></table>
+<table class="tlvl2"><tr><td bgcolor="#ffffff">
+ &nbsp;  &nbsp; <img src="./application/class/images/expanded.gif" alt="Click to Expand/Collapse Option" title="Click to Expand/Collapse Option" id="expand_44672.Verse291-300" border=0 hspace=2><a id="href_44672.Verse291-300" href="/polyglotta/index.php?page=fulltext&view=fulltext&vid=441&mid=741312&level=2&cid=410462" class="ajax_tree1">Verse 291-300
+</td></tr></table>
+<table class="tlvl2"><tr><td bgcolor="#ffffff">
+ &nbsp;  &nbsp; <img src="./application/class/images/expanded.gif" alt="Click to Expand/Collapse Option" title="Click to Expand/Collapse Option" id="expand_44673.Verse301-310" border=0 hspace=2><a id="href_44673.Verse301-310" href="/polyglotta/index.php?page=fulltext&view=fulltext&vid=441&mid=741322&level=2&cid=410472" class="ajax_tree1">Verse 301-310
+</td></tr></table>
+<table class="tlvl2"><tr><td bgcolor="#ffffff">
+ &nbsp;  &nbsp; <img src="./application/class/images/expanded.gif" alt="Click to Expand/Collapse Option" title="Click to Expand/Collapse Option" id="expand_44674.Verse311-320" border=0 hspace=2><a id="href_44674.Verse311-320" href="/polyglotta/index.php?page=fulltext&view=fulltext&vid=441&mid=741332&level=2&cid=410482" class="ajax_tree1">Verse 311-320
+</td></tr></table>
+<table class="tlvl2"><tr><td bgcolor="#ffffff">
+ &nbsp;  &nbsp; <img src="./application/class/images/expanded.gif" alt="Click to Expand/Collapse Option" title="Click to Expand/Collapse Option" id="expand_44675.Verse321-330" border=0 hspace=2><a id="href_44675.Verse321-330" href="/polyglotta/index.php?page=fulltext&view=fulltext&vid=441&mid=741342&level=2&cid=410492" class="ajax_tree1">Verse 321-330
+</td></tr></table>
+<table class="tlvl2"><tr><td bgcolor="#ffffff">
+ &nbsp;  &nbsp; <img src="./application/class/images/expanded.gif" alt="Click to Expand/Collapse Option" title="Click to Expand/Collapse Option" id="expand_44676.Verse331-340" border=0 hspace=2><a id="href_44676.Verse331-340" href="/polyglotta/index.php?page=fulltext&view=fulltext&vid=441&mid=741352&level=2&cid=410502" class="ajax_tree1">Verse 331-340
+</td></tr></table>
+<table class="tlvl2"><tr><td bgcolor="#ffffff">
+ &nbsp;  &nbsp; <img src="./application/class/images/expanded.gif" alt="Click to Expand/Collapse Option" title="Click to Expand/Collapse Option" id="expand_44677.Verse341-350" border=0 hspace=2><a id="href_44677.Verse341-350" href="/polyglotta/index.php?page=fulltext&view=fulltext&vid=441&mid=741362&level=2&cid=410512" class="ajax_tree1">Verse 341-350
+</td></tr></table>
+<table class="tlvl2"><tr><td bgcolor="#ffffff">
+ &nbsp;  &nbsp; <img src="./application/class/images/expanded.gif" alt="Click to Expand/Collapse Option" title="Click to Expand/Collapse Option" id="expand_44678.Verse351-360" border=0 hspace=2><a id="href_44678.Verse351-360" href="/polyglotta/index.php?page=fulltext&view=fulltext&vid=441&mid=741372&level=2&cid=410522" class="ajax_tree1">Verse 351-360
+</td></tr></table>
+<table class="tlvl2"><tr><td bgcolor="#ffffff">
+ &nbsp;  &nbsp; <img src="./application/class/images/expanded.gif" alt="Click to Expand/Collapse Option" title="Click to Expand/Collapse Option" id="expand_44679.Verse361-370" border=0 hspace=2><a id="href_44679.Verse361-370" href="/polyglotta/index.php?page=fulltext&view=fulltext&vid=441&mid=741382&level=2&cid=410532" class="ajax_tree1">Verse 361-370
+</td></tr></table>
+<table class="tlvl2"><tr><td bgcolor="#ffffff">
+ &nbsp;  &nbsp; <img src="./application/class/images/expanded.gif" alt="Click to Expand/Collapse Option" title="Click to Expand/Collapse Option" id="expand_44680.Verse371-380" border=0 hspace=2><a id="href_44680.Verse371-380" href="/polyglotta/index.php?page=fulltext&view=fulltext&vid=441&mid=741392&level=2&cid=410542" class="ajax_tree1">Verse 371-380
+</td></tr></table>
+<table class="tlvl2"><tr><td bgcolor="#ffffff">
+ &nbsp;  &nbsp; <img src="./application/class/images/expanded.gif" alt="Click to Expand/Collapse Option" title="Click to Expand/Collapse Option" id="expand_44681.Verse381-390" border=0 hspace=2><a id="href_44681.Verse381-390" href="/polyglotta/index.php?page=fulltext&view=fulltext&vid=441&mid=741402&level=2&cid=410552" class="ajax_tree1">Verse 381-390
+</td></tr></table>
+<table class="tlvl2"><tr><td bgcolor="#ffffff">
+ &nbsp;  &nbsp; <img src="./application/class/images/expanded.gif" alt="Click to Expand/Collapse Option" title="Click to Expand/Collapse Option" id="expand_44682.Verse391-400" border=0 hspace=2><a id="href_44682.Verse391-400" href="/polyglotta/index.php?page=fulltext&view=fulltext&vid=441&mid=741412&level=2&cid=410562" class="ajax_tree1">Verse 391-400
+</td></tr></table>
+<table class="tlvl2"><tr><td bgcolor="#ffffff">
+ &nbsp;  &nbsp; <img src="./application/class/images/expanded.gif" alt="Click to Expand/Collapse Option" title="Click to Expand/Collapse Option" id="expand_44683.Verse401-410" border=0 hspace=2><a id="href_44683.Verse401-410" href="/polyglotta/index.php?page=fulltext&view=fulltext&vid=441&mid=741422&level=2&cid=410572" class="ajax_tree1">Verse 401-410
+</td></tr></table>
+<table class="tlvl2"><tr><td bgcolor="#ffffff">
+ &nbsp;  &nbsp; <img src="./application/class/images/expanded.gif" alt="Click to Expand/Collapse Option" title="Click to Expand/Collapse Option" id="expand_44684.Verse411-420" border=0 hspace=2><a id="href_44684.Verse411-420" href="/polyglotta/index.php?page=fulltext&view=fulltext&vid=441&mid=741432&level=2&cid=410582" class="ajax_tree1">Verse 411-420
+</td></tr></table>
+<table class="tlvl2"><tr><td bgcolor="#ffffff">
+ &nbsp;  &nbsp; <img src="./application/class/images/expanded.gif" alt="Click to Expand/Collapse Option" title="Click to Expand/Collapse Option" id="expand_44685.Verse421-430" border=0 hspace=2><a id="href_44685.Verse421-430" href="/polyglotta/index.php?page=fulltext&view=fulltext&vid=441&mid=741442&level=2&cid=410592" class="ajax_tree1">Verse 421-430
+</td></tr></table>
+<table class="tlvl2"><tr><td bgcolor="#ffffff">
+ &nbsp;  &nbsp; <img src="./application/class/images/expanded.gif" alt="Click to Expand/Collapse Option" title="Click to Expand/Collapse Option" id="expand_44686.Verse431-440" border=0 hspace=2><a id="href_44686.Verse431-440" href="/polyglotta/index.php?page=fulltext&view=fulltext&vid=441&mid=741452&level=2&cid=410602" class="ajax_tree1">Verse 431-440
+</td></tr></table>
+<table class="tlvl2"><tr><td bgcolor="#ffffff">
+ &nbsp;  &nbsp; <img src="./application/class/images/expanded.gif" alt="Click to Expand/Collapse Option" title="Click to Expand/Collapse Option" id="expand_44687.Verse441-450" border=0 hspace=2><a id="href_44687.Verse441-450" href="/polyglotta/index.php?page=fulltext&view=fulltext&vid=441&mid=741462&level=2&cid=410612" class="ajax_tree1">Verse 441-450
+</td></tr></table>
+<table class="tlvl2"><tr><td bgcolor="#ffffff">
+ &nbsp;  &nbsp; <img src="./application/class/images/expanded.gif" alt="Click to Expand/Collapse Option" title="Click to Expand/Collapse Option" id="expand_44688.Verse451-460" border=0 hspace=2><a id="href_44688.Verse451-460" href="/polyglotta/index.php?page=fulltext&view=fulltext&vid=441&mid=741472&level=2&cid=410622" class="ajax_tree1">Verse 451-460
+</td></tr></table>
+<table class="tlvl2"><tr><td bgcolor="#ffffff">
+ &nbsp;  &nbsp; <img src="./application/class/images/expanded.gif" alt="Click to Expand/Collapse Option" title="Click to Expand/Collapse Option" id="expand_44689.Verse461-470" border=0 hspace=2><a id="href_44689.Verse461-470" href="/polyglotta/index.php?page=fulltext&view=fulltext&vid=441&mid=741482&level=2&cid=410632" class="ajax_tree1">Verse 461-470
+</td></tr></table>
+<table class="tlvl2"><tr><td bgcolor="#ffffff">
+ &nbsp;  &nbsp; <img src="./application/class/images/expanded.gif" alt="Click to Expand/Collapse Option" title="Click to Expand/Collapse Option" id="expand_44690.Verse471-480" border=0 hspace=2><a id="href_44690.Verse471-480" href="/polyglotta/index.php?page=fulltext&view=fulltext&vid=441&mid=741492&level=2&cid=410642" class="ajax_tree1">Verse 471-480
+</td></tr></table>
+<table class="tlvl2"><tr><td bgcolor="#ffffff">
+ &nbsp;  &nbsp; <img src="./application/class/images/expanded.gif" alt="Click to Expand/Collapse Option" title="Click to Expand/Collapse Option" id="expand_44691.Verse481-490" border=0 hspace=2><a id="href_44691.Verse481-490" href="/polyglotta/index.php?page=fulltext&view=fulltext&vid=441&mid=741502&level=2&cid=410652" class="ajax_tree1">Verse 481-490
+</td></tr></table>
+<table class="tlvl2"><tr><td bgcolor="#ffffff">
+ &nbsp;  &nbsp; <img src="./application/class/images/expanded.gif" alt="Click to Expand/Collapse Option" title="Click to Expand/Collapse Option" id="expand_44692.Verse491-500" border=0 hspace=2><a id="href_44692.Verse491-500" href="/polyglotta/index.php?page=fulltext&view=fulltext&vid=441&mid=741512&level=2&cid=410662" class="ajax_tree1">Verse 491-500
+</td></tr></table>
+<table class="tlvl2"><tr><td bgcolor="#ffffff">
+ &nbsp;  &nbsp; <img src="./application/class/images/expanded.gif" alt="Click to Expand/Collapse Option" title="Click to Expand/Collapse Option" id="expand_44693.Verse501-510" border=0 hspace=2><a id="href_44693.Verse501-510" href="/polyglotta/index.php?page=fulltext&view=fulltext&vid=441&mid=741522&level=2&cid=410672" class="ajax_tree1">Verse 501-510
+</td></tr></table>
+<table class="tlvl2"><tr><td bgcolor="#ffffff">
+ &nbsp;  &nbsp; <img src="./application/class/images/expanded.gif" alt="Click to Expand/Collapse Option" title="Click to Expand/Collapse Option" id="expand_44694.Verse511-520" border=0 hspace=2><a id="href_44694.Verse511-520" href="/polyglotta/index.php?page=fulltext&view=fulltext&vid=441&mid=741532&level=2&cid=410682" class="ajax_tree1">Verse 511-520
+</td></tr></table>
+<table class="tlvl2"><tr><td bgcolor="#ffffff">
+ &nbsp;  &nbsp; <img src="./application/class/images/expanded.gif" alt="Click to Expand/Collapse Option" title="Click to Expand/Collapse Option" id="expand_44695.Verse521-530" border=0 hspace=2><a id="href_44695.Verse521-530" href="/polyglotta/index.php?page=fulltext&view=fulltext&vid=441&mid=741542&level=2&cid=410692" class="ajax_tree1">Verse 521-530
+</td></tr></table>
+<table class="tlvl2"><tr><td bgcolor="#ffffff">
+ &nbsp;  &nbsp; <img src="./application/class/images/expanded.gif" alt="Click to Expand/Collapse Option" title="Click to Expand/Collapse Option" id="expand_44696.Verse531-540" border=0 hspace=2><a id="href_44696.Verse531-540" href="/polyglotta/index.php?page=fulltext&view=fulltext&vid=441&mid=741552&level=2&cid=410702" class="ajax_tree1">Verse 531-540
+</td></tr></table>
+<table class="tlvl2"><tr><td bgcolor="#ffffff">
+ &nbsp;  &nbsp; <img src="./application/class/images/expanded.gif" alt="Click to Expand/Collapse Option" title="Click to Expand/Collapse Option" id="expand_44697.Verse541-550" border=0 hspace=2><a id="href_44697.Verse541-550" href="/polyglotta/index.php?page=fulltext&view=fulltext&vid=441&mid=741562&level=2&cid=410712" class="ajax_tree1">Verse 541-550
+</td></tr></table>
+<table class="tlvl2"><tr><td bgcolor="#ffffff">
+ &nbsp;  &nbsp; <img src="./application/class/images/expanded.gif" alt="Click to Expand/Collapse Option" title="Click to Expand/Collapse Option" id="expand_44698.Verse551-560" border=0 hspace=2><a id="href_44698.Verse551-560" href="/polyglotta/index.php?page=fulltext&view=fulltext&vid=441&mid=741572&level=2&cid=410722" class="ajax_tree1">Verse 551-560
+</td></tr></table>
+<table class="tlvl2"><tr><td bgcolor="#ffffff">
+ &nbsp;  &nbsp; <img src="./application/class/images/expanded.gif" alt="Click to Expand/Collapse Option" title="Click to Expand/Collapse Option" id="expand_44699.Verse561-570" border=0 hspace=2><a id="href_44699.Verse561-570" href="/polyglotta/index.php?page=fulltext&view=fulltext&vid=441&mid=741582&level=2&cid=410732" class="ajax_tree1">Verse 561-570
+</td></tr></table>
+<table class="tlvl2"><tr><td bgcolor="#ffffff">
+ &nbsp;  &nbsp; <img src="./application/class/images/expanded.gif" alt="Click to Expand/Collapse Option" title="Click to Expand/Collapse Option" id="expand_44700.Verse571-580" border=0 hspace=2><a id="href_44700.Verse571-580" href="/polyglotta/index.php?page=fulltext&view=fulltext&vid=441&mid=741592&level=2&cid=410742" class="ajax_tree1">Verse 571-580
+</td></tr></table>
+<table class="tlvl2"><tr><td bgcolor="#ffffff">
+ &nbsp;  &nbsp; <img src="./application/class/images/expanded.gif" alt="Click to Expand/Collapse Option" title="Click to Expand/Collapse Option" id="expand_44701.Verse581-590" border=0 hspace=2><a id="href_44701.Verse581-590" href="/polyglotta/index.php?page=fulltext&view=fulltext&vid=441&mid=741602&level=2&cid=410752" class="ajax_tree1">Verse 581-590
+</td></tr></table>
+<table class="tlvl2"><tr><td bgcolor="#ffffff">
+ &nbsp;  &nbsp; <img src="./application/class/images/expanded.gif" alt="Click to Expand/Collapse Option" title="Click to Expand/Collapse Option" id="expand_44702.Verse591-600" border=0 hspace=2><a id="href_44702.Verse591-600" href="/polyglotta/index.php?page=fulltext&view=fulltext&vid=441&mid=741612&level=2&cid=410762" class="ajax_tree1">Verse 591-600
+</td></tr></table>
+<table class="tlvl2"><tr><td bgcolor="#ffffff">
+ &nbsp;  &nbsp; <img src="./application/class/images/expanded.gif" alt="Click to Expand/Collapse Option" title="Click to Expand/Collapse Option" id="expand_44703.Verse601-610" border=0 hspace=2><a id="href_44703.Verse601-610" href="/polyglotta/index.php?page=fulltext&view=fulltext&vid=441&mid=741622&level=2&cid=410772" class="ajax_tree1">Verse 601-610
+</td></tr></table>
+<table class="tlvl2"><tr><td bgcolor="#ffffff">
+ &nbsp;  &nbsp; <img src="./application/class/images/expanded.gif" alt="Click to Expand/Collapse Option" title="Click to Expand/Collapse Option" id="expand_44704.Verse611-620" border=0 hspace=2><a id="href_44704.Verse611-620" href="/polyglotta/index.php?page=fulltext&view=fulltext&vid=441&mid=741632&level=2&cid=410782" class="ajax_tree1">Verse 611-620
+</td></tr></table>
+<table class="tlvl2"><tr><td bgcolor="#ffffff">
+ &nbsp;  &nbsp; <img src="./application/class/images/expanded.gif" alt="Click to Expand/Collapse Option" title="Click to Expand/Collapse Option" id="expand_44705.Verse621-630" border=0 hspace=2><a id="href_44705.Verse621-630" href="/polyglotta/index.php?page=fulltext&view=fulltext&vid=441&mid=741642&level=2&cid=410792" class="ajax_tree1">Verse 621-630
+</td></tr></table>
+<table class="tlvl2"><tr><td bgcolor="#ffffff">
+ &nbsp;  &nbsp; <img src="./application/class/images/expanded.gif" alt="Click to Expand/Collapse Option" title="Click to Expand/Collapse Option" id="expand_44706.Verse631-640" border=0 hspace=2><a id="href_44706.Verse631-640" href="/polyglotta/index.php?page=fulltext&view=fulltext&vid=441&mid=741652&level=2&cid=410802" class="ajax_tree1">Verse 631-640
+</td></tr></table>
+<table class="tlvl2"><tr><td bgcolor="#ffffff">
+ &nbsp;  &nbsp; <img src="./application/class/images/expanded.gif" alt="Click to Expand/Collapse Option" title="Click to Expand/Collapse Option" id="expand_44707.Verse641-650" border=0 hspace=2><a id="href_44707.Verse641-650" href="/polyglotta/index.php?page=fulltext&view=fulltext&vid=441&mid=741662&level=2&cid=410812" class="ajax_tree1">Verse 641-650
+</td></tr></table>
+<table class="tlvl2"><tr><td bgcolor="#ffffff">
+ &nbsp;  &nbsp; <img src="./application/class/images/expanded.gif" alt="Click to Expand/Collapse Option" title="Click to Expand/Collapse Option" id="expand_44708.Verse651-660" border=0 hspace=2><a id="href_44708.Verse651-660" href="/polyglotta/index.php?page=fulltext&view=fulltext&vid=441&mid=741672&level=2&cid=410822" class="ajax_tree1">Verse 651-660
+</td></tr></table>
+<table class="tlvl2"><tr><td bgcolor="#ffffff">
+ &nbsp;  &nbsp; <img src="./application/class/images/expanded.gif" alt="Click to Expand/Collapse Option" title="Click to Expand/Collapse Option" id="expand_44709.Verse661-670" border=0 hspace=2><a id="href_44709.Verse661-670" href="/polyglotta/index.php?page=fulltext&view=fulltext&vid=441&mid=741682&level=2&cid=410832" class="ajax_tree1">Verse 661-670
+</td></tr></table>
+<table class="tlvl2"><tr><td bgcolor="#ffffff">
+ &nbsp;  &nbsp; <img src="./application/class/images/expanded.gif" alt="Click to Expand/Collapse Option" title="Click to Expand/Collapse Option" id="expand_44710.Verse671-680" border=0 hspace=2><a id="href_44710.Verse671-680" href="/polyglotta/index.php?page=fulltext&view=fulltext&vid=441&mid=741692&level=2&cid=410842" class="ajax_tree1">Verse 671-680
+</td></tr></table>
+<table class="tlvl2"><tr><td bgcolor="#ffffff">
+ &nbsp;  &nbsp; <img src="./application/class/images/expanded.gif" alt="Click to Expand/Collapse Option" title="Click to Expand/Collapse Option" id="expand_44711.Verse681-690" border=0 hspace=2><a id="href_44711.Verse681-690" href="/polyglotta/index.php?page=fulltext&view=fulltext&vid=441&mid=741702&level=2&cid=410852" class="ajax_tree1">Verse 681-690
+</td></tr></table>
+<table class="tlvl2"><tr><td bgcolor="#ffffff">
+ &nbsp;  &nbsp; <img src="./application/class/images/expanded.gif" alt="Click to Expand/Collapse Option" title="Click to Expand/Collapse Option" id="expand_44712.Verse691-700" border=0 hspace=2><a id="href_44712.Verse691-700" href="/polyglotta/index.php?page=fulltext&view=fulltext&vid=441&mid=741712&level=2&cid=410862" class="ajax_tree1">Verse 691-700
+</td></tr></table>
+<table class="tlvl2"><tr><td bgcolor="#ffffff">
+ &nbsp;  &nbsp; <img src="./application/class/images/expanded.gif" alt="Click to Expand/Collapse Option" title="Click to Expand/Collapse Option" id="expand_44713.Verse701-710" border=0 hspace=2><a id="href_44713.Verse701-710" href="/polyglotta/index.php?page=fulltext&view=fulltext&vid=441&mid=741722&level=2&cid=410872" class="ajax_tree1">Verse 701-710
+</td></tr></table>
+<table class="tlvl2"><tr><td bgcolor="#ffffff">
+ &nbsp;  &nbsp; <img src="./application/class/images/expanded.gif" alt="Click to Expand/Collapse Option" title="Click to Expand/Collapse Option" id="expand_44714.Verse711-720" border=0 hspace=2><a id="href_44714.Verse711-720" href="/polyglotta/index.php?page=fulltext&view=fulltext&vid=441&mid=741732&level=2&cid=410882" class="ajax_tree1">Verse 711-720
+</td></tr></table>
+<table class="tlvl2"><tr><td bgcolor="#ffffff">
+ &nbsp;  &nbsp; <img src="./application/class/images/expanded.gif" alt="Click to Expand/Collapse Option" title="Click to Expand/Collapse Option" id="expand_44715.Verse721-730" border=0 hspace=2><a id="href_44715.Verse721-730" href="/polyglotta/index.php?page=fulltext&view=fulltext&vid=441&mid=741742&level=2&cid=410892" class="ajax_tree1">Verse 721-730
+</td></tr></table>
+<table class="tlvl2"><tr><td bgcolor="#ffffff">
+ &nbsp;  &nbsp; <img src="./application/class/images/expanded.gif" alt="Click to Expand/Collapse Option" title="Click to Expand/Collapse Option" id="expand_44716.Verse731-740" border=0 hspace=2><a id="href_44716.Verse731-740" href="/polyglotta/index.php?page=fulltext&view=fulltext&vid=441&mid=741752&level=2&cid=410902" class="ajax_tree1">Verse 731-740
+</td></tr></table>
+<table class="tlvl2"><tr><td bgcolor="#ffffff">
+ &nbsp;  &nbsp; <img src="./application/class/images/expanded.gif" alt="Click to Expand/Collapse Option" title="Click to Expand/Collapse Option" id="expand_44717.Verse741-750" border=0 hspace=2><a id="href_44717.Verse741-750" href="/polyglotta/index.php?page=fulltext&view=fulltext&vid=441&mid=741762&level=2&cid=410912" class="ajax_tree1">Verse 741-750
+</td></tr></table>
+<table class="tlvl2"><tr><td bgcolor="#ffffff">
+ &nbsp;  &nbsp; <img src="./application/class/images/expanded.gif" alt="Click to Expand/Collapse Option" title="Click to Expand/Collapse Option" id="expand_44718.Verse751-760" border=0 hspace=2><a id="href_44718.Verse751-760" href="/polyglotta/index.php?page=fulltext&view=fulltext&vid=441&mid=741772&level=2&cid=410922" class="ajax_tree1">Verse 751-760
+</td></tr></table>
+<table class="tlvl2"><tr><td bgcolor="#ffffff">
+ &nbsp;  &nbsp; <img src="./application/class/images/expanded.gif" alt="Click to Expand/Collapse Option" title="Click to Expand/Collapse Option" id="expand_44719.Verse761-770" border=0 hspace=2><a id="href_44719.Verse761-770" href="/polyglotta/index.php?page=fulltext&view=fulltext&vid=441&mid=741782&level=2&cid=410932" class="ajax_tree1">Verse 761-770
+</td></tr></table>
+<table class="tlvl2"><tr><td bgcolor="#ffffff">
+ &nbsp;  &nbsp; <img src="./application/class/images/expanded.gif" alt="Click to Expand/Collapse Option" title="Click to Expand/Collapse Option" id="expand_44720.Verse771-780" border=0 hspace=2><a id="href_44720.Verse771-780" href="/polyglotta/index.php?page=fulltext&view=fulltext&vid=441&mid=741792&level=2&cid=410942" class="ajax_tree1">Verse 771-780
+</td></tr></table>
+<table class="tlvl2"><tr><td bgcolor="#ffffff">
+ &nbsp;  &nbsp; <img src="./application/class/images/expanded.gif" alt="Click to Expand/Collapse Option" title="Click to Expand/Collapse Option" id="expand_44721.Verse781-790" border=0 hspace=2><a id="href_44721.Verse781-790" href="/polyglotta/index.php?page=fulltext&view=fulltext&vid=441&mid=741802&level=2&cid=410952" class="ajax_tree1">Verse 781-790
+</td></tr></table>
+<table class="tlvl2"><tr><td bgcolor="#ffffff">
+ &nbsp;  &nbsp; <img src="./application/class/images/expanded.gif" alt="Click to Expand/Collapse Option" title="Click to Expand/Collapse Option" id="expand_44722.Verse791-800" border=0 hspace=2><a id="href_44722.Verse791-800" href="/polyglotta/index.php?page=fulltext&view=fulltext&vid=441&mid=741812&level=2&cid=410962" class="ajax_tree1">Verse 791-800
+</td></tr></table>
+<table class="tlvl2"><tr><td bgcolor="#ffffff">
+ &nbsp;  &nbsp; <img src="./application/class/images/expanded.gif" alt="Click to Expand/Collapse Option" title="Click to Expand/Collapse Option" id="expand_44723.Verse801-810" border=0 hspace=2><a id="href_44723.Verse801-810" href="/polyglotta/index.php?page=fulltext&view=fulltext&vid=441&mid=741822&level=2&cid=410972" class="ajax_tree1">Verse 801-810
+</td></tr></table>
+<table class="tlvl2"><tr><td bgcolor="#ffffff">
+ &nbsp;  &nbsp; <img src="./application/class/images/expanded.gif" alt="Click to Expand/Collapse Option" title="Click to Expand/Collapse Option" id="expand_44724.Verse831-840" border=0 hspace=2><a id="href_44724.Verse831-840" href="/polyglotta/index.php?page=fulltext&view=fulltext&vid=441&mid=741852&level=2&cid=411002" class="ajax_tree1">Verse 831-840
+</td></tr></table>
+<table class="tlvl2"><tr><td bgcolor="#ffffff">
+ &nbsp;  &nbsp; <img src="./application/class/images/expanded.gif" alt="Click to Expand/Collapse Option" title="Click to Expand/Collapse Option" id="expand_44725.Verse841-850" border=0 hspace=2><a id="href_44725.Verse841-850" href="/polyglotta/index.php?page=fulltext&view=fulltext&vid=441&mid=741862&level=2&cid=411012" class="ajax_tree1">Verse 841-850
+</td></tr></table>
+<table class="tlvl2"><tr><td bgcolor="#ffffff">
+ &nbsp;  &nbsp; <img src="./application/class/images/expanded.gif" alt="Click to Expand/Collapse Option" title="Click to Expand/Collapse Option" id="expand_44726.Verse851-860" border=0 hspace=2><a id="href_44726.Verse851-860" href="/polyglotta/index.php?page=fulltext&view=fulltext&vid=441&mid=741872&level=2&cid=411022" class="ajax_tree1">Verse 851-860
+</td></tr></table>
+<table class="tlvl2"><tr><td bgcolor="#ffffff">
+ &nbsp;  &nbsp; <img src="./application/class/images/expanded.gif" alt="Click to Expand/Collapse Option" title="Click to Expand/Collapse Option" id="expand_44727.Verse861-870" border=0 hspace=2><a id="href_44727.Verse861-870" href="/polyglotta/index.php?page=fulltext&view=fulltext&vid=441&mid=741882&level=2&cid=411032" class="ajax_tree1">Verse 861-870
+</td></tr></table>
+<table class="tlvl2"><tr><td bgcolor="#ffffff">
+ &nbsp;  &nbsp; <img src="./application/class/images/expanded.gif" alt="Click to Expand/Collapse Option" title="Click to Expand/Collapse Option" id="expand_44728.Verse871-880" border=0 hspace=2><a id="href_44728.Verse871-880" href="/polyglotta/index.php?page=fulltext&view=fulltext&vid=441&mid=741892&level=2&cid=411042" class="ajax_tree1">Verse 871-880
+</td></tr></table>
+<table class="tlvl2"><tr><td bgcolor="#ffffff">
+ &nbsp;  &nbsp; <img src="./application/class/images/expanded.gif" alt="Click to Expand/Collapse Option" title="Click to Expand/Collapse Option" id="expand_44729.Verse881-890" border=0 hspace=2><a id="href_44729.Verse881-890" href="/polyglotta/index.php?page=fulltext&view=fulltext&vid=441&mid=741902&level=2&cid=411052" class="ajax_tree1">Verse 881-890
+</td></tr></table>
+</div>
+<script language=javascript>test('44580.Initialquestions|44577.CHAPTERONE.RĀVANA,LORDOFLANKĀ,ASKSFORINSTRUCTION|')</script><div class='bverknavn'><a href='/polyglotta/index.php?page=library&amp;bid=2'>Back to library</a></div></div><!-- venstrefulltekstfelt --><div class="clear"></div><!-- clear --><div id="nav-menu"><ul>
+  		  <li  id="nav-1"><a class="tabValgt" href="/polyglotta/index.php?page=record&amp;view=record&amp;vid=441&amp;mid=738773&amp;level=2">Sentence by sentence view</a></li>
+  		  <li  id="nav-2"><a  href="/polyglotta/index.php?page=fulltext&amp;view=fulltext&amp;vid=441&amp;cid=409472&amp;mid=738773&amp;level=2">Continuous text view</a></li>
+ 		<li  id="nav-3"><a  href="/polyglotta/admin/index.php?page=fulltext&amp;view=fulltext&amp;vid=441&amp;cid=409472&amp;mid=738773&amp;level=2">View in admin</a></li>
+
+  		  </ul></div><div class='clear'></div><!-- clear -->			<script language="javascript" type="text/javascript">
+			var kilderef = '';
+			var tekstid = 0;
+			var tekstid_bilder = 0;
+			var filsti = '';
+			var thumbnail = '';
+			</script>
+		<div class='infofulltekstfelt'><div class='BolkContainer'><div class='textvar' style='width:13.285714285714%;'><div class='Sanskrit'><div class='kilderef' id='3327189'></div><div class='clear'></div><span id='3327189bi' class='paragraph'>
+							samanantaraprativibuddhe parāvṛttāśraye svacittadṛśyamātrādhigame ’vikalpapracārasthitasya laṅkādhipateḥ pūrvakuśalamūlasaṃcoditasya sarvaśāstravidagdhabuddher yathātathyadarśanasya aparapraṇeyasya svabuddhivicālanakuśalasya tarkadṛṣṭivyapetadarśanasya aparapraṇeyasya mahāyogayogino mahāviśvarūpadhāriṇaḥ upāyakauśalyagatiṃgatasya sarvabhūmyuttarottarasvalakṣaṇādhigamanakuśalasya cittamagomanovijñānasvabhāvavivekaratasya trisaṃtativyavacchinnadarśanasya sarvakāraṇatī(10*)rthyavyapetabuddheḥ tathāgatagarbhabuddhabhūmyadhyātmasamāpannasya sthitabuddhabuddher gaganād adhyātmavedyaśabdam aśrauṣīt&nbsp;</span><span id='3327190bi' class='paragraph'>
+						 - sādhu sādhu laṅkādhipate, sādhu khalu punas tvaṃ laṅkādhipate | evaṃ śikṣitavyaṃ yoginā yathā tvaṃ śikṣase | evaṃ ca tathāgatā draṣṭavyāḥ dharmāś ca, yathā tvayā dṛṣṭāḥ | anyathā dṛśyamāne ucchedam āśrayaḥ |&nbsp;</span><span id='3327191bi' class='paragraph'>
+						 cittamanomanovijñānavigatena tvayā sarvadharmā vibhāvayitavyāḥ | antaścāriṇā na bāhyārthadṛṣṭyabhiniviṣṭena |&nbsp;</span><span id='3327192bi' class='paragraph'>
+						 na ca tvayā śrāvakapratyekabuddhatīrthādhigamapadārthagocarapatitadṛṣṭisamādhinā bhavitavyam | nākhyāyiketihāsaratena bhavitavyam |&nbsp;</span><span id='3327193bi' class='paragraph'>
+						 na svabhāvadṛṣṭinā, na rājādhipatyamadapatitena, ṣaḍdhyānādidhyāyinā | eṣa laṅkādhipate abhisamayo mahāyogināṃ parapravādamathanānām akuśaladṛṣṭidālanānām ātmadṛṣṭivyāvartanakuśalānāṃ sūkṣmamabhivijñānaparāvṛttikuśalānāṃ jinaputrāṇāṃ mahāyānacaritānām | tathāgatasvapratyātmabhūmipraveśādhigamāya tvayā yogaḥ karaṇīyaḥ |&nbsp;</span><span id='3327194bi' class='paragraph'>
+						 evaṃ kriyamāṇe bhūyo ’py uttarottaraviśodhako ’yaṃ laṅkādhipate mārgo yastvayā parigṛhītaḥ (11*) samādhikauśalasamāpattyā | na ca śrāvakapratyekabuddhatīrthyānupraveśasukhagocaro yathā bālatīrthayogayogibhiḥ kalpyate ātmagrāhadṛśyalakṣaṇābhiniviṣṭair bhūtaguṇadravyānucāribhir avidyāpratyayadṛṣṭyabhiniveśābhiniviṣṭaiḥ śūnyatotpādavikṣiptair vikalpābhiniviṣṭair lakṣyalakṣaṇapatitāśayaiḥ |&nbsp;</span><span id='3327195bi' class='paragraph'>
+						 viśvarūpagatiprāpako ’yaṃ laṅkādhipate svapratyātmagatibodhako ’yaṃ mahāyānādhigamaḥ | viśeṣabhavopapattipratilambhāya ca pravartate | paṭalakośavividhavijñānataraṃgavyāvartako ’yaṃ laṅkādhipate mahāyānayogapraveśo na tīrthyayogāśrayapatanam |&nbsp;</span><span id='3327196bi' class='paragraph'>
+						 tīrthyayogo hi laṅkādhipate tīrthyānām ātmābhiniveśāt pravartate | vijñānasvabhāvadvayārthānām abhiniveśadarśanādasaumyayogastīrthakarāṇām | tat sādhu laṅkādhipate etam evārtham anuvicintayeḥ | yathā vicintitavāṃs tathāgatadarśanāt | etad eva tathāgatadarśanam ||&nbsp;</span></div></div><div class='textvar' style='width:13.285714285714%;'><div class='Chinese'><div class='kilderef' id='3502624'></div><div class='clear'></div><span id='3502624bi' class='paragraph'>
+							&nbsp;</span><span id='3502625bi' class='paragraph'>
+						 &nbsp;</span><span id='3502626bi' class='paragraph'>
+						 &nbsp;</span><span id='3502627bi' class='paragraph'>
+						 &nbsp;</span><span id='3502628bi' class='paragraph'>
+						 &nbsp;</span><span id='3502629bi' class='paragraph'>
+						 &nbsp;</span><span id='3502630bi' class='paragraph'>
+						 &nbsp;</span><span id='3502631bi' class='paragraph'>
+						 &nbsp;</span></div></div><div class='textvar' style='width:13.285714285714%;'><div class='Chinese'><div class='kilderef' id='3336750'></div><div class='clear'></div><span id='3336750bi' class='paragraph'>
+							(3)爾時羅婆那十頭羅刹楞伽王。見分別心過。(4)而不住於分別心中。以過去世善根力故。(5)如實覺知一切諸論。如實能見諸法實相。不(6)隨他教善自思惟覺知諸法。能離一切邪(7)見覺知。善能修行如實行法。於自身中能(8)現一切種種色像。而得究竟大方便解。善(9)知一切諸地上上自體相貎。樂觀心意意識(10)自體。見於三界相續身。斷離諸外道常見。(11)因智如實善知如來之藏。善住佛地内心(12)實智。聞虚空中及自身中出於妙聲。而作(13)是言。&nbsp;</span><span id='3336751bi' class='paragraph'>
+						 善哉善哉楞伽王。諸修行者悉應如汝(14)之所修學。復作是言。善哉楞伽王。諸佛如(15)來法及非法如汝所見。若不如汝之所見(16)者名爲斷見。&nbsp;</span><span id='3336752bi' class='paragraph'>
+						 楞伽王。汝應遠離心意識。如(17)實修行諸法實相。汝今應當修行内法。莫(18)著外義邪見之相。&nbsp;</span><span id='3336753bi' class='paragraph'>
+						 楞伽王。汝莫修行聲聞(19)縁覺諸外道等修行境界。汝不應住一切外(20)道諸餘三昧。汝不應樂一切外道種種戲(21)論。&nbsp;</span><span id='3336754bi' class='paragraph'>
+						 汝不應住一切外道圍陀邪見。汝不應(22)著王位放逸自在力中。汝不應著禪定神(23)通自在力中。楞伽王。如此等事皆是如實修(24)行者行。能降一切外道邪論。能破一切虚妄(25)邪見。能轉一切見我見過。能轉一切微細識(26)行修大乘行。楞伽王。汝應内身入如來地(27)修如實行。如是修行者。得轉上上清淨(28)法。&nbsp;</span><span id='3336755bi' class='paragraph'>
+						 楞伽王。汝莫捨汝所證之道。善修三昧(29)三摩跋提。莫著聲聞縁覺外道三昧境界以(517a1)爲勝樂。如毛道凡夫外道修行者。汝莫分(2)別。楞伽王。外道著我見。有我相故虚妄分(3)別。外道見有四大之相。而著色聲香味觸(4)法以爲實有。聲聞縁覺見無明縁行以爲(5)實有。起執著心離如實空。虚妄分別專著(6)有法。而墮能見所見心中。&nbsp;</span><span id='3336756bi' class='paragraph'>
+						 楞伽王。此勝道(7)法。能令衆生内身覺觀。能令衆生得勝大(8)乘能生三有。楞伽王。此入大乘行。能破衆(9)生種種翳瞙種種識波。不墮外道諸見行(10)中。&nbsp;</span><span id='3336757bi' class='paragraph'>
+						 楞伽王。此是入大乘行。非入外道行。外(11)道行者依於内身有我而行。見識色二法(12)以爲實。故見有生滅。善哉楞伽王。思惟(13)此義。如汝思惟即是見佛&nbsp;</span></div></div><div class='textvar' style='width:13.285714285714%;'><div class='Chinese'><div class='kilderef' id='3339937'></div><div class='clear'></div><span id='3339937bi' class='paragraph'>
+							時楞伽王尋即開悟。離(10)諸雜染證唯自心。住無分別。往昔所種善(11)根力故。於一切法得如實見。不隨他悟。能(12)以自智善巧觀察。永離一切臆度邪解。住(13)大修行爲修行師。現種種身善達方便。巧(14)知諸地上増進相。常樂遠離心意意識。斷三(15)相續見離外道執著。内自覺悟入如來藏(16)趣於佛地。聞虚空中及宮殿内咸出聲言。&nbsp;</span><span id='3339938bi' class='paragraph'>
+						 善(17)哉大王。如汝所學。諸修行者應如是學應(18)如是見。一切如來應如是見。一切諸法若(19)異見者則是斷見。&nbsp;</span><span id='3339939bi' class='paragraph'>
+						 汝應永離心意意識。應(20)勤觀察一切諸法。應修内行莫著外見。&nbsp;</span><span id='3339940bi' class='paragraph'>
+						 莫(21)墮二乘及以外道。所修句義所見境界。及(22)所應得諸三昧法。汝不應樂戲論談笑。&nbsp;</span><span id='3339941bi' class='paragraph'>
+						 汝(23)不應起圍陀諸見。亦不應著王位自在。亦(24)不應住六定等中。若能如是。即是如實修(25)行者行。能摧他論能破惡見。能捨一切我(26)見執著。能以妙慧轉所依識。能修菩薩大(27)乘之道。能入如來自證之地。汝應如是勤(28)加修學。令所得法轉更清淨。&nbsp;</span><span id='3339942bi' class='paragraph'>
+						 善修三昧三(29)摩鉢底。莫著二乘外道境界以爲勝樂。如(589a1)凡修者之所分別。外道執我見有我相。及(2)實求那而生取著。二乘見有無明縁行。(3)於性空中亂想分別。&nbsp;</span><span id='3339943bi' class='paragraph'>
+						 楞伽王此法殊勝是大(4)乘道。能令成就自證聖智。於諸有中受上(5)妙生。楞伽王。此大乘行破無明翳。滅識波(6)浪不墮外道諸邪行中。&nbsp;</span><span id='3339944bi' class='paragraph'>
+						 楞伽王。外道行者(7)執著於我。作諸異論不能演説離執著(8)見識性二義。善哉楞伽王。汝先見佛思惟(9)此義。如是思惟乃是見佛&nbsp;</span></div></div><div class='textvar' style='width:13.285714285714%;'><div class='Tibetansk'><div class='kilderef' id='3346311'></div><div class='clear'></div><span id='3346311bi' class='paragraph'>
+							No Tibetan&nbsp;</span><span id='3346312bi' class='paragraph'>
+						 No Tibetan&nbsp;</span><span id='3346313bi' class='paragraph'>
+						 No Tibetan&nbsp;</span><span id='3346314bi' class='paragraph'>
+						 No Tibetan&nbsp;</span><span id='3346315bi' class='paragraph'>
+						 No Tibetan&nbsp;</span><span id='3346316bi' class='paragraph'>
+						 No Tibetan&nbsp;</span><span id='3346317bi' class='paragraph'>
+						 No Tibetan&nbsp;</span><span id='3346318bi' class='paragraph'>
+						 No Tibetan&nbsp;</span></div></div><div class='textvar' style='width:13.285714285714%;'><div class='Tibetansk'><div class='kilderef' id='3343124'></div><div class='clear'></div><span id='3343124bi' class='paragraph'>
+							laṅ ka’i bdag po gnas śin tu gyur pa daṅ | raṅ gi sems snaṅ ba (5) tsam du khoṅ du chud pa rab tu rtogs ma thag tu rnam par rtog pa’i rgyu ba la gnas pa | sṅon gyi dge ba’i rtsa bas bskul ba | gtsug lag thams cad la mkhas pa’i blo de bźin ñid ji lta ba bźin du mthoṅ ba | gźan gyi driṅ mi ’jog pa | bdag gi blo rnam par dpyod pa la mkhas (6) pa| rtog ge ba’i lta ba dad bral bar lta ba | gźan gyi driṅ la mi ’jog pa | rnal ’byor chen po’i rnal ’byor can | gzugs sna tshogs ’chaṅ ba chen po thabs la mkhas pa khoṅ du chud par rtogs pa | goṅ nas goṅ dus thams cad kyi raṅ gi mtshan ñid rtogs par bya ba la (7) mkhas pa | sems daṅ yid daṅ kyi rnam par śes pa’i raṅ bźin dben pa la dga’ ba | rgyud gsum chad par lta ba | rgyu daṅ mu stegs can thams cad kyi rgyu daṅ bral ba’i blor gyur pas de bźin gśegs pa’i sñiṅ po | saṅs rgyas kyis la naṅ du sñoms par źugs pa (59a1) la gnas źiṅ saṅs rgyas kyi blos nam mkha’ daṅ naṅ nas sgra thos pa&nbsp;</span><span id='3343125bi' class='paragraph'>
+						 laṅ ka’i bdag po legs so legs so || yaṅ laṅ ka’i bdag po khyod ni legs so || ji ltar khyod slob pa de ltar rnal ’byor can rnams kyis bslab par bya’o || ji ltar khyod kyis (2) mthoṅ ba de bźin ñid du de bźin gśegs pa rnams daṅ | chos rnams la blta bar bya’o || rnam pa gźan du bltas na chad pa la gnas par ’gyur ro ||&nbsp;</span><span id='3343126bi' class='paragraph'>
+						 khyod kyi sems daṅ yid daṅ | yid kyi rnam par śes pa daṅ bral źiṅ naṅ du spyod pas | chos thams cad rnam par (3) bsgom par bya ste | phyi rol gyi don du lta ba la mṅon par chags pas ni ma yin no ||&nbsp;</span><span id='3343127bi' class='paragraph'>
+						 khyod kyis ñan thos daṅ | raṅ saṅs rgyas daṅ | mu stegs can gyi mṅon par rtogs pa daṅ | tshig gi don gyi spyod yul du lhuṅ ba’i lta ba daṅ | tiṅ ṅe ’dzi na du ma yin | gtam (4) daṅ sgruṅ la dga’ bar ma yin |&nbsp;</span><span id='3343128bi' class='paragraph'>
+						 rig byed kyi raṅ bźin du lta bar ma yin | rgyal po’i dbaṅ gis dregs pa la lhuṅ bar ma yin | bsam gtan drug la sogs pa la bsam gtan par ma yin te | laṅ ka’i bdag po ’di ni rgyal ba’i sras rnal ’byor chen po’i rnal ’byor daṅ (5) ldan pa | pha rol rgol ba rab tu ’joms pa | lta ba ṅan pa sel ba | bdag tu lta ba rnam par bzlog pa la mkhas pa | blo źib ciṅ rnam par śes pa | śin tu ’gyur ba la mkhas pa | theg pa chen po la spyod pa rnams kyi dam tshig go || de bźin gśegs pa’i bdag (6) gi so so raṅ gi sa la ’jug ba khoṅ du chuṅ par bya ba’i phyir khyod kyis brtson par gyis śig |&nbsp;</span><span id='3343129bi' class='paragraph'>
+						 de ltar byas na laṅ ka’i bdag po gaṅ khyod kyis tiṅ ṅe ’dzin la mkhas pa’i sñoms par ’jug pas yoṅs su bzuṅ ba’i lam ’di ni phyir źiṅ goṅ nas goṅ du rnam par spyod pa yin te | (7) ji ltar byis pa mu stegs can gyi rnal ’byor la rnal ’byor can bdag tu ’dzin par snaṅ ba’i mtshan ñid la mṅon par chags pa ’byuṅ ba daṅ | yon tan daṅ rdzas kyi rjes su spyod pa | ma rig pa’i rkyen du lta ba la mṅon par cags pas mṅon par źen pa | stoṅ pa daṅ | skye [59b1] bas g-yeṅs pa daṅ | rnam par rtog pa la mṅon par chags pa | mtshan ñid du lhuṅ ba’i bsam pas brtags ba | ñan thos daṅ | raṅ saṅs rgyas daṅ | mu stegs can rjes su ’jug pa’i sgo’i spyod yul ni ma yin no ||&nbsp;</span><span id='3343130bi' class='paragraph'>
+						 laṅ ka’i bdag po bdag gi so so raṅ gis rig pa (2) rtogs par byed pa’i theg pa chen po khoṅ du chud par byed pa ’di ni gzugs sna tshogs rab tu ’thob par byed pa’o || bye brag gi srid par skye ba yoṅs su ’thob par yaṅ ’gyur ro || laṅ ka’i bdag po theg pa chen po’i rnal ’byor la ’jug pa ’di ni khebs pa’i g-yogs ma rnam (3) par śes pa sna tshogs kyi rlabs zlog par byed pa yin te | mu stegs can gyi rnal ’byor gyi gnas su lhuṅ ba ni ma yin no ||&nbsp;</span><span id='3343131bi' class='paragraph'>
+						 laṅ ka’i bdag po mu stegs can gyi rnal ’byor ni mu stegs can rnams kyi bdag tu mṅon par źen pa las byuṅ ba’o || rnam par śes pa’i raṅ (4) bźin gñis kyi don la chags par lta bas mu stegs can rnams kyi ’di yaṅ rnal ’byor ma yin no || laṅ ka’i bdag po de legs so || de bźin gśegs pa mthoṅ źiṅ ji ltar rjes su bsams pa’i don de ñid rjes su soms śig daṅ de ñid ni de bźin gśes pa mthoṅ (5) pa yin no ||&nbsp;</span></div></div><div class='textvar' style='width:13.285714285714%;'><div class='English'><div class='kilderef' id='3330376'></div><div class='clear'></div><span id='3330376bi' class='paragraph'>
+							The Lord of Laṅkā was then immediately awakened [from his reflection], feeling a revulsion (parāvṛtti) in his mind and realising that the world was nothing but his own mind: he was settled in the realm of non-discrimination, was urged by the stock of his past good deeds, acquired the cleverness of understanding all the texts, obtained the faculty of seeing things as they are, was no more dependent upon others, observed things excellently with his own wisdom (buddhi), gained the insight that was not of discursive reasoning, was no more dependent upon others,<a class='fotnote cn' name='FN3044cn1' href='#N3044cn1'><sup>1</sup></a>
+ became a great Yogin of the discipline, was able to manifest himself in all excellent forms, got thoroughly acquainted with all skilful means, had the knowledge of the characteristic aspects of every stage, by which he would surmount it skilfully, was delighted to look into<a class='fotnote cn' name='FN3044cn2' href='#N3044cn2'><sup>2</sup></a>
+ the self-nature of Citta, Manas, Manovijñāna, got a view whereby he could cut himself loose from the triple continuation, had the knowledge of disposing of every argument of (10) the philosophers on causation, thoroughly understood the Tathāgata-garbha, the stage of Buddhahood, the inmost self, found himself abiding in the Buddha-knowledge; [when suddenly] a voice was heard from the sky, saying, “It is to be known by oneself.”&nbsp;</span><span id='3330377bi' class='paragraph'>
+						 “Well done, well done, Lord of Laṅkā! Well done, indeed, Lord of Laṅkā, for once more! The Yogin is to discipline himself as thou doest. The Tathāgatas and all things are to be viewed as they are viewed by thee; otherwise viewed, it is nihilism.&nbsp;</span><span id='3330378bi' class='paragraph'>
+						 All things are to be comprehended by transcending the Citta, Manas, and Vijñāna as is done by thee. Thou shouldst look inwardly and not become attached to the letter and a superficial view of things;&nbsp;</span><span id='3330379bi' class='paragraph'>
+						 thou shouldst not fall into the attainments, conceptions, experiences, views, and Samādhis of the Śrāvakas, Pratyekabuddhas, and philosophers; thou shouldst not have any liking for small talk and witticism;&nbsp;</span><span id='3330380bi' class='paragraph'>
+						 thou shouldst not cherish the notion of self-substance,<a class='fotnote cn' name='FN3044cn3' href='#N3044cn3'><sup>3</sup></a>
+ nor have any thought for the vainglory of rulership, nor dwell on such Dhyānas as belong to the six Dhyānas, etc. “Lord of Laṅkā, this is the realisation of the great Yogins: to destroy the discourses advanced by others, to crush mischievous views in pieces, to keep themselves properly away from ego-centered notions, to cause a revulsion in the depths of the mind fittingly by means of an exquisite knowledge. Such are sons of the Buddha who walk in the way of the Mahāyāna. In order to enter upon the stage of self-realisation as attained by the Tathāgatas, the discipline is to be pursued by thee.&nbsp;</span><span id='3330381bi' class='paragraph'>
+						 “Lord of Laṅkā, conducting thyself in this manner, let thee be further purified in the way thou hast attained; (11) by disciplining thyself well in Samādhi and Samāpatti, follow not the state realised and enjoyed by the Śrāvakas, Pratyekabuddhas, and philosophers, which rises from the imagination of those who discipline themselves according to the practices of the puerile philosophers. They cling to the individual forms of the world created by their egotistical ideas; they maintain such notions as element, quality, and substance; they cling tenaciously to views originating from ignorance; they become confused by cherishing the idea of birth where prevails emptiness; they cling to discrimination [as real]; they fall into the way of thinking where obtains [the dualism of] qualifying and qualified.&nbsp;</span><span id='3330382bi' class='paragraph'>
+						 “Lord of Laṅkā, this is what leads to various excellent attainments, this is what makes one grow aware of the inmost attainment, this is the Mahāyāna realisation. This will result in the acquirement of an excellent condition of existence. “Lord of Laṅkā, by entering upon the Mahāyāna discipline the veils [of ignorance] are destroyed, and one turns away from the multitudinous waves of the Vijñāna and falls not into the refuge and practice of the philosophers.&nbsp;</span><span id='3330383bi' class='paragraph'>
+						 “Lord of Laṅkā, the philosophers' practice starts from their own egotistic attachments. Their ugly practice arises from adhering to dualistic views concerning the self-nature of the Vijñāna. “Well done, Lord of Laṅkā; reflect on the signification of this as you did when seeing the Tathāgata before; for this, indeed, is seeing the Tathāgata.”&nbsp;</span><div style='' id='1' class='note cn'>1.<a class="internt" name='N3044cn1' href='#FN3044cn1'> This does not appear in T'ang, nor in Wei.</a>&nbsp; 2.<a class="internt" name='N3044cn2' href='#FN3044cn2'> T'ang: to go beyond.</a>&nbsp; 3.<a class="internt" name='N3044cn3' href='#FN3044cn3'> Wei and T'ang: Do not hold the views maintained in the Vedas.</a>&nbsp; </div><div class='clear'></div></div></div><div class='clear'></div></div><div class='clear'></div><div class='BolkContainer'><div class='textvar' style='width:13.285714285714%;'><div class='Sanskrit'><span id='3327197bi' class='paragraph'>
+							atha tasminn antare rāvaṇasyaitad abhavat - yan nv ahaṃ punar api bhagavantaṃ sarvayogavaśavartinaṃ tīrthyayogavyāvartakaṃ pratyātmagatigocarodbhāvakaṃ nairmitanairmāṇikavyapetam adhigamabuddhir (12*) yad yogināṃ yogābhisamayakāle samādhimukhe samāptānām adhigamo bhavati | tasya ca adhigamād yogināṃ yogaśabdo nipātyate adhigamaneneti |&nbsp;</span><span id='3327198bi' class='paragraph'>
+						 tad ahaṃ kāruṇikaṃ kleśendhanavikalpakṣayakaraṃ taṃ jinaputraiḥ parivṛtaṃ sarvasattvacittāśayānupraviṣṭaṃ sarvagataṃ sarvajñaṃ kriyālakṣaṇavinivṛttaṃ tayaivamṛddhyā (6,1) paśyeyam, taddarśanān nādhigatam adhigaccheyam, adhigataṃ ca me nirvikalpācāraḥ sukhasamādhisamāpattivihāras tathāgatagatibhūmiprāpako vivṛddhiṃ yāyāt ||&nbsp;</span></div></div><div class='textvar' style='width:13.285714285714%;'><div class='Chinese'><span id='3502632bi' class='paragraph'>
+							&nbsp;</span><span id='3502633bi' class='paragraph'>
+						 &nbsp;</span></div></div><div class='textvar' style='width:13.285714285714%;'><div class='Chinese'><span id='3336758bi' class='paragraph'>
+							(14)爾時羅婆那楞伽王。復作是念。我應問佛。(15)如實行法。轉於一切諸外道行。内心修行所(16)觀境界。離於應佛所作應事更有勝法。所謂(17)如實修行者證於法時。所得三昧究竟之樂。(18)若得彼樂是則名爲如實修行者。&nbsp;</span><span id='3336759bi' class='paragraph'>
+						 是故我應(19)問大慈悲如來世尊。如來能燒煩惱薪盡。(20)及諸佛子亦能燒盡。如來能知一切衆生心(21)使煩惱。如來遍至一切智處。如來如實善能(22)知解是相非相。我今應以妙神通力見於(23)如來。見如來已。未得者得已得者不退。得(24)無分別三昧三摩跋提。得増長滿足如來(25)行處&nbsp;</span></div></div><div class='textvar' style='width:13.285714285714%;'><div class='Chinese'><span id='3339945bi' class='paragraph'>
+							(10)爾時羅婆那王。復作是念。願我更得奉見(11)如來。如來世尊於觀自在。離外道法能説(12)自證聖智境界。超諸應化所應作事。住如(13)來定入三昧樂。&nbsp;</span><span id='3339946bi' class='paragraph'>
+						 是故説名大觀行師。亦復(14)名爲大哀愍者。能燒煩惱分別薪盡。諸佛(15)子衆所共圍遶普入一切衆生心中。遍一(16)切處具一切智。永離一切分別事相。我今願(17)得重見如來大神通力。以得見故。未得者(18)得已得不退。離諸分別住三昧樂。増長滿(19)足如來智地&nbsp;</span></div></div><div class='textvar' style='width:13.285714285714%;'><div class='Tibetansk'><span id='3346319bi' class='paragraph'>
+							No Tibetan&nbsp;</span><span id='3346320bi' class='paragraph'>
+						 No Tibetan&nbsp;</span></div></div><div class='textvar' style='width:13.285714285714%;'><div class='Tibetansk'><span id='3343132bi' class='paragraph'>
+							de nas de’i skabs su ’bod ’grogs ’di sñam du sems te | yaṅ ’di ltar bdag gis bcom ldan ’das rnal ’byor thams cad la mda’ mdzad pa | mu stegs can gyi rnal ’byor rnam par zlog pa | so so raṅ gis rig pa’i spyod yul ston pa | ’phrul pas (6) sprul pa daṅ bral ba | thugs su chud pa’i blo la gaṅ gi phyir rnal ’byor can rnams rnal ’byor mṅon par rtogs pa’i dus na tiṅ ṅe ’dzin gyi bde ba daṅ | sñoms par ’jug pa rnams khoṅ du chud par ’gyur te | de khoṅ du chud pa’i phyir ’dis khoṅ du chud do źes rnal ’byor can rnams kyi rnal (7) ’byor gyi sgrar gdags te |&nbsp;</span><span id='3343133bi' class='paragraph'>
+						 de’i phyir bdag gis thugs rje can ñon moṅs pa ’bar ba’i rgyu daṅ | rnam par rtog pa zad par byed pa | rgyal ba’i sras rnams kyis yoṅs su bskor ba | sems can thams cad kyi sems daṅ bsam pa’i rjes su źugs pa | thams cad du khyab (60a1) pa| thams cad mkhyen pa la byed pa’i mtshan ñid rnam par log pa’i rdzu ’phrul gyis de ltar blta’o || de mthoṅ bas ni khoṅ du ma chud pa khoṅ du chud par bya’o || rnam par mi rtog pa la spyod pa bde ba’i tiṅ ṅe ’dzin daṅ | sñoms par ’jug pas gnas pa de (2) bźin gśegs pas thugs su chud pa’i sa thob par byed pa bdag gis khoṅ du chud par yaṅ rnam par ’phel bar ’gyur ro sñam mo ||&nbsp;</span></div></div><div class='textvar' style='width:13.285714285714%;'><div class='English'><span id='3330384bi' class='paragraph'>
+							At that time it occurred to Rāvaṇa: “I wish to see the Blessed One again, who has all the disciplinary practices at his command, who has turned away from the practices of the philosophers, who is born of the state of realisation in the inmost consciousness, and who is beyond [the dualism of] the transformed and the transforming. He is the knowledge (12) realised by the Yogins, he is the realisation attained by those who enjoy the perfect bliss of the Samādhi which they gain by coming to an intuitive understanding through meditation.&nbsp;</span><span id='3330385bi' class='paragraph'>
+						 May I see thus [again] the Compassionate One by means of his miraculous powers in whom the fuel of passion and discrimination is destroyed, who is surrounded by sons of the Buddha, who has penetrated into the minds and thoughts of all beings, who moves about everywhere, who knows everything, who keeps himself away from work (kriyā) and form (lakṣana); seeing him may I attain what I have not yet attained, [retain] what I have already gained, may I conduct myself with non-discrimination, abide in the joy of Samādhi and Samāpatti, and attain the ground where the Tathāgatas walk, and in these make progress.”&nbsp;</span></div></div><div class='clear'></div></div><div class='clear'></div><div class='BolkContainer'><div class='textvar' style='width:13.285714285714%;'><div class='Sanskrit'><span id='3327199bi' class='paragraph'>
+							atha bhagavāṃs tasyāṃ velāyāṃ laṅkādhipateran utpattikadharmakṣāntyadhigataṃ viditvā tayaiva śobhayā daśagrīvasyānukampayā punar apy ātmānaṃ śikhare subahuratnakhacite ratnajālavitate darśayati sma |&nbsp;</span><span id='3327200bi' class='paragraph'>
+						 adrākṣīd daśagrīvo laṅkādhipatiḥ punar api dṛṣṭānubhūtāṃ śobhāṃ śikhare tathāgatam arhantaṃ samyaksaṃbuddhaṃ dvātriṃśadvaralakṣaṇavibhūṣitatanum | svātmabhāvaṃ caikaikasmin girau tathāgatānāṃ purataḥ samyaksaṃbuddhānāṃ mahāmatinā sārdhaṃ tathāgatapratyātmagatigocarakathāṃ prakurvantaṃ yakṣaiḥ parivṛtaṃ tāṃ deśanāpāṭhakathāṃ kathayantam | te ca (13*) kṣetrāḥ sanāyakāḥ ||&nbsp;</span></div></div><div class='textvar' style='width:13.285714285714%;'><div class='Chinese'><span id='3502634bi' class='paragraph'>
+							&nbsp;</span><span id='3502635bi' class='paragraph'>
+						 &nbsp;</span></div></div><div class='textvar' style='width:13.285714285714%;'><div class='Chinese'><span id='3336760bi' class='paragraph'>
+							(26)爾時世尊如實照知楞伽王應證無生法忍(27)時至。憐愍十頭羅刹王故。所隱宮殿還復(28)如本。身於種種寶網莊嚴山城中現&nbsp;</span><span id='3336761bi' class='paragraph'>
+						 (29)爾時十頭羅刹楞伽王。見諸宮殿還復如本。(517b1)一一山中處處皆見有佛世尊應正遍知三(2)十二相妙莊嚴身而在山中。自見己身遍(3)諸佛前。又見一切諸佛國土及諸國王念身(4)無常由貪王位妻子眷屬五欲相縛無解(5)脱期。便捨國土宮殿妻妾象馬珍寶施佛及(6)僧入於山林出家學道。又見佛子在山林(7)中勇猛精進投身餓虎師子羅刹以求佛道。(8)又見佛子在林樹下讀誦經典爲人演説(9)以求佛道。又見菩薩念苦衆生坐於道場(10)菩提樹下思惟佛道。又見一一佛前皆有(11)聖者大慧菩薩説於内身修行境界。亦見一(12)切夜叉眷屬圍遶而説名字章句&nbsp;</span></div></div><div class='textvar' style='width:13.285714285714%;'><div class='Chinese'><span id='3339947bi' class='paragraph'>
+							(20)爾時世尊。知楞伽王即當證悟無生法忍。(21)爲哀愍故便現其身。令所化事還復如本。&nbsp;</span><span id='3339948bi' class='paragraph'>
+						 (22)時十頭王見所曾覩。無量山城悉寶莊嚴。一(23)一城中皆有如來應正等覺。三十二相以嚴(24)其身。自見其身遍諸佛前。悉有大慧夜叉(25)圍遶説自證智所行之法。亦見十方諸佛國(26)土。如是等事悉無有別&nbsp;</span></div></div><div class='textvar' style='width:13.285714285714%;'><div class='Tibetansk'><span id='3346321bi' class='paragraph'>
+							No Tibetan&nbsp;</span><span id='3346322bi' class='paragraph'>
+						 No Tibetan&nbsp;</span></div></div><div class='textvar' style='width:13.285714285714%;'><div class='Tibetansk'><span id='3343134bi' class='paragraph'>
+							de nas bcom ldan ’das kyis de’i tshe laṅ ka’i bdag po ma skyes pa’i chos la bzod pa thob par thugs su chud nas mgrin bcu la thugs brtse ba’i (3) phyir rin po che maṅ pos brgyan pa | rin po che’i dra bas bres pa’i bdag gi ri’i rtse mo la mdzes pa de lta bu ñid du bdag ñid bstan nas |&nbsp;</span><span id='3343135bi' class='paragraph'>
+						 yaṅ yaṅ ka’i bdag po mgrin bcus mthoṅ ba daṅ | myoṅ ba’i mdzes pa daṅ | rtse mo la de bźin gśegs pa dgra bcom pa yaṅ dag (4) par rdzogs pa’i saṅs rgyas mtshan rab sum cu rtsa gñis kyis brgyan pa’i sku daṅ | ri bo re re la bdag gi lus kyaṅ de bźin gśegs pa dgra bcom pa yaṅ dag par rdzogs pa’i saṅs rgyas rnams kyi spyan sdan ’dug pa daṅ | de bźin gśegs pa blo gros chen po daṅ thabs (5) cig so so raṅ gis rig pa’i spyod yul gyi gtam mdzad pa daṅ | gnod sbyin gyis bskor ciṅ bśad pa brjod pa’i gtam gsuṅ ba daṅ | mgon po daṅ bcas pa’i źiṅ de dag kyaṅ mthoṅ bar ’gyur to ||&nbsp;</span></div></div><div class='textvar' style='width:13.285714285714%;'><div class='English'><span id='3330386bi' class='paragraph'>
+							At that moment, the Blessed One recognising that the Lord of Laṅkā is to attain the Anutpattikadharmakshanti showed his glorious compassion for the ten-headed one by making himself visible once more on the mountain-peak studded with many jewels and enveloped in a net-work of jewels.&nbsp;</span><span id='3330387bi' class='paragraph'>
+						 The ten-headed King of Laṅkā saw the splendour again as seen before on the mountain-peak, [he saw] the Tathāgata, who was the Arhat and the Fully-Enlightened One, with the thirty-two marks of excellence beautifully adorning his person, and also saw himself on each mountain-peak, together with Mahāmati, in front of the Tathāgata, the Fully-Enlightened One, putting forward his discourse on the realisation experienced by the Tathāgata in his inmost self, and, surrounded by the Yakshas, conversing on the verbal teachings and stories [of the Buddha]. Those (13) [Buddha]-lands were seen with the Leaders.<a class='fotnote cn' name='FN3044cn4' href='#N3044cn4'><sup>4</sup></a>
+&nbsp;</span><div style='' id='2' class='note cn'>4.<a class="internt" name='N3044cn4' href='#FN3044cn4'> There is surely a discrepancy here in the text. T'ang reads: “In all the Buddha-lands in the ten quarters were also seen such events going on, and there was no difference whatever." Wei is quite different and has the following: “Besides, he saw all the Buddha-lands and all the kings thinking of the transitoriness of the body. As they are covetously attached to their thrones, wives, children, and relatives, they find themselves bound by the five passions and have no time for emancipation. Seeing this, they abandon their dominions, palaces, wives, concubines, elephants, horses, and precious treasures, giving them all up to the Buddha and his Brotherhood. They now retreat into the mountain-woods, leaving their homes and wishing to study the doctrine. He [Rāvaṇa] then sees the Bodhisattvas in the mountain woods strenuously applying themseves to the mastery of the truth, even to the extent of throwing themselves to the hungry tiger, lion, and Rākshasas. He thus sees the Bodhisattvas reading and reciting the sūtras under a tree in the woods and discoursing on them for others, seeking thereby the truth of the Buddha. He then sees the Bodhisattvas seated under the Bodhi-tree in the Bodhi-mandala thinking of the suffering Beings and meditating on the truth of the Buddha. He then sees the venerable Mahāmati the Bodhisattva before each Buddha preaching about the spiritual discipline of one's inner life, and also sees [the Bodhisattva] surrounded by all the Yakshas and families and talking about names, words, phrases, and paragraphs." This last sentence is evidently the translation of the Sanskrit deśanāpathakatham, which is contrasted in the Laṅkāvatara throughout with pratyātmāryajñānagocara (the spiritual realm realised by noble wisdom in one's inmost consciousness).</a>&nbsp; </div><div class='clear'></div></div></div><div class='clear'></div></div><div class='clear'></div><div class='BolkContainer'><div class='textvar' style='width:13.285714285714%;'><div class='Sanskrit'><span id='3327201bi' class='paragraph'>
+							atha bhagavān punar api tasyāṃ velāyāṃ parṣadam avalokya buddhyā na māṃsacakṣuṣā siṃharājavad vijṛmbhya mahāhāsam ahasat | ūrṇākośāc ca raśmiṃ niścāryamāṇaḥ pārśvorukaṭikāyāc ca śrīvatsāt sarvaromakūpebhyo yugāntāgnir iva dīpyamānaḥ tejasendradhanurudayabhāskaropamena prabhāmaṇḍalena dedīpyamānaḥ śakrabrahmalokapālair gaganatale nirīkṣyamāṇaḥ sumeruśṛṅgapratispardhini śikhare niṣaṇṇo mahāhāsam ahasat |&nbsp;</span><span id='3327202bi' class='paragraph'>
+						 atha tasyā bodhisattvaparṣadaḥ teṣāṃ ca śakrabrahmādīnām etad abhavat - ko nu khalv atra hetuḥ, kaḥ pratyayo yadbhagavān sarvadharmavaśavartī mahāhāsaṃ smitapūrvakaṃ hasati? raśmīṃś ca svavigrahebhyo niścārayati? niścārya tūṣṇīm abhavat svapratyātmāryajñānagocarasamādhimukhe patitāśayo ’vismitaḥ siṃhāvalokanatayā diśo ’valokya rāvaṇasyaiva yogagatipracāram anuvicintayamānaḥ ||&nbsp;</span></div></div><div class='textvar' style='width:13.285714285714%;'><div class='Chinese'><span id='3502636bi' class='paragraph'>
+							&nbsp;</span><span id='3502637bi' class='paragraph'>
+						 &nbsp;</span></div></div><div class='textvar' style='width:13.285714285714%;'><div class='Chinese'><span id='3336762bi' class='paragraph'>
+							(13)爾時世尊智慧觀察現在大衆非肉眼觀。(14)如師子王奮迅視眄呵呵大笑。頂上肉髻放(15)無量光。肩脇腰髀胸卐徳處及諸毛孔。皆(16)放一切無量光明。如空中虹如日千光。如(17)劫盡時大火熾然猛炎之相。帝釋梵王四天(18)王等。於虚空中觀察如來。見佛坐於須彌(19)相對楞伽山頂上呵呵大笑。&nbsp;</span><span id='3336763bi' class='paragraph'>
+						 爾時菩薩衆帝(20)釋梵天四天王等作是思惟。何因何縁如來(21)應正遍知。於一切法中而得自在。未曾如(22)是呵呵大笑。復於自身出無量光默然而(23)住。專念内身智慧境界不以爲勝。如師子(24)視觀楞伽王念如實行&nbsp;</span></div></div><div class='textvar' style='width:13.285714285714%;'><div class='Chinese'><span id='3339949bi' class='paragraph'>
+							(27)爾時世尊普觀衆會。以慧眼觀非肉眼觀。(28)如師子王奮迅迴盻欣然大笑。於其眉間(29)髀脇腰頸及以肩臂徳字之中。一一毛孔皆(589b1)放無量妙色光明。如虹拕暉如日舒光。(2)亦如劫火猛焔熾然。時虚空中梵釋四天。遙(3)見如來坐如須彌楞伽山頂欣然大笑。&nbsp;</span><span id='3339950bi' class='paragraph'>
+						 爾(4)時諸菩薩及諸天衆咸作是念。如來世尊於(5)法自在。何因縁故欣然大笑。身放光明默(6)然不動。住自證境入三昧樂。如師子王周(7)迴顧視。觀羅婆那念如實法&nbsp;</span></div></div><div class='textvar' style='width:13.285714285714%;'><div class='Tibetansk'><span id='3346323bi' class='paragraph'>
+							No Tibetan&nbsp;</span><span id='3346324bi' class='paragraph'>
+						 No Tibetan&nbsp;</span></div></div><div class='textvar' style='width:13.285714285714%;'><div class='Tibetansk'><span id='3343136bi' class='paragraph'>
+							de nas bcom ldan ’das kyis da’i tshe saṅs rgyas kyi śa’i spyan gyis ’khor la (6) gzigs nas | seṅ ge’i rgyal po ltar rnam par bsgyiṅs te | bźad mo tshar bźad nas | mdzod spu daṅ | rtsib logs daṅ | brla daṅ | sked pa’i phyogs daṅ | dpal gyi be’u daṅ | spu’i khuṅ bu thams cad nas ni ’od zer rab tu ’byin | dus kyi mtha’i me bźin (7) du ni ’bar | gzi brjid ni ’ja’ lta bu | ’od kyi dkyil ’khor ni ñi ma śar ba daṅ ’dra bar śin tu ’bar | brgya byin daṅ | tshaṅs pa daṅ | ’jig rten skyoṅ pa rnams kyis ni rnam mkha’i dbyiṅs nas lta źiṅ ri rab kyi rtse mo la ’gran pa’i zom la bźugs nas bźad mo cher bźad [60b1] do ||&nbsp;</span><span id='3343137bi' class='paragraph'>
+						 de nas byaṅ chub sems dpa’i ’khor de daṅ | brgya byin daṅ | tshaṅs pa la sogs pa de dag ’di sñam du sems te | rgyu gaṅ daṅ rkyen gaṅ gis de ltar bcom ldan ’das chos thams cad la mṅa’ mdzad pa sṅon du ’dzum pas bźad mo cher bźad ciṅ raṅ gi sku las ’od zer rab (2) tu ’byin | phyuṅ nas kyaṅ bdag gi so so raṅ gis rig pa’i ’phags pa’i ye śes mthoṅ ba’i spyod yul tiṅ ṅe ’dzin gyi bde ba la dgoṅs pa rab tu bźag ste | gzigs mo med par seṅ ge’i lta bas phyogs su gzigs nas ’bod ’grogs kyi rnal ’byor rtogs pa rgyub la rjes su dgoṅs (3) śiṅ caṅ mi gsuṅ bar gyur sñam mo ||&nbsp;</span></div></div><div class='textvar' style='width:13.285714285714%;'><div class='English'><span id='3330388bi' class='paragraph'>
+							Then the Blessed One beholding again this great assembly with his wisdom-eye, which is not the human eye, laughed loudly and most vigorously like the lion-king. Emitting rays of light from the tuft of hair between the eyebrows, from the ribs, from the loins, from the Srivatsa<a class='fotnote cn' name='FN3044cn5' href='#N3044cn5'><sup>5</sup></a>
+ on the breast, and from every pore of the skin, — emitting rays of light which shone flaming like the fire taking place at the end of a kalpa, like a luminous rainbow, like the rising sun, blazing brilliantly, gloriously—which were observed from the sky by Śakra, Brahma, and the guardians of the world, the one who sat on the peak [of Laṅkā] vying with Mount Sumeru laughed the loudest laugh.&nbsp;</span><span id='3330389bi' class='paragraph'>
+						 At that time the assembly of the Bodhisattvas together with Śakra and Brahma, each thought within himself: “For what reason, I wonder, from what cause does the Blessed One who is the master of all the world (sarva-dharma-vaśavartin), after smiling first,<a class='fotnote cn' name='FN3044cn6' href='#N3044cn6'><sup>6</sup></a>
+ laugh the loudest laugh? Why does he emit rays of light from his own body? Why, emitting [rays of light], does he remain silent, with the realisation [of the Truth] in his inmost self, and absorbed deeply and showing no surprise in the bliss of Samādhi, and reviewing the [ten] quarters, looking around like the lion-king, and thinking only of the discipline, attainment, and performance of Rāvaṇa?”&nbsp;</span><div style='' id='3' class='note cn'>5.<a class="internt" name='N3044cn5' href='#FN3044cn5'> Swastika.</a>&nbsp; 6.<a class="internt" name='N3044cn6' href='#FN3044cn6'> This is wanting in the Chinese translations.</a>&nbsp; </div><div class='clear'></div></div></div><div class='clear'></div></div><div class='clear'></div><div class='BolkContainer'><div class='textvar' style='width:13.285714285714%;'><div class='Sanskrit'><span id='3327203bi' class='paragraph'>
+							atha khalu mahāmatir bodhisattvo mahāsattvaḥ pūrvam evādhyeṣito rāvaṇasyānukampām upādāya tasyā bodhisattva(14*)parṣadaś cittāśayavicāram ājñāya anāgatāṃ janatāṃ cāvalokya deśanāpāṭhābhiratānāṃ sattvānāṃ cittavibhramo bhaviṣyatīti yathārutārthābhiniviṣṭānāṃ sarvaśrāvakapratyekabuddhatīrthyayogabalābhiniviṣṭānāṃ tathāgatā api bhagavanto vinivṛttavijñānaviṣayā mahāhāsaṃ hasanti |&nbsp;</span><span id='3327204bi' class='paragraph'>
+						 teṣāṃ kautūhalavinivṛttyarthaṃ bhagavantaṃ paripṛcchati sma - kaḥ khalv atra hetuḥ, kaḥ pratyayaḥ smitasya pravṛttaye?&nbsp;</span><span id='3327205bi' class='paragraph'>
+						 bhagavān āha - sādhu sādhu mahāmate, sādhu khalu punas tvaṃ mahāmate, lokasvabhāvam avalokya kudṛṣṭipatitānāṃ ca lokānāṃ traikālyacittāvabodhāya māṃ praṣṭum ārabdhaḥ |&nbsp;</span><span id='3327206bi' class='paragraph'>
+						 evaṃ paṇḍitaiḥ paripṛcchanajātīyair bhavitavyaṃ svaparobhayārtham | eṣa mahāmate rāvaṇo laṅkādhipatiḥ pūrvakān api tathāgatān arhataḥ samyaksaṃbuddhān praśnadvayaṃ pṛṣṭavān |&nbsp;</span><span id='3327207bi' class='paragraph'>
+						 mām apy etarhi praṣṭukāmo yad anālīḍhaṃ sarvaśrāvakapratyekabuddhatīrthyayogayogināṃ praśnadvayaprabhedagatilakṣaṇaṃ vibhāvayitum | ya eṣa praṣṭukāmo daśagrīvo ’nāgatān api jinān prakṣyati ||&nbsp;</span></div></div><div class='textvar' style='width:13.285714285714%;'><div class='Chinese'><span id='3502638bi' class='paragraph'>
+							&nbsp;</span><span id='3502639bi' class='paragraph'>
+						 &nbsp;</span><span id='3502640bi' class='paragraph'>
+						 &nbsp;</span><span id='3502641bi' class='paragraph'>
+						 &nbsp;</span><span id='3502642bi' class='paragraph'>
+						 &nbsp;</span></div></div><div class='textvar' style='width:13.285714285714%;'><div class='Chinese'><span id='3336764bi' class='paragraph'>
+							(25)爾時聖者大慧菩薩摩訶薩。先受楞伽羅婆(26)那王所啓請已念楞伽王。知諸一切大菩[(27)薩衆心行之法。觀察未來一切衆生。心皆樂(28)於名字説法。心迷生疑如説而取著於一切(29)聲聞縁覺外道之行。諸佛世尊離諸一切心(517c1)識之行能笑大笑。&nbsp;</span><span id='3336765bi' class='paragraph'>
+						 爲彼大衆斷於疑心。而(2)問佛言。如來何因何縁何事呵呵大笑。&nbsp;</span><span id='3336766bi' class='paragraph'>
+						 佛告(3)聖者大慧菩薩。善哉善哉善哉大慧。復善哉(4)大慧。汝能觀察世間妄想分別之心邪見顛(5)倒。汝實能知三世之事而問此事。&nbsp;</span><span id='3336767bi' class='paragraph'>
+						 如汝所(6)問智者之問亦復如是。爲自利利他故。大(7)慧。此楞伽王。曾問過去一切諸佛應正遍知(8)如是二法。&nbsp;</span><span id='3336768bi' class='paragraph'>
+						 今復現在亦欲問我如是二法。(9)此二法者。一切聲聞縁覺外道。未嘗知此(10)二法之相。大慧。此十頭羅刹。亦問未來一切(11)諸佛如此二法&nbsp;</span></div></div><div class='textvar' style='width:13.285714285714%;'><div class='Chinese'><span id='3339951bi' class='paragraph'>
+							(8)爾時大慧菩薩摩訶薩。先受羅婆那王請。復(9)知菩薩衆會之心。及觀未來一切衆生。皆悉(10)樂著語言文字。隨言取義而生迷惑。執取(11)二乘外道之行。或作是念。世尊已離諸識境(12)界。<a class='fotnote cn' name='FN3047cn1' href='#N3047cn1'><sup>1</sup></a>
+&nbsp;</span><span id='3339952bi' class='paragraph'>
+						 何因縁故欣然大笑。爲斷彼疑而問於(13)佛。&nbsp;</span><span id='3339953bi' class='paragraph'>
+						 佛即告言。善哉大慧。善哉大慧。汝觀世(14)間愍諸衆生。於三世中惡見所纒。欲令(15)開悟而問於我。&nbsp;</span><span id='3339954bi' class='paragraph'>
+						 諸智慧人爲利自他。能作(16)是問。大慧。此楞伽王。曾問過去一切如來應(17)正等覺二種之義。&nbsp;</span><span id='3339955bi' class='paragraph'>
+						 今亦欲問。未來亦爾。此二(18)種義差別之相。一切二乘及諸外道皆不能(19)測。&nbsp;</span><div style='' id='4' class='note cn'>1.<a class="internt" name='N3047cn1' href='#FN3047cn1'> see next line</a>&nbsp; </div><div class='clear'></div></div></div><div class='textvar' style='width:13.285714285714%;'><div class='Tibetansk'><span id='3346325bi' class='paragraph'>
+							No Tibetan&nbsp;</span><span id='3346326bi' class='paragraph'>
+						 No Tibetan&nbsp;</span><span id='3346327bi' class='paragraph'>
+						 No Tibetan&nbsp;</span><span id='3346328bi' class='paragraph'>
+						 No Tibetan&nbsp;</span><span id='3346329bi' class='paragraph'>
+						 No Tibetan&nbsp;</span></div></div><div class='textvar' style='width:13.285714285714%;'><div class='Tibetansk'><span id='3343138bi' class='paragraph'>
+							de nas byaṅ chub sems dpa’ sems dpa’ chen po blo gros chen po sṅar gsol ba btab pas ’bod ’grogs la sñiṅ brtse ba daṅ | byaṅ chub sems dpa’i ’khod de dag gi sems daṅ | bsam pa daṅ | rnam par spyod pa yaṅ śes śiṅ ma ’oṅs (4) pa’i skye bo’i tshogs la’aṅ bltas nas bśad pa brjod pa la mṅon par dga’ ba’i sems can rnams daṅ | sgra ji bźin du mṅon par źen ba rnams daṅ | ñan thos daṅ | raṅ saṅs rgyas daṅ | mu stegs can gyis la ’byor gyi stobs la mṅon par źen pa thams cad ’di ltar bcom (5) ldan ’das de bźin gśegs pa rnam par śes pa’i yul las phyir log pa rnams kyaṅ bśad mo cher bźad do sñam du sems śiṅ sems rnam par myos par gyur na mi ruṅ ṅo sñam nas |&nbsp;</span><span id='3343139bi' class='paragraph'>
+						 de dag gi ṅo mtshar rnam par bzlog pa’i phyir | bcom ldan ’das la źus pa | bcom ldan (6) ’das rgyu gaṅ daṅ rkyen gaṅ gis ’di ltar ’dzum pa mdzad |&nbsp;</span><span id='3343140bi' class='paragraph'>
+						 bcom ldan ’das kyis bka’ stsal pa | blo gros chen po legs so legs so || yaṅ blo gros chen po gaṅ khyod kyis ’jig rten gyi raṅ bźin daṅ | ’jig rten rnams kyi lta ba ṅan pa la bltas te | dus gsum gyi sems khoṅ (7) du chud pas | ṅa la dri bar brtsams pa ni blo gros chen po khyod legs so ||&nbsp;</span><span id='3343141bi' class='paragraph'>
+						 de ltar mkhas pa rnams kyis bdag daṅ gźan gyi don daṅ | gñis ka’i don du yoṅs su ’dri ba’i raṅ bźin can du bya’o || blo gros chen po laṅ ka’i bdag po ’bod ’grogs ’dis ni sṅon gyi de bźin gśegs (61a1) pa dgra bcom pa yaṅ dag par rdzogs pa’i saṅs rgyas rnams la dri ba gñis dris so ||&nbsp;</span><span id='3343142bi' class='paragraph'>
+						 bdag la yaṅ gaṅ ñan thos daṅ | raṅ saṅs rgyas daṅ | mu stegs can gyi rnal ’byor la rnal ’byor pa rnams kyis ma myoṅ ba’i dri ba gñis kyi bye brag khoṅ du chud pa’i mtshan ñid rnam par (2) bsgom pa’i phyir dri bar ’dod do || ’di ltar ’dri bar ’dod pa’i mgrin bcu ’di ni ma ’oṅs pa’i rgyal ba rnams la’aṅ ’dri bar ’gyur ro ||&nbsp;</span></div></div><div class='textvar' style='width:13.285714285714%;'><div class='English'><span id='3330390bi' class='paragraph'>
+							At that time, Mahāmati the Bodhisattva-Mahāsattva who was previously requested by Rāvaṇa [to ask the Buddha concerning his self-realisation], feeling pity on him, (14) and knowing the minds and thoughts of the assembly of the Bodhisattvas, and observing that beings to be born in the future would be confused in their minds because of their delight in the verbal teaching (desanapatha), because of their clinging to the letter as [fully in accordance with] the spirit (artha), because of their clinging to the disciplinary powers of the Śrāvakas, Pratyekabuddhas, and philosophers, —which might lead them to think how it were that the Tathāgatas, the Blessed Ones, even in their transcendental state of consciousness should burst out into loudest laughter&nbsp;</span><span id='3330391bi' class='paragraph'>
+						 —Mahāmati the Bodhisattva asked the Buddha in order to put a stop to their inquisitiveness the following question: “For what reason, for what cause did this laughter take place?”&nbsp;</span><span id='3330392bi' class='paragraph'>
+						 Said the Blessed One: “Well done, well done, Mahāmati! Well done, indeed, for once more, Mahāmati! Viewing the world as it is in itself and wishing to enlighten the people in the world who are fallen into a wrong view of things in the past, present, and future, thou undertakest to ask me the question.&nbsp;</span><span id='3330393bi' class='paragraph'>
+						 Thus should it be with the wise men who want to ask questions for both themselves and others. Rāvaṇa, Lord of Laṅkā, O Mahāmati, asked a twofold question of the Tathāgatas of the past who are Arhats and perfect Buddhas;&nbsp;</span><span id='3330394bi' class='paragraph'>
+						 and he wishes now to ask me too a twofold question in order to have its distinction, attainment, and scope ascertained—this is what is never tasted by those who practise the meditation of the Śrāvakas, Pratyekabuddhas, and philosophers; and the same will be asked by the question-loving ten-headed one of the Buddhas to come.”&nbsp;</span></div></div><div class='clear'></div></div><div class='clear'></div><div class='BolkContainer'><div class='textvar' style='width:13.285714285714%;'><div class='Sanskrit'><span id='3327208bi' class='paragraph'>
+							jānann eva bhagavāṃl laṅkādhipatim etad avocat - pṛccha tvaṃ laṅkādhipate | kṛtas te tathāgatenāvakāśaḥ | mā vilamba pracalitamaulin | yad yad evākāṅkṣasi, ahaṃ te tasya tasyaiva pra(15*)śnasya vyākaraṇena cittam ārādhayiṣyāmi |&nbsp;</span><span id='3327209bi' class='paragraph'>
+						 yathā tvaṃ parāvṛttavikalpāśraye bhūmivipakṣakauśalena pravicayabuddhyā vicārayamāṇaḥ pratyātmanayalakṣaṇasamādhisukhavihāraṃ samādhibuddhaiḥ parigṛhītaḥ (7,1) śamathasukhavyavasthitaḥ śrāvakapratyekabuddhasamādhipakṣānatikramya acalāsādhumatīdharmameghābhūmivyavasthito dharmanairātmyayathā tathākuśalo mahāratnapadmavimāne samādhijinābhiṣekatāṃ pratilapsyase |&nbsp;</span><span id='3327210bi' class='paragraph'>
+						 tadanurūpaiḥ padmaiḥ svakāyavicitrādhiṣṭhānādhiṣṭhitais taiḥ padmaiḥ svakāyaṃ niṣaṇṇaṃ drakṣyasi, anyonyavakramukhanirīkṣaṇaṃ ca kariṣyasi | evam acintyo ’sau viṣayaḥ yad ekenābhinirhārakauśalenābhinirhṛtaś caryābhūmau sthitaḥ |&nbsp;</span><span id='3327211bi' class='paragraph'>
+						 upāyakauśalaparigrahābhinirhārābhinirhṛte tam acintyaviṣayam anuprāpsyasi, bahurūpavikāratāṃ ca tathāgatabhūmim | yad adṛṣṭapūrvaṃ śrāvakapratyekabuddhatīrthyabrahmendropendrādibhis taṃ prāpsyasi ||&nbsp;</span></div></div><div class='textvar' style='width:13.285714285714%;'><div class='Chinese'><span id='3502643bi' class='paragraph'>
+							&nbsp;</span><span id='3502644bi' class='paragraph'>
+						 &nbsp;</span><span id='3502645bi' class='paragraph'>
+						 &nbsp;</span><span id='3502646bi' class='paragraph'>
+						 &nbsp;</span></div></div><div class='textvar' style='width:13.285714285714%;'><div class='Chinese'><span id='3336769bi' class='paragraph'>
+							(12)爾時如來知而故問羅婆那王而作是言。楞(13)伽王。汝欲問我隨汝疑心今悉可問。我悉(14)能答斷汝疑心令得歡喜。&nbsp;</span><span id='3336770bi' class='paragraph'>
+						 楞伽王。汝斷虚(15)妄分別之心。得地對治方便觀察。如實智慧(16)能入内身如實之相三昧樂行三昧佛即攝(17)取汝身。善住奢摩他樂境界中。過諸聲聞(18)縁覺三昧不淨之垢。能住不動善慧法雲等(19)地。善知如實無我之法。大寶蓮花王座上而(20)坐。得無量三昧而受佛職。楞伽王。汝當不(21)久自見己身亦在如是蓮花王座上而坐(22)法爾住持。&nbsp;</span><span id='3336771bi' class='paragraph'>
+						 無量蓮花王眷屬無量菩薩眷屬。(23)各各皆坐蓮花王座。而自圍遶迭相瞻視。各(24)各不久皆得住彼不可思議境界。&nbsp;</span><span id='3336772bi' class='paragraph'>
+						 所謂起一(25)行方便行住諸地中。能見不可思議境界。(26)見如來地無量無邊種種法相。一切聲聞縁(27)覺四天王帝釋梵王等所未曾見&nbsp;</span></div></div><div class='textvar' style='width:13.285714285714%;'><div class='Chinese'><span id='3339956bi' class='paragraph'>
+							爾時如來知楞伽王欲問此義。而告之(20)曰。楞伽王。汝欲問我宜應速問。我當爲汝(21)分別解釋滿汝所願令汝歡喜。&nbsp;</span><span id='3339957bi' class='paragraph'>
+						 能以智慧(22)思惟觀察。離諸分別善知諸地。修習對治(23)證眞實義。入三昧樂爲諸如來之所攝受。(24)住奢摩他樂遠離二乘三昧過失。住於不(25)動善慧法雲菩薩之地。能如實知諸法無我。(26)當於大寶蓮花宮中。以三昧水而灌其頂。(27)復現無量蓮花圍繞。無數菩薩於中止住。&nbsp;</span><span id='3339958bi' class='paragraph'>
+						 (28)與諸衆會遞相瞻視。如是境界不可思議。&nbsp;</span><span id='3339959bi' class='paragraph'>
+						 (29)楞伽王。汝起一方便行住修行地。復起無(589c1)量諸方便行。汝定當得如上所説不思議(2)事。處如來位隨形應物。汝所當得。一切(3)二乘及諸外道梵釋天等所未曾見&nbsp;</span></div></div><div class='textvar' style='width:13.285714285714%;'><div class='Tibetansk'><span id='3346330bi' class='paragraph'>
+							No Tibetan&nbsp;</span><span id='3346331bi' class='paragraph'>
+						 No Tibetan&nbsp;</span><span id='3346332bi' class='paragraph'>
+						 No Tibetan&nbsp;</span><span id='3346333bi' class='paragraph'>
+						 No Tibetan&nbsp;</span></div></div><div class='textvar' style='width:13.285714285714%;'><div class='Tibetansk'><span id='3343143bi' class='paragraph'>
+							de nas bcom ldan ’das kyis mkhyen bźin du | laṅ ka’i bdag po la ’di skad ces bka’ stsal to || laṅ ka’i bdag po khyod la de bźin (3) gśegs pas skabs phyes | cod pan rab tu g-yo ba ma sdoṅ par ci daṅ ci ’dod pa ṅal dris śig daṅ | ṅas dri ba de daṅ de’i luṅ bstan pas<a class='fotnote cn' name='FN3048cn1' href='#N3048cn1'><sup>1</sup></a>
+&nbsp;</span><span id='3343144bi' class='paragraph'>
+						 ji ltar khyod rnam par rtog pa’i gnas śin tu gyur nas | sa’i mi ’thun pa’i phyogs la mkhas śiṅ rab tu ’byed pa’i blos so so raṅ gi rig pa’i (4) tshul gyis mtshan ñid kyi tiṅ ṅe ’dzin gyi bde bar gnas pa la rnam par dpyod ciṅ tiṅ ṅe ’dzin gyi saṅs rgyas rnams kyis ni yoṅs su bzuṅ | źi ba’i bde ba la ni rnam par gnas te | ñan thos daṅ raṅ saṅs rgyas kyi tiṅ ṅe ’dzin gyi ñes pa las ’das nas mi g-yo ba daṅ | dge ba’i (5) blo gros daṅ | chos kyi sprin gyis la ni rnam par gnas | chos la bdag med pa’i yaṅ dag pa ji lta ba bźin la ni rab tu mkhas pas rin po che’i pad mo chen po btiṅ ba la tiṅ ṅe ’dzin gyi rgyal bas dbaṅ bskur ba thob par ’gyur źiṅ |&nbsp;</span><span id='3343145bi' class='paragraph'>
+						 de daṅ rjes su ’thun pa’i pad mo dag la bdag gi (6) lus rnam pa sna tshogs su byin gyi rlabs kyis byin du brlabs te | pad mo de dag la bdag gi lus ’dug pa mthoṅ bar ’gyur ba daṅ | gcig gis gdoṅ la gcig lta bar yaṅ byed par ’gyur ba daṅ | de ltar gaṅ gi phyir bsam gyis mi khyab pa’i yul de ni mṅon par sgrub pa la (7) mkhas pa | gcig gis mṅon par bsgrub pa yin te | spyod pa’i sa la gnas śiṅ&nbsp;</span><span id='3343146bi' class='paragraph'>
+						 thabs mkhas pas yoṅs su bzuṅ ba’i mṅon par bsgrub pa mṅon par bsgrubs pas | bsam gyis mi khyab pa’i yul de’aṅ rjes su ’thob par ’gyur ba daṅ | de bźin gśegs pa’i sa gzugs [61b1] rnam pa maṅ por rnam par ’gyur la | ñan thos daṅ | raṅ saṅs rgyas daṅ | mu stegs can daṅ | tshaṅs pa daṅ | dbaṅ po daṅ | ñe ba’i dbaṅ po rnams kyis sṅon mthoṅ ba de’aṅ thob par ’gyur bar khyed kyi sems raṅs par bya’o ||&nbsp;</span><div style='' id='5' class='note cn'>1.<a class="internt" name='N3048cn1' href='#FN3048cn1'> See three records below for the equivalent to te ... cittam ārādhayiṣyāmi – khyed kyi sems raṅs par bya’o.</a>&nbsp; </div><div class='clear'></div></div></div><div class='textvar' style='width:13.285714285714%;'><div class='English'><span id='3330395bi' class='paragraph'>
+							Knowing that, the Blessed One said to the Lord of Laṅkā, thus: “Ask, thou Lord of Laṅkā; the Tathāgata has given thee permission [to ask], delay not, whatever questions thou desirest to have answered, I will answer each of them (15) with judgment to the satisfaction of your heart.&nbsp;</span><span id='3330396bi' class='paragraph'>
+						 Keeping thy seat of thought free from [false] discrimination, observe well what is to be subdued at each stage; ponder things with wisdom; [seeing into] the nature of the inner principle in thyself, abide in the bliss of Samādhi; embraced by the Buddhas in Samādhi, abide in the bliss of tranquillisation; going beyond the Samādhi and understanding attained by the Śrāvakas and Pratyekabuddhas, abide in [the attainment of the Bodhisattvas] in the stages of Acala, Sadhumati, and Dharmamegha; grasp well the egolessness of all things in its true significance; be anointed by the Buddhas in Samādhi at the great palace of lotus-jewels.<a class='fotnote cn' name='FN3044cn7' href='#N3044cn7'><sup>7</sup></a>
+&nbsp;</span><span id='3330397bi' class='paragraph'>
+						 Surrounded by the Bodhisattvas who are sitting on lotuses of various sorts each supported by the gracious power of the Buddhas, thou shalt find thyself sitting on a lotus and each one of the Bodhisattvas looking at thee face to face. This is a realm beyond the imagination.&nbsp;</span><span id='3330398bi' class='paragraph'>
+						 Thou shouldst plan out an adequate plan and establish thyself at a stage of discipline by planning out such a plan as shall include [all kinds of] skilful means, so that thou comest to realise that realm which is beyond imagination; and thou shouldst attain the stage of Tathāgatahood in which one is able to manifest oneself in various forms, and which is something never seen before by the Śrāvakas, Pratyekabuddhas, philosophers, Brahma, Indra, Upendra, and others.”&nbsp;</span><div style='' id='6' class='note cn'>7.<a class="internt" name='N3044cn7' href='#FN3044cn7'> The following sentence is done by the aid of T'ang, as the Sanskrit does not seem to give any sense. Literally translated it reads: “There by the becoming lotuses, by those lotuses that are blessed variously by the benediction of his own person.... “ Wei has: “O King of Laṅkā, thou wilt before long see thy person, too, thus sitting on the lotus-throne and continuing to abide there in a most natural manner. There are innumerable families of lotus-kings and innumerable families of Bodhisattvas there, each one of whom is sitting on a lotus-throne, and surrounded by those thou wilt find thyself and looking face to face at one another, and each one of them will before long come to abide in a realm beyond the understanding.”</a>&nbsp; </div><div class='clear'></div></div></div><div class='clear'></div></div><div class='clear'></div><div class='BolkContainer'><div class='textvar' style='width:13.285714285714%;'><div class='Sanskrit'><span id='3327212bi' class='paragraph'>
+							atha khalu laṅkādhipatir bhagavatā kṛtāvakāśa utthāya tasmād raśmivimalaprabhād ratnapadmasadṛśād ratnaśikharāt sāpsarogaṇaparivṛto vividhair anekavidhair nānāprakāraiḥ puṣpamālyagandhadhūpavilepanacchatradhvajapatākāhārārdhahārakirīṭamukuṭair (16*) anyaiś ca adṛṣṭaśrutapūrvair ābharaṇaviśeṣair viśiṣṭais tūryatālāvacarair devanāgayakṣarākṣasagandharvakinnaramahauragamanuṣyātikrāntaiḥ sarvakāmadhātuparyāpannān vādyabhāṇḍānabhinirmāya ye cānyeṣu buddhakṣetreṣu tūryaviśeṣā dṛṣṭāḥ, tān abhinirmāya bhagavantaṃ bodhisattvāṃś ca ratnajālenāvaṣṭabhya nānāvastrocchritapatākaṃ kṛtvā sapta tālān gagane ’bhyudgamya mahāpūjāmeghānabhipravṛṣya tūryatālāvacarāṇi nirnādya tasmād gaganādavatīrya sūryavidyutprabhe dvitīye mahāratnapadmālaṃkṛtau ratnaśikhare niṣasāda |&nbsp;</span><span id='3327213bi' class='paragraph'>
+						 niṣadya upacārāt smitapūrvaṃ bhagavatā kṛtāvakāśo bhagavanta praśnadvayaṃ pṛcchati sma - pṛṣṭā mayā pūrvakās tathāgatā arhantaḥ samyaksaṃbuddhāḥ | taiś cāpi visarjitam | bhagavantam apy etarhi pṛcchāmi |&nbsp;</span><span id='3327214bi' class='paragraph'>
+						 deśanāpāṭhe cāyaṃ buddhais tvayā cāvaśyam anuvarṇitaṃ bhaviṣyati | nirmitanirmāṇabhāṣitam idaṃ bhagavan dharmadvayam | na maunais tathāgatair bhāṣitam |&nbsp;</span><span id='3327215bi' class='paragraph'>
+						 maunā hi bhagavaṃs tathāgatāḥ samādhisukhagocaram evodbhāvayanti | na ca gocaraṃ vikalpayanti | taṃ deśayanti | tatsādhu me bhagavān svayam eva dharmavaśavartī dharmadvayaṃ tathāgato ’rhan samyaksaṃbuddho deśayatu | śroṣyantīme jinaputrā ahaṃ ca ||&nbsp;</span></div></div><div class='textvar' style='width:13.285714285714%;'><div class='Chinese'><span id='3502647bi' class='paragraph'>
+							&nbsp;</span><span id='3502648bi' class='paragraph'>
+						 &nbsp;</span><span id='3502649bi' class='paragraph'>
+						 &nbsp;</span><span id='3502650bi' class='paragraph'>
+						 &nbsp;</span></div></div><div class='textvar' style='width:13.285714285714%;'><div class='Chinese'><span id='3336773bi' class='paragraph'>
+							(28)爾時楞伽王。聞佛世尊聽已問已。彼於無(29)垢無量光明大寶蓮花衆寶莊嚴山上。無量(518a1)天女而自圍遶。現於無量種種異花種種異(2)香散香塗香。寶幢幡蓋寶冠瓔珞莊嚴身具。(3)復現世間未曾聞見種種勝妙莊嚴之具。復(4)現無量種種樂器。過諸天龍夜叉乾闥婆阿(5)修羅迦樓羅緊陀羅摩睺羅伽人非人等所(6)有樂具。復隨三界欲界色界無色界。所有(7)樂具皆悉化作。復隨十方諸佛國土。所有種(8)種勝妙樂具皆悉化作。化作無量大寶羅網。(9)遍覆一切諸佛菩薩大衆之上。復竪無量(10)種種寶幢。羅婆那王作如是等變化事已。(11)身昇虚空高七多羅樹。住虚空中。雨種種(12)伎樂雨種種花。雨種種香雨種種衣。滿虚(13)空中如澍大雨。以用供養佛及佛子。雨供(14)養已從上而下。於虚空中即坐第二電光(15)明大寶蓮花王種種寶山上[&nbsp;</span><span id='3336774bi' class='paragraph'>
+						 (a16)]爾時如來見其坐已發於微笑。聽楞伽王(17)問二種法。時楞伽王白佛言。世尊。此二種(18)法我已曾問過去諸佛應正遍知。彼佛世尊(19)已爲我説。&nbsp;</span><span id='3336775bi' class='paragraph'>
+						 世尊。我今現在依名字章句亦(20)問如來。如來畢竟應爲我説。世尊。應化化(21)佛説此二法非根本如來。&nbsp;</span><span id='3336776bi' class='paragraph'>
+						 世尊。根本如來(22)修集三昧樂境界者。不説心識外諸境界。(23)善哉世尊。如來自身於一切法而得自在。(24)惟願世尊應正遍知説此二法。一切佛子及(25)我己身亦願欲聞&nbsp;</span></div></div><div class='textvar' style='width:13.285714285714%;'><div class='Chinese'><span id='3339960bi' class='paragraph'>
+							(4)爾時楞伽王。蒙佛許已。即於清淨光明如(5)大蓮華寶山頂上。從座而起。諸婇女衆之(6)所圍繞。化作無量種種色花。種種色香末香(7)塗香。幢幡幰蓋冠珮瓔珞。及餘世間未曾見(8)聞種種勝妙莊嚴之具。又復化作欲界所有(9)種種無量諸音樂器。過諸天龍乾闥婆等一(10)切世間之所有者。又復化作十方佛土昔所(11)曾見諸音樂器。又復化作大寶羅網。遍覆(12)一切佛菩薩上。復現種種上妙衣服。建立幢(13)幡以爲供養。作是事已即昇虚空高七(14)多羅樹。於虚空中復雨種種諸供養雲。作(15)諸音樂。從空而下。即坐第二日電光明如(16)大蓮花寶山頂上。&nbsp;</span><span id='3339961bi' class='paragraph'>
+						 歡喜恭敬而作是言。我今(17)欲問如來二義。如是二義。我已曾問過去(18)如來應正等覺。彼佛世尊已爲我説。我今亦(19)欲問於是義。唯願如來爲我宣説。&nbsp;</span><span id='3339962bi' class='paragraph'>
+						 世尊。變(20)化如來説此二＊義。非根本佛。&nbsp;</span><span id='3339963bi' class='paragraph'>
+						 根本佛説三(21)昧樂境。不説虚妄分別所行。善哉世尊於(22)法自在。唯願哀愍説此二義。一切佛子心皆(23)樂聞&nbsp;</span></div></div><div class='textvar' style='width:13.285714285714%;'><div class='Tibetansk'><span id='3346334bi' class='paragraph'>
+							No Tibetan&nbsp;</span><span id='3346335bi' class='paragraph'>
+						 No Tibetan&nbsp;</span><span id='3346336bi' class='paragraph'>
+						 No Tibetan&nbsp;</span><span id='3346337bi' class='paragraph'>
+						 No Tibetan&nbsp;</span></div></div><div class='textvar' style='width:13.285714285714%;'><div class='Tibetansk'><span id='3343147bi' class='paragraph'>
+							de nas laṅ ka’i bdag po lha mo daṅ (2) bcas pa’i tshogs kyis yoṅs su bskor ba | bcom ldan ’das kyis skabs phye bas rin po che’i pad mo’i ’od zer gyis dri ma med pa’i ’od rin po che’i pad mo daṅ ’dra ba’i rin po che’i rtse mo de nas laṅs nas me tog daṅ | phreṅ ba daṅ | spos daṅ | bdug pa daṅ | byug pa daṅ | (3) gdugs daṅ | rgyal mtshan daṅ | lha’i ba dan daṅ | se mo do daṅ | do śal daṅ | cod pan daṅ | thor tshugs rnam pa du ma rnam pa tha dad pa sna tshogs daṅ | sṅon ma mthoṅ ma thos pa’i rgyan gyi khyad par rnam par ’phags pa gźan dag daṅ | lha daṅ | klu daṅ | gnod sbyin (4) daṅ | srin po daṅ | dri za daṅ | mi’am ci daṅ | lto ’phye chen po daṅ | mi las lhag pa las kyaṅ ’das pa’i rṅa daṅ | sil sñan rnams daṅ | ’dod pa’i khams su gtogs pa’i rol mo’i cha byad thams cad kyaṅ rnam par sprul | gaṅ yaṅ saṅs rgyas kyi źiṅ gźan gyi rol mo’i (5) khyad par mthoṅ ba de dag kyaṅ mṅon par sprul | bcom ldan ’das daṅ byaṅ chub sems dpa’ rnams la rin po che’i dra bas ni mṅon par bkab | gos sna tshogs kyi lha’i ba dan ni rab tu bsgreṅ | ta la bdun tsam du ni nam mkha’ la mṅon par ’phags | mchod pa’i sprin chen po’i char ni (6) mṅon par phab | rṅa daṅ sil sñan rnams kyi sgra ni rab tu phyuṅ ste | nam mkha’ de las babs nas ñi ma daṅ | glog gi ’od lta bu rin po che’i pad mo chen pos brgyan pa’i rin po che’i rtse mo gñis pa la ’dug go ||&nbsp;</span><span id='3343148bi' class='paragraph'>
+						 ’dug nas źe sar ’dzum pa sṅon du byas te | bcom ldan ’das kyis go (7) skabs phye bas | bcom ldan ’das la dri ba gñis dris so || sṅon gyi de bźin gśegs pa dgra bcom pa yaṅ dag par rdzogs pa’i saṅs rgyas rnams la’aṅ bdag gis źus nas | de rnams kyis kyaṅ lan bla na te | bcom ldan ’das la’aṅ da źu’o ||&nbsp;</span><span id='3343149bi' class='paragraph'>
+						 bstan pa brjod pa las kyaṅ (62a1) ’di ni saṅs rgyas rnams daṅ | khyod kyis kyaṅ gdon mi ’tshal bar bśad par ’gyur te | bcom ldan ’das chos gñis po ’di ni ’phrul bas sprul pa rnams kyis bstan pa lags te | ṅo bo’i de bźin gśegs pa rnams kyis ni ma gsuṅs so ||&nbsp;</span><span id='3343150bi' class='paragraph'>
+						 bcom ldan ’das (2) ṅo bo’i de bźin gśegs pa rnams ni tiṅ ṅe ’dzin gyi sgo’i spyod yul ston te | tshig gi spyod yul gyi rnam par rtog par lhuṅ ba ni mi ston na | bcom ldan ’das chos la mṅa’ mdzad pa de bźin gśegs pa dgra bcom pa yaṅ dag par rdzogs pa’i saṅs rgyas ñid kyis chos gñis po de legs par (3) bdag la bśad du gsol | bcom ldan ’das rgyal ba’i sras ’di rnams kyaṅ ñan | bdag kyaṅ ’tshal bar ’gyur ro ||&nbsp;</span></div></div><div class='textvar' style='width:13.285714285714%;'><div class='English'><span id='3330399bi' class='paragraph'>
+							At that moment the Lord of Laṅkā being permitted by the Blessed One, rose from his seat on the peak of the jewel-mountain which shone like the jewel-lotus immaculate and shining in splendour; he was surrounded by a large company of celestial maidens, and all kinds of garlands, flowers, perfumes, incense, unguents, umbrellas, banners, fiags, necklaces, half-necklaces, diadems, tiaras, (16) and other ornaments whose splendour and excellence were never heard of or seen before, were created; music was played surpassing anything that could be had by the gods, Nagas, Yakshas, Rākshasas, Gandharvas, Kinnaras, Mahoragas, and men; musical instruments were created equal to anything that could be had in all the world of desire and also such superior musical instruments were created as were to be seen in the Buddha-lands; the Blessed One and the Bodhisattvas were enveloped in a net of jewels; a variety of dresses and high banners was made rising high in the air as high as seven tala trees to great [the Buddha], showering great clouds of offerings, playing music which resounded [all around], and then descending from the air, [the Lord of Laṅkā] sat down on the peak of the jewel-mountain ornamented with magnificent jewel-lotus whose splendour was second only to the sun and lightning.&nbsp;</span><span id='3330400bi' class='paragraph'>
+						 Sitting he made courtesy smiling first to the Blessed One for his permission and proposed him a twofold question: “It was asked of the Tathāgatas of the past, who were Arhats, Fully-Enlightened Ones, and it was solved by them. Blessed One, now I ask of thee;&nbsp;</span><span id='3330401bi' class='paragraph'>
+						 [the request] will certainly be complied with by thee as far as verbal instruction is concerned<a class='fotnote cn' name='FN3044cn8' href='#N3044cn8'><sup>8</sup></a>
+ as it was by the Buddhas [of the past]. Blessed One, duality was discoursed upon by the Transformed Tathāgatas and Tathāgatas of Trans-formation, but not by the Tathāgatas of Silence.<a class='fotnote cn' name='FN3044cn9' href='#N3044cn9'><sup>9</sup></a>
+&nbsp;</span><span id='3330402bi' class='paragraph'>
+						 The Tathāgatas of Silence are absorbed in the blissful state of Samādhi, they do not discriminate concerning this state, nor do they discourse on it. Blessed One, thou assuredly wilt discourse on this subject of duality. Thou art thyself a master of all things, an Arhat, a Tathāgata. The sons of the Buddha and myself are anxious to listen to it.”&nbsp;</span><div style='' id='7' class='note cn'>8.<a class="internt" name='N3044cn8' href='#FN3044cn8'> That is, as far as the teaching could be conveyed in words. Desanapatha stands in contrast with siddhanta, or pratyātmagati in the Laṅkāvatara.</a>&nbsp; 9.<a class="internt" name='N3044cn9' href='#FN3044cn9'> In T'ang and Wei: “Original Tathāgatas.”</a>&nbsp; </div><div class='clear'></div></div></div><div class='clear'></div></div><div class='clear'></div><div class='BolkContainer'><div class='textvar' style='width:13.285714285714%;'><div class='Sanskrit'><span id='3327216bi' class='paragraph'>
+							bhagavān āha - brūhi laṅkādhipate dharmadvayam | rākṣasendra (17*) āha - kirīṭāṅgadahāravajrasūtrāvabaddhābharaṇanuśobhāśobhita, dharmā eva prahātavyāḥ prāgevādharmāḥ | tatkathaṃ bhagavan dharmadvayaṃ prahāṇaṃ bhavati? ke cādharmā dharmāḥ? kathaṃ sati dvitvaṃ prahāṇadharmāṇāṃ vikalpalakṣaṇapatitānāṃ vikalpasvabhāvābhāvānāmabhautikabhautikānāmālayavijñānāparijñānādaviśeṣalakṣaṇānāṃ keśoṇḍukasvabhāvāvasthitānām aśuddhakṣayajñānaviṣayiṇām | tatkathaṃ teṣāṃ prahāṇam evaṃbhāvinām?&nbsp;</span></div></div><div class='textvar' style='width:13.285714285714%;'><div class='Chinese'><span id='3502651bi' class='paragraph'>
+							&nbsp;</span></div></div><div class='textvar' style='width:13.285714285714%;'><div class='Chinese'><span id='3336777bi' class='paragraph'>
+							(26)爾時世尊知而即告楞伽王言。楞伽王。汝(27)問此二法。爾時夜叉王更著種種金冠瓔珞(28)金莊嚴具而作是言。如來常説。法尚應捨(29)何況非法。世尊。云何言二法捨。世尊。何者是(518b1)法何者非法。世尊。捨法云何有二。以墮分(2)別相中。虚妄分別是有無法無大有大。世尊(3)阿梨耶識知名識相。所有體相如虚空中有(4)毛輪住。不淨盡智所知境界。世尊。法若如(5)是云何而捨。&nbsp;</span></div></div><div class='textvar' style='width:13.285714285714%;'><div class='Chinese'><span id='3339964bi' class='paragraph'>
+							(24)爾時世尊告彼王言。汝應問。我當爲汝説。(25)時夜叉王。更著種種寶冠瓔珞。諸莊嚴具以(26)嚴其身。而作是言。如來常説。法尚應捨何(27)況非法。云何得捨此二種法。何者是法何者(28)非法。法若應捨云何有二。有二即墮分別(29)相中。有體無體是實非實。如是一切皆是(590a1)分別。不能了知阿頼耶識無差別相。如(2)毛輪住非淨智境。法性如是云何可捨。&nbsp;</span></div></div><div class='textvar' style='width:13.285714285714%;'><div class='Tibetansk'><span id='3346338bi' class='paragraph'>
+							No Tibetan&nbsp;</span></div></div><div class='textvar' style='width:13.285714285714%;'><div class='Tibetansk'><span id='3343151bi' class='paragraph'>
+							bcom ldan ’das kyis bka’ stsal pa | laṅ ka’i bdag pa chos gñis po de smros śig | srin po’i dbaṅ po lus la cod pan daṅ | dpuṅ rgyan daṅ | se (4) mo do daṅ | rdo rje mchog gi phreṅ ba thogs śiṅ rgyan bzaṅ pos lus brgyan pas gsol pa | chos ñid kyaṅ spaṅ bar bgyi na | chos ma mchis pa lta ci smos | bcom ldan ’das chos gñis po de ji ltar spaṅ bar ’gyur | chos sam chos ma mchis pa rnams ni gaṅ lags | ji ltar na (5) gñis spaṅ ba’i chos can rnam par rtog pa’i mtshan ñid du lhuṅ ba rnam par rtog pa’i raṅ bźin ’byuṅ ba daṅ | ’byuṅ ba las gyur pa ma lags pa | kun gźi rnam par śes pa yoṅs su ma rig pas khyad par gyi mtshan ñid ma mchis pa | skra śad ’dziṅs pa’i raṅ bźin du gnas pa | (6) śes pa ma dag ciṅ zad par ’gyur ba’i yul can | de lta bu’i raṅ bźin de dag ji ltar spaṅ bar ’gyur |&nbsp;</span></div></div><div class='textvar' style='width:13.285714285714%;'><div class='English'><span id='3330403bi' class='paragraph'>
+							The Blessed One said, “Lord of Laṅkā, tell me what you mean by duality?” The Lord of the Rākshasas, (17) who was renewed in his ornaments, full of splendour and beauty, with a diadem, bracelet, and necklace strung with vajra thread, said, “It is said that even dharmas are to be abandoned, and how much more adharmas. Blessed One, why does this dualism exist that we are called upon to abandon? What are adharmas? and what are dharmas? How can there be a duality of things to abandon—a duality that arises from falling into discrimination, from discriminating self-substance where there is none, from [the idea of] things created (bhautika) and uncreated, because the non-differentiating nature of the Ālayavijñāna is not recognised? Like the seeing of a hair-circle as really existing in the air, [the notion of dualism] belongs to the realm of intellection not exhaustively pur-gated. This being the. case as it should be, how could there be any abandonment [of dharmas and adharmas]?”&nbsp;</span></div></div><div class='clear'></div></div><div class='clear'></div><div class='BolkContainer'><div class='textvar' style='width:13.285714285714%;'><div class='Sanskrit'><span id='3327217bi' class='paragraph'>
+							bhagavān āha - nanu laṅkādhipate, dṛṣṭo ghaṭādīnāṃ bhedanātmakānāṃ vināśadharmiṇāṃ bālavikalpagocaraiḥ prativibhāgaḥ | evam ihāpi kiṃ na gṛhyate? asti dharmādharmayoḥ prativibhāgo bālaprativikalpam upādāya, na tv āryajñānādhigamaṃ prati darśanena |&nbsp;</span><span id='3327218bi' class='paragraph'>
+						 tiṣṭhantu tāval laṅkādhipate ghaṭādayo bhāvā vicitralakṣaṇapatitā bālānāṃ na tv āryāṇām | ekasvābhāvikānām ekajvālodbhavaprajvālitānāṃ (8,1) gṛhabhavanodyānaprāsādapratiṣṭhāpitānāṃ dṛṣṭaḥ prativibhāgaḥ indhanavaśād dīrghahrasvaprabhālpamahāviśeṣāś ca |&nbsp;</span><span id='3327219bi' class='paragraph'>
+						 evam ihāpi kiṃ (18*) na gṛhyate? asti dharmādharmayoḥ prativibhāgaḥ | na kevalam agnijvālāyā ekasaṃtānapatitāyā dṛṣṭo ’rciṣaś ca prativibhāgaḥ | ekabījaprasūtānāṃ yatsaṃtānānām api laṅkādhipate nālāṅkuragaṇḍaparvapatrapalāśapuṣpaphalaśākhāviśeṣāḥ |&nbsp;</span><span id='3327220bi' class='paragraph'>
+						 evaṃ sarvadharmaprarohadharmiṇāṃ bāhyānām ādhyātmikānām apy avidyāniryātānāṃ skandhadhātvāyatanopagānāṃ sarvadharmāṇāṃ traidhātukopapannānāṃ dṛṣṭasukhasaṃsthānāmabhilāpyagativiśeṣāḥ | vijñānānām ekalakṣaṇānāṃ viṣayābhigrahaṇapravṛttānāṃ dṛṣṭo hīnotkṛṣṭamadhyamaviśeṣo vyavadānāvyavadānataś ca kuśalākuśalataś ca |&nbsp;</span><span id='3327221bi' class='paragraph'>
+						 na kevalam eṣāṃ laṅkādhipate dharmāṇāṃ prativibhāgaviśeṣaḥ, yoginām api yogamabhyasyatāṃ yogamārge pratyātmagatilakṣaṇaviśeṣo dṛṣṭaḥ | kimaṅga punar dharmādharmayoḥ prativikalpapravṛttayor viśeṣo na bhavati? bhavaty eva ||&nbsp;</span></div></div><div class='textvar' style='width:13.285714285714%;'><div class='Chinese'><span id='3502652bi' class='paragraph'>
+							&nbsp;</span><span id='3502653bi' class='paragraph'>
+						 &nbsp;</span><span id='3502654bi' class='paragraph'>
+						 &nbsp;</span><span id='3502655bi' class='paragraph'>
+						 &nbsp;</span><span id='3502656bi' class='paragraph'>
+						 &nbsp;</span></div></div><div class='textvar' style='width:13.285714285714%;'><div class='Chinese'><span id='3336778bi' class='paragraph'>
+							佛告楞伽王。楞伽王。汝不見(6)瓶等無常敗壞之法。毛道凡夫分別境界差(7)別之相。楞伽王。何故不如是取。&nbsp;</span><span id='3336779bi' class='paragraph'>
+						 有法非法(8)差別之相。依毛道凡夫分別心有。非聖證(9)智以爲可見。楞伽王。且置瓶等種種相事。(10)毛道凡夫心謂爲有。非謂聖人以爲有法。(11)楞伽王。譬如一火炎燒宮殿園林草木。見(12)種種火光明色炎各各差別。依種種薪草木(13)長短。分別見有勝負之相。&nbsp;</span><span id='3336780bi' class='paragraph'>
+						 此中何故不如(14)是知有法非法差別之相。楞伽王。非但火(15)炎依一相續身中見有種種諸相差別。&nbsp;</span><span id='3336781bi' class='paragraph'>
+						 楞(16)伽王。如一種子一相續生牙莖枝葉華果(17)樹林種種異相。如是内外所生諸法。無明及(18)行陰界入等一切諸法。三界所生皆有差(19)別。現樂形相言語去來勝智異相。一相境界(20)而取於相。見下中上勝相染淨善不善相。&nbsp;</span><span id='3336782bi' class='paragraph'>
+						 楞(21)伽王。非但種種法中見差別相。覺如實道(22)者内證行中亦有見於種種異相。何況法非(23)法無分別種種差別相。楞伽王。有法非法種(24)種差別相&nbsp;</span></div></div><div class='textvar' style='width:13.285714285714%;'><div class='Chinese'><span id='3339965bi' class='paragraph'>
+							爾(3)時佛告楞伽王言。楞伽王。汝豈不見瓶等(4)無常敗壞之法。凡夫於中妄生分別。汝今何(5)故不如是知&nbsp;</span><span id='3339966bi' class='paragraph'>
+						 法與非法差別之相。此是凡(6)夫之所分別非證智見。凡夫墮在種種相(7)中。非諸＊證者。楞伽王。如燒宮殿園林見(8)種種焔火性是一。所出光焔由薪力故。長(9)短大小各各差別。&nbsp;</span><span id='3339967bi' class='paragraph'>
+						 汝今云何不如是知法(10)與非法差別之相。&nbsp;</span><span id='3339968bi' class='paragraph'>
+						 楞伽王。如一種子生牙(11)莖枝葉及以花果無量差別。外法如是内法(12)亦然。謂無明爲縁生蘊界處一切諸法。於(13)三界中受諸趣生。有苦樂好醜語默行止(14)各各差別。又如諸識相雖是一隨於境界(15)有上中下染淨善惡種種差別。&nbsp;</span><span id='3339969bi' class='paragraph'>
+						 楞伽王。非但(16)如上法有差別。諸修行者修觀行時。自智(17)所行亦復見有差別之相。況法與非法。而(18)無種種差別分別。&nbsp;</span></div></div><div class='textvar' style='width:13.285714285714%;'><div class='Tibetansk'><span id='3346339bi' class='paragraph'>
+							No Tibetan&nbsp;</span><span id='3346340bi' class='paragraph'>
+						 No Tibetan&nbsp;</span><span id='3346341bi' class='paragraph'>
+						 No Tibetan&nbsp;</span><span id='3346342bi' class='paragraph'>
+						 No Tibetan&nbsp;</span><span id='3346343bi' class='paragraph'>
+						 No Tibetan&nbsp;</span></div></div><div class='textvar' style='width:13.285714285714%;'><div class='Tibetansk'><span id='3343152bi' class='paragraph'>
+							bcom ldan ’das kyis bka’ stsal pa | laṅ ka’i bdag po ’di ltar bum pa la sogs pa ’chag pa’i raṅ bźin ’jig pa’i chos can rnams byis pa rnams kyi rnam par rtog pa’i spyod (7) yul la tha dad pa’i bye brag tu snaṅ ba | de bźin du ’di la yaṅ ci’i phyir mi gzuṅ | byis pa rnams kyi so so’i rnam par rtog pa ñe bar bzuṅ na | chos daṅ chos med pa tha daṅ pa’i bye brag kyaṅ yod do || ’phags pa’i ye śes khoṅ du chud par bya ba’i phyir mthoṅ bas ni ma yin no ||&nbsp;</span><span id='3343153bi' class='paragraph'>
+						 laṅ ka’i [62b1] bdag po bum pa la sogs pa’i dṅos po mtshan ñid sna tshogs su lhuṅ ba rnams byis pa dag gi yin te | ’phags pa rnams kyi ma yin pa lta źog la | raṅ bźin gcig ciṅ ’bar ba gcig las byuṅ ba’i rab tu ’bar ba khyim daṅ gnas daṅ skyed mos tshal daṅ | khaṅ pa la ’dug pa śiṅ gi (2) dbaṅ gis ’od riṅ ba daṅ thuṅ ba’i khyad par daṅ tha dad pa’i bye brag tu snaṅ ba&nbsp;</span><span id='3343154bi' class='paragraph'>
+						 de bźin du ’di la yaṅ chos daṅ | chos med pa tha dad pa’i bye brag yod par ci’i phyir mi gzuṅ | me lce’i rgyud gcig tu gyur pa’i ’od ’phro ba tha dad pa’i bye brag tu snaṅ ba ’ba’ źig tu’aṅ ma zad de | laṅ ka’i bdag pos (3) bon las byuṅ yaṅ myu gu daṅ | ljaṅ bu daṅ | sog ma daṅ | tshigs daṅ | lo ma daṅ | yal ga daṅ | me tog daṅ | ’bras bu daṅ | gra ma’i bye brag yod pa&nbsp;</span><span id='3343155bi' class='paragraph'>
+						 de bźin du phyi naṅ gi chos skye ba’i chos can | ma rig pa las rab tu byuṅ ba | phuṅ po daṅ | khams daṅ | skye (4) mched du gtogs pa thams cad daṅ | khams gsum du skyes pa’i chos thams cad la bde ba’i dbyibs daṅ | brjod pa daṅ | ’gro ba’i khyad par dag kyaṅ snaṅ ste | mtshan ñid gcig pa’i rnam par śes pa yul la mṅon par ’dzin par rab tu ’jug pa’i khyad par rab daṅ ’briṅ daṅ tha ma’i (5) bye brag daṅ | rnam par byaṅ ba daṅ | dge ba daṅ | mi dge bar yaṅ snaṅ ṅo ||&nbsp;</span><span id='3343156bi' class='paragraph'>
+						 laṅ ka’i bdag po chos de dag gi tha dad pa’i bye brag tu’aṅ ma zad de | rnal ’byor can rnal ’byor bsgom pa rnams kyi rnal ’byor gyi lam la yaṅ so so raṅ gis rig pa’i mtshan ñid kyi khyad par snaṅ na | (6) so so’i rnam par rtog pa las byuṅ ba’i chos daṅ | chos med pa’i khyad par lta ci’i phyir med de yod do ||&nbsp;</span></div></div><div class='textvar' style='width:13.285714285714%;'><div class='English'><span id='3330404bi' class='paragraph'>
+							Said the Blessed One, “Lord of Laṅkā, seest thou not that the differentiation of things, such as is perceived in jars and other breakable objects whose nature it is to perish in time, takes place in a realm of discrimination [cherished by] the ignorant? This being so, is it not to be so understood?&nbsp;</span><span id='3330405bi' class='paragraph'>
+						 It is due to discrimination [cherished by] the ignorant that there exists the differentiation of dharma and adharma. Noble wisdom (āryajñāna), however, is not to be realised by seeing [things this way]. Lord of Laṅkā, let it be so with the ignorant who follow the particularised aspect of existence that there are such objects as jars, etc., but it is not so with the wise. One flame of uniform nature rises up depending on houses, mansions, parks, and terraces, and burns them down; while a difference in the flames is seen according to the power of each burning material which varies in length, magnitude, etc.&nbsp;</span><span id='3330406bi' class='paragraph'>
+						 This being so, why (18) is it not to be so understood? The duality of dharma and adharma thus comes into existence. Not only is there seen a fire-flame spreading out in one continuity and yet showing a variety of flames, but from one seed, Lord of Laṅkā, are produced, also in one continuity, stems, shoots, knots, leaves, petals, flowers, fruit, branches, all individualised.&nbsp;</span><span id='3330407bi' class='paragraph'>
+						 As it is with every external object from which grows [a variety of] objects, so also with internal objects. From ignorance there develop the Skandhas, Dhātus, Āyatanas, with all kinds of objects accompanying, which grow out in the triple world where we have, as we see, happiness, form, speech, and behaviour, each differentiating [infinitely]. The oneness of the Vijñāna is grasped variously according to the evolution of an objective world; thus there are seen things inferior, superior, and middling, things defiled and free from defilement, things good and bad.&nbsp;</span><span id='3330408bi' class='paragraph'>
+						 Not only, Lord of Laṅkā, is there such a difference of conditions in things generally, there is also seen a variety of realisations attained innerly by each Yogin as he treads the path of discipline which constitutes his practice. How much more difference in dharma and adharma do we not see in a world of particulars which is evolved by discrimination? Indeed, we do.&nbsp;</span></div></div><div class='clear'></div></div><div class='clear'></div><div class='BolkContainer'><div class='textvar' style='width:13.285714285714%;'><div class='Sanskrit'><span id='3327222bi' class='paragraph'>
+							asti laṅkādhipate dharmādharmayoḥ prativibhāgo vikalpalakṣaṇatvāt | tatra laṅkādhipate dharmāḥ katame? yaduta ete tīrthyaśrāvakapratyekabuddhabālavikalpakalpitāḥ | kāraṇato guṇadravyapūrvakā dharmā ity upadiśyante, te prahātavyāḥ |&nbsp;</span><span id='3327223bi' class='paragraph'>
+						 na lakṣaṇataḥ prativikalpayitavyāḥ | svacittadṛśyadharmatābhi(19*)niveśān na santi ghaṭādayo dharmā bālaparikalpitā alabdhaśarīrāḥ | evaṃ vidarśanayā prativipaśyataḥ prahīṇā bhavanti ||&nbsp;</span></div></div><div class='textvar' style='width:13.285714285714%;'><div class='Chinese'><span id='3502657bi' class='paragraph'>
+							&nbsp;</span><span id='3502658bi' class='paragraph'>
+						 &nbsp;</span></div></div><div class='textvar' style='width:13.285714285714%;'><div class='Chinese'><span id='3336783bi' class='paragraph'>
+							(25)楞伽王。何者爲法。所謂一切外道聲聞縁覺(26)毛道凡夫分別之見。從因實物以爲根本(27)生種種法。如是等法應捨應離。&nbsp;</span><span id='3336784bi' class='paragraph'>
+						 莫取於相(28)而生分別。見自心法計以爲實。楞伽王。無(29)瓶實法而毛道凡夫虚妄分別。法本無相。如(518c1)實知觀名捨諸法&nbsp;</span></div></div><div class='textvar' style='width:13.285714285714%;'><div class='Chinese'><span id='3339970bi' class='paragraph'>
+							楞伽王。法與非法差別(19)相者。當知悉是相分別故。楞伽王。何者是(20)法。所謂二乘及諸外道。虚妄分別説有實(21)等爲諸法因。如是等法應捨應離。&nbsp;</span><span id='3339971bi' class='paragraph'>
+						 不應(22)於中分別取相。見自心法性則無執著。瓶(23)等諸物凡愚所取本無有體。諸觀行人以(24)毘鉢舍那如實觀察。名捨諸法。&nbsp;</span></div></div><div class='textvar' style='width:13.285714285714%;'><div class='Tibetansk'><span id='3346344bi' class='paragraph'>
+							No Tibetan&nbsp;</span><span id='3346345bi' class='paragraph'>
+						 No Tibetan&nbsp;</span></div></div><div class='textvar' style='width:13.285714285714%;'><div class='Tibetansk'><span id='3343157bi' class='paragraph'>
+							laṅ ka’i bdag po rnam par rtog pa’i mtshan ñid kyi phyir chos daṅ | chos med pa tha dad pa’i bye brag yod do || laṅ ka’i bdag po de la chos rnams gaṅ źe na | ’di lta ste | mu (7) stegs can daṅ | ñan thos daṅ | Raṅa saṅs rgyas daṅ | byis pa rnams kyi rnam par rtog pas rnam par brtags pa rgyu las yon tan daṅ rdzas kyis gźi btsugs pa ni chos rnams źes bya’o || de dag ni spaṅ bar bya ba btaṅ bar bya ba ste |&nbsp;</span><span id='3343158bi' class='paragraph'>
+						 mtshan ñid du so sor rnam par brtag par mi (63a1) bya’o raṅ gi sems snaṅ ba’i chos rnams la mṅon par źen pa’i phyir rdza ma la sogs pa’i chos byis pas kun brtags pa lus su ma red pa’i rnams ni med pa yin te | de lta bur lhag mthoṅ gis rab tu mthoṅ na spaṅs par ’gyur ro ||&nbsp;</span></div></div><div class='textvar' style='width:13.285714285714%;'><div class='English'><span id='3330409bi' class='paragraph'>
+							“Lord of Laṅkā, the differentiation of dharma and adharma comes from discrimination. Lord of Laṅkā, what are dharmas? That is, they are discriminated by the discriminations cherished by the philosophers, Śrāvakas, Pratyekabuddhas, and ignorant people. They think that the dharmas headed by quality and substance are produced by causes—[these are the notions] to be abandoned.&nbsp;</span><span id='3330410bi' class='paragraph'>
+						 Such are not to be regarded [as real] because they are appearances (lakṣana). It comes from one's clinging [to appearances] that the manifestations of his own Mind are regarded as reality (Dharmatā). (19) Such things as jars, etc., are products of discrimination conceived by the ignorant, they exist not; their substances are not attainable. The viewing of things from this viewpoint is known as their abandonment.&nbsp;</span></div></div><div class='clear'></div></div><div class='clear'></div><div class='BolkContainer'><div class='textvar' style='width:13.285714285714%;'><div class='Sanskrit'><span id='3327224bi' class='paragraph'>
+							tatra adharmāḥ katame? ye ’labdhātmakā lakṣaṇavikalpāpracārā dharmā ahetukāḥ teṣām apravṛttir dṛṣṭā bhūtābhūtataḥ | atha dharmasya prahāṇaṃ bhavati |&nbsp;</span><span id='3327225bi' class='paragraph'>
+						 punar apy alabdhātmakā dharmāḥ katame? yaduta śaśakharoṣṭravājiviṣāṇavandhyāputraprabhṛtayo dharmāḥ | alabdhātmakatvān na lakṣaṇataḥ kalpyāḥ | te ’nyatra saṃvyavahārārthā abhidhīyante, nābhiniveśato yathā ghaṭādayaḥ |&nbsp;</span><span id='3327226bi' class='paragraph'>
+						 yathā te praheyā agrahaṇato vijñānena, tathā vikalpabhāvā api praheyāḥ | ato dharmādharmayoḥ prahāṇaṃ bhavati |&nbsp;</span><span id='3327227bi' class='paragraph'>
+						 yad uktavān asi laṅkādhipate dharmādharmāḥ kathaṃ praheyā iti, tad etad uktam ||&nbsp;</span></div></div><div class='textvar' style='width:13.285714285714%;'><div class='Chinese'><span id='3502659bi' class='paragraph'>
+							&nbsp;</span><span id='3502660bi' class='paragraph'>
+						 &nbsp;</span><span id='3502661bi' class='paragraph'>
+						 &nbsp;</span><span id='3502662bi' class='paragraph'>
+						 &nbsp;</span></div></div><div class='textvar' style='width:13.285714285714%;'><div class='Chinese'><span id='3336785bi' class='paragraph'>
+							(2)楞伽王何等爲非法。所謂無有身相。唯(3)自心滅妄想分別。而諸凡夫見實法非實法。(4)菩薩如實見如是捨非法。&nbsp;</span><span id='3336786bi' class='paragraph'>
+						 復次楞伽王。何(5)者復爲非法。所謂兔馬驢駝角石女兒等無(6)身無相。而毛道凡夫取以爲無。爲世間(7)義説於名字非取相。如彼瓶等法可捨。&nbsp;</span><span id='3336787bi' class='paragraph'>
+						 (8)智者不取如是虚妄分別。兔角等名字法亦(9)是可捨。&nbsp;</span><span id='3336788bi' class='paragraph'>
+						 是故捨法及非法。楞伽王。汝今問(10)我法及非法云何捨。&nbsp;</span></div></div><div class='textvar' style='width:13.285714285714%;'><div class='Chinese'><span id='3339972bi' class='paragraph'>
+							楞伽王。何(25)者是非法。所謂諸法無性無相永離分別。如(26)實見者。若有若無如是境界彼皆不起。是名(27)捨非法。&nbsp;</span><span id='3339973bi' class='paragraph'>
+						 復有非法。所謂兔角石女兒等。皆(28)無性相不可分別。但隨世俗説有名字。(29)非如瓶等而可取著。&nbsp;</span><span id='3339974bi' class='paragraph'>
+						 以彼非是識之所(590b1)取。如是分別亦應捨離。&nbsp;</span><span id='3339975bi' class='paragraph'>
+						 是名捨法及捨非(2)法。楞伽王汝先所問我已説竟。&nbsp;</span></div></div><div class='textvar' style='width:13.285714285714%;'><div class='Tibetansk'><span id='3346346bi' class='paragraph'>
+							No Tibetan&nbsp;</span><span id='3346347bi' class='paragraph'>
+						 No Tibetan&nbsp;</span><span id='3346348bi' class='paragraph'>
+						 No Tibetan&nbsp;</span><span id='3346349bi' class='paragraph'>
+						 No Tibetan&nbsp;</span></div></div><div class='textvar' style='width:13.285714285714%;'><div class='Tibetansk'><span id='3343159bi' class='paragraph'>
+							de la chos med pa rnams gaṅ źe (2) na| gaṅ de dag bdag ñid du ma red pa yin te | mtshan ñid kyi rnam par rtog pa rgyu ba med pa’i chos don gyi rgyu las byuṅ ba de dag yaṅ dag daṅ | yaṅ dag pa ma yin par ’jug pa med par mthoṅ nas | de’i phyir chos med pa spoṅ bar ’gyur ro ||&nbsp;</span><span id='3343160bi' class='paragraph'>
+						 yaṅ bdag ñid du ma rñed pa’i chos rnams (3) gaṅ źe na | ’di lta ste | ri boṅ daṅ | rṅa mo daṅ | boṅ bu daṅ | rta’i rwa daṅ | mo śam gyi bu la sogs pa’i chos rnams te | bdag ñid du ma red pa’i phyir ṅe dag ni mtshan ñid du brtag par mi bya’i | gźan du na tha sñad kyi don du brjod de | bum pa la sogs pa ltar mṅon par chags (4) pas ni ma yin no ||&nbsp;</span><span id='3343161bi' class='paragraph'>
+						 ji ltar de dag rnam par śes pas gzuṅ du med pa’i phyir spaṅ bar bya ba de bźin du rnam par rtog pa’i dṅos po rnams kyaṅ spaṅ bar bya ba yin te | de’i phyir chos daṅ | chos med pa spaṅ ba yin no ||&nbsp;</span><span id='3343162bi' class='paragraph'>
+						 laṅ ka’i bdag po khyod kyis chos daṅ | chos med pa gñis ji (5) lta bur spaṅ bar bya źes smras pa de ni ’di ltar bśad do ||&nbsp;</span></div></div><div class='textvar' style='width:13.285714285714%;'><div class='English'><span id='3330411bi' class='paragraph'>
+							“What, then, are adharmas? Lord of Laṅkā, [dharmas] are unattainable as to their selfhood, they are not appearances born of discrimination, they are above causality; there is in them no such [dualistic] happening as is seen as reality and non-reality. This is known as the abandoning of dharmas.&nbsp;</span><span id='3330412bi' class='paragraph'>
+						 What again is meant by the unattainability of dharmas? That is, it is like horns of a hare, or an ass, or a camel, or a horse, or a child conceived by a barren woman. They are dharmas the nature of which is unattainable; they are not to be thought [as real] because they are appearances. They are only talked about in popular parlance if they have any sense at all; they are not to be adhered to as in the case of jars, etc.&nbsp;</span><span id='3330413bi' class='paragraph'>
+						 As these [unrealities] are to be abandoned as not comprehensible by the mind (Vijñāna), so are things (bhava) of discrimination also to be abandoned.&nbsp;</span><span id='3330414bi' class='paragraph'>
+						 This is called the abandoning of dharmas and adharmas. Lord of Laṅkā, your question as to the way of abandoning dharmas and adharmas is hereby answered.&nbsp;</span></div></div><div class='clear'></div></div><div class='clear'></div><div class='BolkContainer'><div class='textvar' style='width:13.285714285714%;'><div class='Sanskrit'><span id='3327228bi' class='paragraph'>
+							yad apy uktavān asi laṅkādhipate - pūrvakā api tathāgatā arhantaḥ samyaksaṃbuddhā mayā pṛṣṭāḥ, taiś ca visarjitaṃ pūrvam | iti laṅkādhipate vikalpasyaitad adhivacanam | atīto ’py evaṃ vikalpyate atītaḥ |&nbsp;</span><span id='3327229bi' class='paragraph'>
+						 evam anāgato ’dhunāpi dharmatayā | nirvikalpās tathāgatāḥ sarvavikalpaprapañcātītāḥ | na yathā (20*) rūpasvabhāvo vikalpyate |&nbsp;</span><span id='3327230bi' class='paragraph'>
+						 anyatrājñānādhigamataḥ sukhārthaṃ vibhāvyate | prajñayā animittacāriṇaḥ | ato jñānātmakās tathāgatā jñānaśarīrāḥ | na kalpante na kalpyante |&nbsp;</span><span id='3327231bi' class='paragraph'>
+						 kena na kalpante? manasā ātmato jīvataḥ pudgalataḥ |&nbsp;</span><span id='3327232bi' class='paragraph'>
+						 kathaṃ na vikalpante? manovijñānena viṣayārthahetukena yathā rūpalakṣaṇasaṃsthānākārataś ca |&nbsp;</span><span id='3327233bi' class='paragraph'>
+						 ato vikalpāvikalpāgatena bhavitavyam ||&nbsp;</span></div></div><div class='textvar' style='width:13.285714285714%;'><div class='Chinese'><span id='3502663bi' class='paragraph'>
+							&nbsp;</span><span id='3502664bi' class='paragraph'>
+						 &nbsp;</span><span id='3502665bi' class='paragraph'>
+						 &nbsp;</span><span id='3502666bi' class='paragraph'>
+						 &nbsp;</span><span id='3502667bi' class='paragraph'>
+						 &nbsp;</span><span id='3502668bi' class='paragraph'>
+						 &nbsp;</span></div></div><div class='textvar' style='width:13.285714285714%;'><div class='Chinese'><span id='3336789bi' class='paragraph'>
+							我已説竟(11)楞伽王。汝言我於過去應正遍知已問此(12)法。彼諸如來已爲我説。楞伽王。汝言過去(13)者即分別相。&nbsp;</span><span id='3336790bi' class='paragraph'>
+						 未來現在分別亦爾。楞伽王。我(14)説眞如法體是如實者亦是分別。如分別(15)色爲實際。&nbsp;</span><span id='3336791bi' class='paragraph'>
+						 爲證實智樂修行無相智慧。是(16)故莫分別如來爲智身智體。&nbsp;</span><span id='3336792bi' class='paragraph'>
+						 心中莫分別。(17)意中莫取我人命等。&nbsp;</span><span id='3336793bi' class='paragraph'>
+						 云何不分別。意識中(18)取種種境界。如色形相如是莫取。&nbsp;</span><span id='3336794bi' class='paragraph'>
+						 莫分別(19)可分別&nbsp;</span></div></div><div class='textvar' style='width:13.285714285714%;'><div class='Chinese'><span id='3339976bi' class='paragraph'>
+							楞伽王。汝言(3)我於過去諸如來所已問是義。彼諸如來已(4)爲我説。楞伽王。汝言過去但是分別&nbsp;</span><span id='3339977bi' class='paragraph'>
+						 未來亦(5)然。我亦同彼。楞伽王。彼諸佛法皆離分別。(6)已出一切分別戲論。非如色相唯智能證。&nbsp;</span><span id='3339978bi' class='paragraph'>
+						 (7)爲令衆生得安樂故而演説法。以無相智(8)説名如來。是故如來以智爲體。&nbsp;</span><span id='3339979bi' class='paragraph'>
+						 智爲身故(9)不可分別。不可以所分別。不可以我人(10)衆生相分別。&nbsp;</span><span id='3339980bi' class='paragraph'>
+						 何故不能分別。以意識因境(11)界起取色形相。&nbsp;</span><span id='3339981bi' class='paragraph'>
+						 是故離能分別。亦離所分(12)別。&nbsp;</span></div></div><div class='textvar' style='width:13.285714285714%;'><div class='Tibetansk'><span id='3346350bi' class='paragraph'>
+							No Tibetan&nbsp;</span><span id='3346351bi' class='paragraph'>
+						 No Tibetan&nbsp;</span><span id='3346352bi' class='paragraph'>
+						 No Tibetan&nbsp;</span><span id='3346353bi' class='paragraph'>
+						 No Tibetan&nbsp;</span><span id='3346354bi' class='paragraph'>
+						 No Tibetan&nbsp;</span><span id='3346355bi' class='paragraph'>
+						 No Tibetan&nbsp;</span></div></div><div class='textvar' style='width:13.285714285714%;'><div class='Tibetansk'><span id='3343163bi' class='paragraph'>
+							gaṅ yaṅ laṅ ka’i bdag po khyod kyis sṅon gyi de bźin gśegs pa dgra bcom pa yaṅ dag par rdzogs pa’i saṅs rgyas rnams la’aṅ bdag gis dris te | de dag gis kyaṅ lan blan no źes smras pa yaṅ | laṅ ka’i bdag po sṅon źes (6) bya ba ’di ni rnam par rtog pa’i tshig bla dgas te | ’das pa la’aṅ ’di ltar ’das pa źes rnam par rtog go ||&nbsp;</span><span id='3343164bi' class='paragraph'>
+						 de bźin du ma ’oṅs pa daṅ | da ltar yaṅ rtog ste | de bźin gśegs pa rnams ni de’i chos ñid kyis rnam par mi rtog pa rnam par rtog pa’i spros pa thams cad las ’das pa ste | (7) gzugs kyi ṅo bo ñid la brtags pa ltar ni ma yin gyi |&nbsp;</span><span id='3343165bi' class='paragraph'>
+						 gźan du na ye śes thugs su chud pa bde ba’i don du mtshan ma med pa la spyod pa’i śes rab kyis rnam par sgom mo || de’i phyir de bźin gśegs pa rnams ni ye śes kyi bdag ñid ye śes kyi sku ste | brtag par mi bya’o ||&nbsp;</span><span id='3343166bi' class='paragraph'>
+						 gaṅ gis mi brtag [63b1] ce na | yid kyis bdag daṅ | srog daṅ | gaṅ zag tu mi brtag go ||&nbsp;</span><span id='3343167bi' class='paragraph'>
+						 ji ltar mi brtag ce na | yul gyi don gyi rgyu las byuṅ ba yid kyi rnam par śes pas ji ltar gzugs kyi mtshan ñid daṅ | dbyibs daṅ rnam pa bźin du mi brtag go ||&nbsp;</span><span id='3343168bi' class='paragraph'>
+						 de bas na khyod kyis brtag par bya ba daṅ | rnam (2) par rtog pa daṅ bral bar bya’o ||&nbsp;</span></div></div><div class='textvar' style='width:13.285714285714%;'><div class='English'><span id='3330415bi' class='paragraph'>
+							“Lord of Laṅkā, thou sayest again that thou hast asked [this question] of the Tathāgatas of the past who were Arhats and Fully-Enlightened Ones and that it was solved by them. Lord of Laṅkā, that which is spoken of as the past belongs to discrimination;&nbsp;</span><span id='3330416bi' class='paragraph'>
+						 as the past is thus a discriminated [idea], even so are the [ideas] of the future and the present. Because of reality (Dharmatā) the Tathāgatas do not discriminate, they go beyond discrimination and futile reasoning, they do not follow (20) the individuation-aspect of forms (rupa)&nbsp;</span><span id='3330417bi' class='paragraph'>
+						 except when [reality] is disclosed for the edification of the unknowing and for the sake of their happiness.<a class='fotnote cn' name='FN3044cn10' href='#N3044cn10'><sup>10</sup></a>
+ It is by transcendental wisdom (prajna) that the Tathāgata performs deeds transcending forms (animittacara); therefore, what constitutes the Tathāgatas in essence as well as in body is wisdom (jñāna). They do not discriminate, nor are they discriminated.&nbsp;</span><span id='3330418bi' class='paragraph'>
+						 Wherefore do they not discriminate the Manas? Because discrimination is of the self, of soul, of personality.&nbsp;</span><span id='3330419bi' class='paragraph'>
+						 How do they not discriminate? The Manovijñāna is meant for the objective world where causality prevails as regards forms, appearances, conditions, and figures.&nbsp;</span><span id='3330420bi' class='paragraph'>
+						 Therefore, discrimination and non-discrimination must be transcended.&nbsp;</span><div style='' id='8' class='note cn'>10.<a class="internt" name='N3044cn10' href='#FN3044cn10'> 1 This is one of the most important sections in this first introductory chapter, but singularly all the three texts, perhaps excepting T'ang, present some difficulties for clear understanding. Wei: “Lord of Laṅkā, what you speak of as past is a form of discrimination, and so are the future and the present, also of discrimination. Lord of Laṅkā, when I speak of the real nature of suchness as being real, it also belongs to discrimination; it is like discriminating forms as the ultimate limit. If one wishes to realise the bliss of real wisdom, let him discipline himself in the knowledge that transcends forms; therefore, do not discriminate the Tathāgatas as having knowledge-body or wisdom-essence. Do not cherish any discrimination in [thy] mind. Do not cling in [thy] will to such notions as ego, personality, soul, etc. How not to discriminate? It is in the Manovijñāna that various conditions are cherished such as forms, figures, [etc. ]; do not cherish such [discriminations]. Do not discriminate nor be discriminated. Further, Lord of Laṅkā, it is like various forms painted on the wall, all sentient beings are such. Lord of Laṅkā, all sentient beings are like grasses and trees, with them there are no acts, no deeds, Lord of Laṅkā, all dharmas and adharmas, of them nothing is heard, nothing talked...." T'ang: “Lord of Laṅkā, what you speak of as past is no more than discrimination, so is the future; I too am like him. [Is this to be read, “the present, too, is like it"!] Lord of Laṅkā, the teaching of all the Buddhas is outside discrimination; as it goes beyond all discriminations and futile reasonings, it is not a form of particularisation, it is realised only by wisdom. That [this absolute] teaching is at all discoursed about is for the sake of giving bliss to all sentient beings. The discoursing is done by the wisdom transcending forms. It is called the Tathāgata; therefore, the Tathāgata has his essence, his body in this wisdom. He thus does not discriminate, nor is he to be discriminated. Do not discriminate him after the notion of ego, personality, or being. Why this impossibility of discrimination? because the Manovijñāna is aroused on account of an objective world wherein it attaches itself to forms and figures. Therefore, [the Tathāgata] is outside the discriminating [view] as well as the discriminated [idea]. Lord of Laṅkā, it is like beings painted in colours on a wall, they have no sensibility [or intelligence]. Sentient beings in the world are also like them; no acts, no rewards [are with them]. So are all the teachings, no hearing, no preaching.”</a>&nbsp; </div><div class='clear'></div></div></div><div class='clear'></div></div><div class='clear'></div><div class='BolkContainer'><div class='textvar' style='width:13.285714285714%;'><div class='Sanskrit'><span id='3327234bi' class='paragraph'>
+							(9,1) api ca laṅkādhipate bhittikhacitavigrahasamaḥ sattvapracāraḥ | niśceṣṭo laṅkādhipate lokasaṃniveśaḥ karmakriyārahito ’sattvāt sarvadharmāṇām |&nbsp;</span><span id='3327235bi' class='paragraph'>
+						 na cātra kaścic chṛṇoti śrūyate vā | nirmitapratimo hi laṅkādhipate lokasaṃniveśaḥ | na ca tīrthyabālayogino vibhāvayanti |&nbsp;</span><span id='3327236bi' class='paragraph'>
+						 ya evaṃ paśyati laṅkādhipate, sa samyak paśyati | anyathā paśyanto vikalpe carantīti |&nbsp;</span><span id='3327237bi' class='paragraph'>
+						 svavikalpā dvidhā gṛhṇanti | tadyathā darpaṇāntargataṃ svabimbapratibimbaṃ jale vā svāṅgacchāyā vā jyotsnādīpapradīpite vā gṛhe vā aṅgacchāyā pratiśrutkāni |&nbsp;</span><span id='3327238bi' class='paragraph'>
+						 atha svavikalpagrahaṇaṃ pratigṛhya (21*) dharmādharmaṃ prativikalpayanti | na ca dharmādharmayoḥ prahāṇena caranti | vikalpayanti puṣṇanti, na praśamaṃ pratilabhante |&nbsp;</span><span id='3327239bi' class='paragraph'>
+						 ekāgrasyaitad adhivacanam - tathāgatagarbhasvapratyātmāryajñānagocarasyaitat praveśo yatsamādhiḥ paramo jāyata iti ||&nbsp;</span></div></div><div class='textvar' style='width:13.285714285714%;'><div class='Chinese'><span id='3502669bi' class='paragraph'>
+							&nbsp;</span><span id='3502670bi' class='paragraph'>
+						 &nbsp;</span><span id='3502671bi' class='paragraph'>
+						 &nbsp;</span><span id='3502672bi' class='paragraph'>
+						 &nbsp;</span><span id='3502673bi' class='paragraph'>
+						 &nbsp;</span><span id='3502674bi' class='paragraph'>
+						 &nbsp;</span></div></div><div class='textvar' style='width:13.285714285714%;'><div class='Chinese'><span id='3336795bi' class='paragraph'>
+							(20)復次楞伽王。譬如壁上畫種種相。一切衆生(21)亦復如是。楞伽王。一切衆生猶如草木無業(22)無行。&nbsp;</span><span id='3336796bi' class='paragraph'>
+						 楞伽王。一切法非法無聞無説。楞伽(23)王。一切世間法皆如幻。而諸外道凡夫不知。&nbsp;</span><span id='3336797bi' class='paragraph'>
+						 (24)楞伽王。若能如是見如實見者名爲正見。(25)若異見者名爲邪見。&nbsp;</span><span id='3336798bi' class='paragraph'>
+						 若分別者名爲取二。(26)楞伽王。譬如鏡中像自見像。譬如水中影(27)自見影。如月燈光在屋室中影自見影。如(28)空中響聲自出聲取以爲聲。&nbsp;</span><span id='3336799bi' class='paragraph'>
+						 若如是取法(29)與非法。皆是虚妄妄想分別。是故不知法及(519a1)非法。増長虚妄不得寂滅。&nbsp;</span><span id='3336800bi' class='paragraph'>
+						 寂滅者名爲一(2)心。一心者名爲如來藏。入自内身智慧境(3)界。得無生法忍三昧&nbsp;</span></div></div><div class='textvar' style='width:13.285714285714%;'><div class='Chinese'><span id='3339982bi' class='paragraph'>
+							楞伽王。譬如壁上彩畫衆生無有覺知。(13)世間衆生悉亦如是無業無報。&nbsp;</span><span id='3339983bi' class='paragraph'>
+						 諸法亦然無(14)聞無説。楞伽王。世間衆生猶如變化。凡夫外(15)道不能了達。&nbsp;</span><span id='3339984bi' class='paragraph'>
+						 楞伽王。能如是見名爲正見。(16)若他見者名分別見。&nbsp;</span><span id='3339985bi' class='paragraph'>
+						 由分別故取著於二。(17)楞伽王。譬如有人於水鏡中自見其像。於(18)燈月中自見其影。於山谷中自聞其響。&nbsp;</span><span id='3339986bi' class='paragraph'>
+						 便(19)生分別而起取著。此亦如是。法與非法唯(20)是分別。由分別故不能捨離。但更増長一(21)切虚妄不得寂滅。&nbsp;</span><span id='3339987bi' class='paragraph'>
+						 寂滅者所謂一縁。一縁(22)者是最勝三昧。從此能生自證聖智。以如(23)來藏而爲境界&nbsp;</span></div></div><div class='textvar' style='width:13.285714285714%;'><div class='Tibetansk'><span id='3346356bi' class='paragraph'>
+							No Tibetan&nbsp;</span><span id='3346357bi' class='paragraph'>
+						 No Tibetan&nbsp;</span><span id='3346358bi' class='paragraph'>
+						 No Tibetan&nbsp;</span><span id='3346359bi' class='paragraph'>
+						 No Tibetan&nbsp;</span><span id='3346360bi' class='paragraph'>
+						 No Tibetan&nbsp;</span><span id='3346361bi' class='paragraph'>
+						 No Tibetan&nbsp;</span></div></div><div class='textvar' style='width:13.285714285714%;'><div class='Tibetansk'><span id='3343169bi' class='paragraph'>
+							laṅ ka’i bdag po ’di ltar yaṅ sems can gyi spyod pa rnams ni rtsig pa’i ri mo’i gzugs daṅ ’dra ste | laṅ ka’i bdag po chos thams cad yod pa ma yin pa’i phyir ’jig rten gnas pa ni g-yo ba med pa ste | las daṅ byed pa daṅ bral ba’o ||&nbsp;</span><span id='3343170bi' class='paragraph'>
+						 ’di la gaṅ (3) yaṅ ñan pa’am | mñan par bya ba med do || laṅ ka’i bdag po ’jig rten gnas pa ni sprul pa daṅ mtshuṅs na | mu stegs can byis pa’i rnal ’byor ba rnams rnam par mi sgom mo ||&nbsp;</span><span id='3343171bi' class='paragraph'>
+						 laṅ ka’i bdag po gaṅ gis de ltar mthoṅ ba des ni yaṅ dag par mthoṅ ba ste | rnam pa gźan du mthoṅ na (4) rnam par rtog pa la spyod pa’o ||&nbsp;</span><span id='3343172bi' class='paragraph'>
+						 de ltar rnam par rtog pa daṅ bcas pa rnams ni rnam pa gñis su ’dzin te | ’di lta ste me loṅ gi naṅ na yod pa’i bdag gi gzugs kyi gzugs brñan daṅ | chul bdag gi lus kyi grib ma daṅ | zla ba’i ’od daṅ | khyim na me mar ’bar ba la bdag gi lus kyi grib ma (5) daṅ | brag ca’am |&nbsp;</span><span id='3343173bi' class='paragraph'>
+						 gźan yaṅ bdag gi rnam par rtog pa’i gzuṅ ba rab tu bzuṅ ste | chos daṅ chos med par rnam par rtog ciṅ | chos daṅ chos med pa spaṅ ba la mi spyod de spyod do || rnam par rtog go || rgyas par byed do || rab tu źi ba mi ’thob bo ||&nbsp;</span><span id='3343174bi' class='paragraph'>
+						 ’di ni rtse gcig pa’i tshig bla dgas (6) te | ’di ni de bźin gśegs pa’i sñiṅ po bdag gi ’phags pa so so raṅ gi ye śes kyi spyod yul du ’jug pa’i phyir mchog gi tiṅ ṅe ’dzin skye ba’o ||&nbsp;</span></div></div><div class='textvar' style='width:13.285714285714%;'><div class='English'><span id='3330421bi' class='paragraph'>
+							“Lord of Laṅkā, beings are appearances, they are like figures painted on the wall, they have no sensibility [or consciousness]. Lord of Laṅkā, all that is in the world is devoid of work and action because all things have no reality,&nbsp;</span><span id='3330422bi' class='paragraph'>
+						 and there is nothing heard, nothing hearing. Lord of Laṅkā, all that is in the world is like an image magically transformed. This is not comprehended by the philosophers and the ignorant.&nbsp;</span><span id='3330423bi' class='paragraph'>
+						 Lord of Laṅkā, he who thus sees things, is the one who sees truthfully. Those who see things otherwise walk in discrimination;&nbsp;</span><span id='3330424bi' class='paragraph'>
+						 as they depend on discrimination, they cling to dualism. It is like seeing one's own image reflected in a mirror, or one's own shadow in the water, or in the moonlight, or seeing one's shadow in the house, or hearing an echo in the valley.&nbsp;</span><span id='3330425bi' class='paragraph'>
+						 People grasping their own shadows of discrimination (21) uphold the discrimination of dharma and adharma and, failing to carry out the abandonment of the dualism, they go on discriminating and never attain tranquillity.&nbsp;</span><span id='3330426bi' class='paragraph'>
+						 By tranquillity is meant oneness (ekāgra), and oneness gives birth to the highest Samādhi, which is gained by entering into the womb of Tathāgatahood, which is the realm of noble wisdom realised in one's inmost self.”&nbsp;</span></div></div><div class='clear'></div></div><div class='clear'></div><div class='BolkContainer'><div class='textvar' style='width:13.285714285714%;'><div class='Sanskrit'><span id='3327240bi' class='paragraph'>
+							rāvaṇādhyeṣaṇāparivarto nāma prathamaḥ ||&nbsp;</span></div></div><div class='textvar' style='width:13.285714285714%;'><div class='Chinese'><span id='3502675bi' class='paragraph'>
+							&nbsp;</span></div></div><div class='textvar' style='width:13.285714285714%;'><div class='Chinese'><span id='3336801bi' class='paragraph'>
+							&nbsp;</span></div></div><div class='textvar' style='width:13.285714285714%;'><div class='Chinese'><span id='3339988bi' class='paragraph'>
+							No Chinese&nbsp;</span></div></div><div class='textvar' style='width:13.285714285714%;'><div class='Tibetansk'><span id='3346362bi' class='paragraph'>
+							No Tibetan&nbsp;</span></div></div><div class='textvar' style='width:13.285714285714%;'><div class='Tibetansk'><span id='3343175bi' class='paragraph'>
+							’bod ’grogs kyis gsol ba btab pa’i le’u ste daṅ po’o || ||&nbsp;</span></div></div><div class='textvar' style='width:13.285714285714%;'><div class='English'><span id='3330427bi' class='paragraph'>
+							The First Chapter Called “Rāvaṇa Asking for Instruction.”<a class='fotnote cn' name='FN3044cn11' href='#N3044cn11'><sup>11</sup></a>
+&nbsp;</span><div style='' id='9' class='note cn'>11.<a class="internt" name='N3044cn11' href='#FN3044cn11'> It is noteworthy that the chapter endings are not the same throughout the entire text. Generally, reference is made to the sūtra itself at the end of a chapter, stating that the chapter bears such a title belonging to such a sūtra. But in the present case there is no mention at all of the Laṅkāvatāra Sūtra as if this Rāvaṇa section were something quite independent. While there is no doubt about its being a later addition, seeing what a complete piece of narrative it forms by itself, and again seeing that the rest of the text makes no further reference to Rāvaṇa, the trend of the discourse as presented by the Buddha shows that it is closely related to the sūtra, especially when it emphasises at the end the importance of self-realisation against the inanity or futility of the verbal teaching ordinarily given out by a master.</a>&nbsp; </div><div class='clear'></div></div></div><div class='clear'></div></div><div class='clear'></div><div class='BolkContainer'><div class='textvar' style='width:13.285714285714%;'><div class='Sanskrit'>								<script language="javascript" type="text/javascript">
+
+								tekstid = "3327189";
+								kilderef = "Laṅk San, Vaidya p.  5,1 - San, Vaidya p. 9,1";
+								$('#'+tekstid).text(kilderef);
+								</script>
+							<div class='kilderef' id='3327241'></div><div class='clear'></div><span id='3327241bi' class='paragraph'>
+							(22*)(10,1) ṣaṭtriṃśatsāhasrasarvadharmasamuccayo nāma dvitīyaḥ parivartaḥ ||&nbsp;</span>							<script language="javascript" type="text/javascript">
+
+							tekstid = "3327241";
+							kilderef = "Laṅk San, Vaidya p. 9,1-10,1  - San, Vaidya p. ";
+							$('#'+tekstid).text(kilderef);
+							</script>
+					</div></div><div class='textvar' style='width:13.285714285714%;'><div class='Chinese'>								<script language="javascript" type="text/javascript">
+
+								tekstid = "3502624";
+								kilderef = "Laṅk T.670, Guṇabhadra 求那跋陀羅, 443 A.D., p. 480a24  - T.670, Guṇabhadra 求那跋陀羅, 443 A.D., p. ";
+								$('#'+tekstid).text(kilderef);
+								</script>
+							<div class='kilderef' id='3502676'></div><div class='clear'></div><span id='3502676bi' class='paragraph'>
+							&nbsp;</span>							<script language="javascript" type="text/javascript">
+
+							tekstid = "3502676";
+							kilderef = "Laṅk T.670, Guṇabhadra 求那跋陀羅, 443 A.D., p. 480a24  - T.670, Guṇabhadra 求那跋陀羅, 443 A.D., p. ";
+							$('#'+tekstid).text(kilderef);
+							</script>
+					</div></div><div class='textvar' style='width:13.285714285714%;'><div class='Chinese'>								<script language="javascript" type="text/javascript">
+
+								tekstid = "3336750";
+								kilderef = "Laṅk T.671, Bodhiruci 菩提留支, 513 A.D., p.  516c3 - T.671, Bodhiruci 菩提留支, 513 A.D., p. 519a3";
+								$('#'+tekstid).text(kilderef);
+								</script>
+							<div class='kilderef' id='3336802'></div><div class='clear'></div><span id='3336802bi' class='paragraph'>
+							(a4)入楞伽經問答品第二&nbsp;</span>							<script language="javascript" type="text/javascript">
+
+							tekstid = "3336802";
+							kilderef = "Laṅk T.671, Bodhiruci 菩提留支, 513 A.D., p. 519a3  - T.671, Bodhiruci 菩提留支, 513 A.D., p. ";
+							$('#'+tekstid).text(kilderef);
+							</script>
+					</div></div><div class='textvar' style='width:13.285714285714%;'><div class='Chinese'>								<script language="javascript" type="text/javascript">
+
+								tekstid = "3339937";
+								kilderef = "Laṅk T.672, Śikshānanda 實叉難陀, 704 A.D., p.  588c9 - T.672, Śikshānanda 實叉難陀, 704 A.D., p. 590b23";
+								$('#'+tekstid).text(kilderef);
+								</script>
+							<div class='kilderef' id='3339989'></div><div class='clear'></div><span id='3339989bi' class='paragraph'>
+							(b24)　　大乘入楞伽經集一切法品第二之一&nbsp;</span>							<script language="javascript" type="text/javascript">
+
+							tekstid = "3339989";
+							kilderef = "Laṅk T.672, Śikshānanda 實叉難陀, 704 A.D., p. 590b23  - T.672, Śikshānanda 實叉難陀, 704 A.D., p. ";
+							$('#'+tekstid).text(kilderef);
+							</script>
+					</div></div><div class='textvar' style='width:13.285714285714%;'><div class='Tibetansk'>								<script language="javascript" type="text/javascript">
+
+								tekstid = "3346311";
+								kilderef = "Laṅk 8th c. A.D.? Kj mdo sde ca 192a5  - 8th c. A.D.? Kj mdo sde ca ";
+								$('#'+tekstid).text(kilderef);
+								</script>
+							<div class='kilderef' id='3346363'></div><div class='clear'></div><span id='3346363bi' class='paragraph'>
+							No Tibetan&nbsp;</span>							<script language="javascript" type="text/javascript">
+
+							tekstid = "3346363";
+							kilderef = "Laṅk 8th c. A.D.? Kj mdo sde ca 192a5  - 8th c. A.D.? Kj mdo sde ca ";
+							$('#'+tekstid).text(kilderef);
+							</script>
+					</div></div><div class='textvar' style='width:13.285714285714%;'><div class='Tibetansk'>								<script language="javascript" type="text/javascript">
+
+								tekstid = "3343124";
+								kilderef = "Laṅk 1100 A.D.? Kj mdo sde ca  58a4 - 1100 A.D.? Kj mdo sde ca 63a6";
+								$('#'+tekstid).text(kilderef);
+								</script>
+							<div class='kilderef' id='3343176'></div><div class='clear'></div><span id='3343176bi' class='paragraph'>
+							.&nbsp;</span>							<script language="javascript" type="text/javascript">
+
+							tekstid = "3343176";
+							kilderef = "Laṅk 1100 A.D.? Kj mdo sde ca 63a6  - 1100 A.D.? Kj mdo sde ca ";
+							$('#'+tekstid).text(kilderef);
+							</script>
+					</div></div><div class='textvar' style='width:13.285714285714%;'><div class='English'>								<script language="javascript" type="text/javascript">
+
+								tekstid = "3330376";
+								kilderef = "Laṅk Eng, Suzuki 1932  - Eng, Suzuki 1932 ";
+								$('#'+tekstid).text(kilderef);
+								</script>
+							<div class='kilderef' id='3330428'></div><div class='clear'></div><span id='3330428bi' class='paragraph'>
+							[CHAPTER TWO]&nbsp;</span>							<script language="javascript" type="text/javascript">
+
+							tekstid = "3330428";
+							kilderef = "Laṅk Eng, Suzuki 1932  - Eng, Suzuki 1932 ";
+							$('#'+tekstid).text(kilderef);
+							</script>
+					</div></div><div class='clear'></div><div class='BolkContainer'><div class='textvar' style='width:13.285714285714%;'></div><div class='textvar' style='width:13.285714285714%;'></div><div class='textvar' style='width:13.285714285714%;'></div><div class='textvar' style='width:13.285714285714%;'></div><div class='textvar' style='width:13.285714285714%;'></div><div class='textvar' style='width:13.285714285714%;'></div><div class='textvar' style='width:13.285714285714%;'></div></div><div class='clear'></div><div class="fontboks"><a onClick=onOffdiv('permlink') name="permlink" href="#permlink">Permanent link</a></div><div class='clear'></div><div class='perm_felt' id='permlink'>http://www2.hf.uio.no/common/apps/permlink/permlink.php?app=polyglotta&amp;context=ctext&amp;uid=bb5b13fe-83ae-11e4-856a-001cc4ddf0f4</div></div></div><!-- infofelt --></div><!-- divControl --><div class="clear"></div>
+<div style="clear:both"></div><div class="signatur"><div class="signatur_left">
+		<a href="https://wiki.uio.no/hf/dmlf/index.php/Kategori:Polyglotta:Documentation">Go to Wiki Documentation</a></br>Enhet: <a HREF=http://www.hf.uio.no>Det humanistiske fakultet</a> &nbsp; Utviklet av: <a href="http://www.hf.uio.no/tjenester/it">IT-seksjonen ved HF</a></div><!--signatur_left -->
+		<div class="signatur_right"><a href="/polyglotta/admin/index.php">Login</a></div>
+		<div style="clear:both"></div></div>
+</body></html><SCRIPT LANGUAGE="JAVASCRIPT">
+	
+	$("#tr_IA").click(function(){
+	    if ($("#toggle_container_IA").is(':hidden'))
+	    	$("#toggle_container_IA").show();
+	    else{
+	        $("#toggle_container_IA").hide();
+	    }
+	    return false;
+		});
+
+	$("#tr_lang").click(function(){
+	    if ($("#toggle_container_lan").is(':hidden'))
+	    	$("#toggle_container_lan").show();
+	    else{
+	        $("#toggle_container_lan").hide();
+	    }
+	    return false;
+	});
+
+	$("#tr_img").click(function(){
+	    if ($("#toggle_container_img").is(':hidden'))
+	    	$("#toggle_container_img").show();
+	    else{
+	        $("#toggle_container_img").hide();
+	    }
+	    return false;
+	});
+
+	$("#diac2button").click(function(){
+	   if ($("#ex3a").is(':hidden')){
+		   $("#ex3a").show();
+	       $("#diac2button").html("Hide&#32Diacritica-help");
+	   }else{
+	       $("#ex3a").hide();
+	       $("#diac2button").html("Diacritica-help");
+	   }
+	   return false;
+	});
+
+	$("#diacbutton").click(function(){
+	   if ($("#diacritical_sign").is(':hidden')){
+		   	$("#diacritical_sign").show();
+	      	$("#diacbutton").html("Hide&#32diacritica");
+	   }else{
+	        $("#diacritical_sign").hide();
+	        $("#diacbutton").html("Diacritica");
+	   }
+	   return false;
+    });
+
+	$('#toggle_container_IA').click(function(e) {
+	   e.stopPropagation();
+	});
+
+	$('#toggle_container_lan').click(function(e) {
+        e.stopPropagation();
+    });
+
+	$('#toggle_container_img').click(function(e) {
+        e.stopPropagation();
+    });
+
+	$('#ex3a').click(function(e) {
+	    e.stopPropagation();
+	});
+
+	$('#diacritical_sign').click(function(e) {
+        e.stopPropagation();
+    });
+
+	//Kode for å sette inn diakritiske tegn
+	$('#diacritical > tbody > tr > td').click(function() {
+	  	//alert('red');
+		$("#sokeboks").val($("#sokeboks").val() + $(this).text());
+	});
+
+	$('.diac2button').text(($('.diacbutton').text() == 'Diacritica-help') ? 'Hide Diacritica-help' : 'Diacritica-help');
+	
+	//Lukker alle åpnede pop'uper ved klikk på siden
+	$(document).click(function() {
+		$('#toggle_container_IA').hide();
+	    
+        $('#toggle_container_lan').hide();
+    
+        $('#toggle_container_img').hide();
+   
+   		$('#diacritical_sign').hide();
+   		$("#diacbutton").html("Diacritica");
+   
+       	$('#ex3a').hide();
+       	$("#diac2button").html("Diacritica-help");
+   });
+	</SCRIPT>
